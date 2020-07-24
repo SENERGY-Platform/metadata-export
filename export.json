@@ -57,6 +57,22 @@
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
     },
+    "/concepts/urn:infai:ses:concept:55efac99-6e5b-4ef3-8f4a-8576c1fe8614": {
+        "base_characteristic_id": "urn:infai:ses:characteristic:7768d6da-d53f-4afb-aeb3-e0980756ec06",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:7768d6da-d53f-4afb-aeb3-e0980756ec06"
+        ],
+        "id": "urn:infai:ses:concept:55efac99-6e5b-4ef3-8f4a-8576c1fe8614",
+        "name": "carbon dioxid",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:55efac99-6e5b-4ef3-8f4a-8576c1fe8614/characteristics/urn:infai:ses:characteristic:7768d6da-d53f-4afb-aeb3-e0980756ec06": {
+        "id": "urn:infai:ses:characteristic:7768d6da-d53f-4afb-aeb3-e0980756ec06",
+        "name": "CO2 ppm",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
     "/concepts/urn:infai:ses:concept:58d23b4f-c315-4d7d-9230-fa989d55640a": {
         "base_characteristic_id": "urn:infai:ses:characteristic:9e1024da-3b60-4531-9f29-464addccb13c",
         "characteristic_ids": [
@@ -2460,13 +2476,13 @@
             {
                 "aspects": [
                     {
-                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
-                        "name": "Device",
+                        "id": "urn:infai:ses:aspect:e4a736ff-803d-49f2-86fc-3980647e884e",
+                        "name": "Door/Window",
                         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
                     },
                     {
-                        "id": "urn:infai:ses:aspect:e4a736ff-803d-49f2-86fc-3980647e884e",
-                        "name": "Door/Window",
+                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                        "name": "Device",
                         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
                     }
                 ],
@@ -10425,13 +10441,13 @@
             {
                 "aspects": [
                     {
-                        "id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
-                        "name": "Lighting",
+                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                        "name": "Device",
                         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
                     },
                     {
-                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
-                        "name": "Device",
+                        "id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                        "name": "Lighting",
                         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
                     }
                 ],
@@ -10456,13 +10472,13 @@
             {
                 "aspects": [
                     {
-                        "id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
-                        "name": "Lighting",
+                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                        "name": "Device",
                         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
                     },
                     {
-                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
-                        "name": "Device",
+                        "id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                        "name": "Lighting",
                         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
                     }
                 ],
@@ -11033,6 +11049,260 @@
                     }
                 ],
                 "protocol_id": "urn:infai:ses:protocol:c9a06d44-0cd0-465b-b0d9-560d604057a2",
+                "rdf_type": ""
+            }
+        ]
+    },
+    "/device-types/urn:infai:ses:device-type:cce425e5-3a76-4dbf-976f-3ad077bd61d2": {
+        "description": "MCO Home CO2 Monitor",
+        "device_class": {
+            "id": "urn:infai:ses:device-class:ff64280a-58e6-4cf9-9a44-e70d3831a79d",
+            "name": "MultiSensor",
+            "rdf_type": "https://senergy.infai.org/ontology/DeviceClass"
+        },
+        "id": "urn:infai:ses:device-type:cce425e5-3a76-4dbf-976f-3ad077bd61d2",
+        "image": "https://i.imgur.com/J2vZL6W.png",
+        "name": "MCO Home CO2 Monitor",
+        "rdf_type": "",
+        "services": [
+            {
+                "aspects": [
+                    {
+                        "id": "urn:infai:ses:aspect:a14c5efb-b0b6-46c3-982e-9fded75b5ab6",
+                        "name": "Air",
+                        "rdf_type": "https://senergy.infai.org/ontology/Aspect"
+                    }
+                ],
+                "description": "warning if CO2 ppm is greater than threshold",
+                "functions": [
+                    {
+                        "concept_id": "urn:infai:ses:concept:ebfeabb3-50f0-44bd-b06e-95eb52df484e",
+                        "id": "urn:infai:ses:measuring-function:e59bbee4-32a4-456b-99b9-dea8c3545dfc",
+                        "name": "getAlarmFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    }
+                ],
+                "id": "urn:infai:ses:service:f7f33015-6708-4b0a-becd-40591e45411b",
+                "inputs": [],
+                "interaction": "",
+                "local_id": "get_level:113-3-1-A",
+                "name": "getAlarmService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:48181ed4-d716-479c-88e9-825a2d91aa1a",
+                            "name": "alarm",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:7621686a-56bc-402d-b4cc-5b266d39736f",
+                                    "id": "urn:infai:ses:content-variable:ce61c4d2-8539-4c74-b911-851b06d85f2d",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:abf0f788-bb25-403b-8da2-920ca391b765",
+                                    "name": "updateTime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:59ea089b-6062-458b-8823-82eb95bfda42",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspects": [
+                    {
+                        "id": "urn:infai:ses:aspect:a14c5efb-b0b6-46c3-982e-9fded75b5ab6",
+                        "name": "Air",
+                        "rdf_type": "https://senergy.infai.org/ontology/Aspect"
+                    }
+                ],
+                "description": "",
+                "functions": [
+                    {
+                        "concept_id": "urn:infai:ses:concept:55efac99-6e5b-4ef3-8f4a-8576c1fe8614",
+                        "id": "urn:infai:ses:measuring-function:ad89a222-75a2-47e1-9fe3-969094320881",
+                        "name": "getCarbonDioxidFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    }
+                ],
+                "id": "urn:infai:ses:service:f30a55f5-c481-4a90-9c1b-83ab6daf7c80",
+                "inputs": [],
+                "interaction": "",
+                "local_id": "get_level:49-17",
+                "name": "getCarbonDioxidService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:eb603e97-2d9f-487d-95c9-f449252d25d0",
+                            "name": "carbondioxid",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:7768d6da-d53f-4afb-aeb3-e0980756ec06",
+                                    "id": "urn:infai:ses:content-variable:64a1173f-e3fd-42bd-a551-b27b4c3b402a",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:eb5e07b3-f6a0-44c2-b0ed-4e9f79ffad09",
+                                    "name": "updateTime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:c1f6c1d8-5766-4ab7-8bbc-bab8d3e64718",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspects": [
+                    {
+                        "id": "urn:infai:ses:aspect:a14c5efb-b0b6-46c3-982e-9fded75b5ab6",
+                        "name": "Air",
+                        "rdf_type": "https://senergy.infai.org/ontology/Aspect"
+                    }
+                ],
+                "description": "",
+                "functions": [
+                    {
+                        "concept_id": "urn:infai:ses:concept:67fbf29b-fd77-4c82-b8fa-19a6000c602d",
+                        "id": "urn:infai:ses:measuring-function:53bb96e5-1fb1-4409-89a6-ae6c7332eae4",
+                        "name": "getHumidityFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    }
+                ],
+                "id": "urn:infai:ses:service:50093075-3e04-4e57-94b0-503b82e658ef",
+                "inputs": [],
+                "interaction": "",
+                "local_id": "get_level:49-5",
+                "name": "getHumidityService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:0c701b4a-2950-4202-8e16-1b7c3b0a4f5e",
+                            "name": "humidity",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:aaf2385d-92a6-4fd0-ba4d-3e8567e733d6",
+                                    "id": "urn:infai:ses:content-variable:ed4cd66c-2186-450c-9561-a3b5eb5d3c98",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:2a9e56c8-cecb-48db-9cab-25d04cb2f22d",
+                                    "name": "updateTime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:1c722a82-1288-47da-be65-b8605b549b58",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspects": [
+                    {
+                        "id": "urn:infai:ses:aspect:a14c5efb-b0b6-46c3-982e-9fded75b5ab6",
+                        "name": "Air",
+                        "rdf_type": "https://senergy.infai.org/ontology/Aspect"
+                    }
+                ],
+                "description": "",
+                "functions": [
+                    {
+                        "concept_id": "urn:infai:ses:concept:0bc81398-3ed6-4e2b-a6c4-b754583aac37",
+                        "id": "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                        "name": "getTemperatureFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    }
+                ],
+                "id": "urn:infai:ses:service:6c24ef3b-7731-4f30-8fdf-726b97c08d07",
+                "inputs": [],
+                "interaction": "",
+                "local_id": "get_level:49-1",
+                "name": "getTemperatureService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:c6e6f513-d921-4e7d-b156-a13b51d34de2",
+                            "name": "temperature",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:5ba31623-0ccb-4488-bfb7-f73b50e03b5a",
+                                    "id": "urn:infai:ses:content-variable:fc691e8a-630f-4db3-920e-70db11083262",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:631bb957-61fe-4807-bc87-0b12d7d920ba",
+                                    "name": "updateTime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:298bf377-21a0-41b5-b21c-dc64c9ecfa5f",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
                 "rdf_type": ""
             }
         ]

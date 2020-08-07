@@ -2413,7 +2413,7 @@
                 "id": "urn:infai:ses:service:aec26a55-9953-4220-be60-987812e05419",
                 "inputs": [],
                 "interaction": "",
-                "local_id": "get_level:48-11",
+                "local_id": "get_level:113-6-Door-A",
                 "name": "getOnOffStateService",
                 "outputs": [
                     {
@@ -2551,6 +2551,86 @@
                             "value": null
                         },
                         "id": "urn:infai:ses:content:8a166797-4807-4a0f-ab50-10af774943c6",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspects": [
+                    {
+                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                        "name": "Device",
+                        "rdf_type": "https://senergy.infai.org/ontology/Aspect"
+                    }
+                ],
+                "description": "",
+                "functions": [
+                    {
+                        "concept_id": "urn:infai:ses:concept:ebfeabb3-50f0-44bd-b06e-95eb52df484e",
+                        "id": "urn:infai:ses:measuring-function:231da98e-f21d-47bc-9f56-6606397221a2",
+                        "name": "getMonitoringStateFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    }
+                ],
+                "id": "urn:infai:ses:service:d7170932-3500-4719-8555-9b2b94114a9e",
+                "inputs": [],
+                "interaction": "",
+                "local_id": "get_level:48-11",
+                "name": "getTiltState",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:3fca55a8-5db0-4fee-a3ab-9a444216d71e",
+                            "name": "tilt",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:7621686a-56bc-402d-b4cc-5b266d39736f",
+                                    "id": "urn:infai:ses:content-variable:1cad8772-68c3-4949-8b95-abf28949f324",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": 0
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:14b75022-4d3f-492a-8432-abac4c3eca79",
+                                    "name": "level_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "level",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:3743f184-4fd8-4e19-a666-228a12fd4b8a",
+                                    "name": "updateTime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:eaeda173-df5f-4e85-afcd-00f91ecdee2a",
+                                    "name": "updateTime_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "updateTime",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:c1aa315c-1606-4ebc-87c6-3a81826eda58",
                         "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
                         "serialization": "json"
                     }
@@ -10441,13 +10521,13 @@
             {
                 "aspects": [
                     {
-                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
-                        "name": "Device",
+                        "id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                        "name": "Lighting",
                         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
                     },
                     {
-                        "id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
-                        "name": "Lighting",
+                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                        "name": "Device",
                         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
                     }
                 ],
@@ -10472,13 +10552,13 @@
             {
                 "aspects": [
                     {
-                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
-                        "name": "Device",
+                        "id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                        "name": "Lighting",
                         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
                     },
                     {
-                        "id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
-                        "name": "Lighting",
+                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                        "name": "Device",
                         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
                     }
                 ],
@@ -12487,6 +12567,7 @@
     "/protocols/urn:infai:ses:protocol:3b59ea31-da98-45fd-a354-1b9bd06b837e": {
         "handler": "moses",
         "id": "urn:infai:ses:protocol:3b59ea31-da98-45fd-a354-1b9bd06b837e",
+        "interaction": "event+request",
         "name": "moses",
         "protocol_segments": [
             {
@@ -12498,6 +12579,7 @@
     "/protocols/urn:infai:ses:protocol:c9a06d44-0cd0-465b-b0d9-560d604057a2": {
         "handler": "mqtt",
         "id": "urn:infai:ses:protocol:c9a06d44-0cd0-465b-b0d9-560d604057a2",
+        "interaction": "event",
         "name": "mqtt-connector",
         "protocol_segments": [
             {
@@ -12513,6 +12595,7 @@
     "/protocols/urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b": {
         "handler": "connector",
         "id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+        "interaction": "event+request",
         "name": "standard-connector",
         "protocol_segments": [
             {

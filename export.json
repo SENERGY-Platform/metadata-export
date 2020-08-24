@@ -25,6 +25,40 @@
         "sub_characteristics": null,
         "type": "https://schema.org/Integer"
     },
+    "/concepts/urn:infai:ses:concept:1c9e4d58-28e3-4e65-a0a0-48d8d519b0c9": {
+        "base_characteristic_id": "urn:infai:ses:characteristic:0bf5bc86-dde2-465f-8a16-687ef9acba3d",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:0bf5bc86-dde2-465f-8a16-687ef9acba3d"
+        ],
+        "id": "urn:infai:ses:concept:1c9e4d58-28e3-4e65-a0a0-48d8d519b0c9",
+        "name": "frequency",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:1c9e4d58-28e3-4e65-a0a0-48d8d519b0c9/characteristics/urn:infai:ses:characteristic:0bf5bc86-dde2-465f-8a16-687ef9acba3d": {
+        "id": "urn:infai:ses:characteristic:0bf5bc86-dde2-465f-8a16-687ef9acba3d",
+        "name": "hertz",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:2769a588-97e7-4bc3-94f4-b97bef591e95": {
+        "base_characteristic_id": "urn:infai:ses:characteristic:2ed0e8ca-e396-4c42-9446-6e6981e87845",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:2ed0e8ca-e396-4c42-9446-6e6981e87845"
+        ],
+        "id": "urn:infai:ses:concept:2769a588-97e7-4bc3-94f4-b97bef591e95",
+        "name": "signal strength",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:2769a588-97e7-4bc3-94f4-b97bef591e95/characteristics/urn:infai:ses:characteristic:2ed0e8ca-e396-4c42-9446-6e6981e87845": {
+        "id": "urn:infai:ses:characteristic:2ed0e8ca-e396-4c42-9446-6e6981e87845",
+        "max_value": 100,
+        "min_value": 0,
+        "name": "signal strength percentage",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Integer"
+    },
     "/concepts/urn:infai:ses:concept:397de0f8-a79f-484f-aa13-0042e48e5648": {
         "base_characteristic_id": "urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3",
         "characteristic_ids": [
@@ -37,6 +71,24 @@
     "/concepts/urn:infai:ses:concept:397de0f8-a79f-484f-aa13-0042e48e5648/characteristics/urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3": {
         "id": "urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3",
         "name": "volt",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:3e40dfa7-805d-4732-af15-5207c0a59c47": {
+        "base_characteristic_id": "urn:infai:ses:characteristic:e6874605-80cf-418a-9319-da3b27411af1",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:e6874605-80cf-418a-9319-da3b27411af1"
+        ],
+        "id": "urn:infai:ses:concept:3e40dfa7-805d-4732-af15-5207c0a59c47",
+        "name": "power factor",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:3e40dfa7-805d-4732-af15-5207c0a59c47/characteristics/urn:infai:ses:characteristic:e6874605-80cf-418a-9319-da3b27411af1": {
+        "id": "urn:infai:ses:characteristic:e6874605-80cf-418a-9319-da3b27411af1",
+        "max_value": 1,
+        "min_value": 0,
+        "name": "cos Phi",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
@@ -143,6 +195,22 @@
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
     },
+    "/concepts/urn:infai:ses:concept:7ffc7509-51dc-4a62-bb42-850090996586": {
+        "base_characteristic_id": "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c"
+        ],
+        "id": "urn:infai:ses:concept:7ffc7509-51dc-4a62-bb42-850090996586",
+        "name": "current",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:7ffc7509-51dc-4a62-bb42-850090996586/characteristics/urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c": {
+        "id": "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c",
+        "name": "ampere",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
     "/concepts/urn:infai:ses:concept:81c003ac-ed79-4b3d-8d49-6d95b61b2863": {
         "base_characteristic_id": "urn:infai:ses:characteristic:fbfea6c7-3392-4ec2-9ec5-0d0ef6362b9b",
         "characteristic_ids": [
@@ -158,6 +226,22 @@
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:85e11726-620a-4584-96a2-3a6fe4141b2d": {
+        "base_characteristic_id": "urn:infai:ses:characteristic:bc03ef2e-51d5-4034-8bec-75df78e3afee",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:bc03ef2e-51d5-4034-8bec-75df78e3afee"
+        ],
+        "id": "urn:infai:ses:concept:85e11726-620a-4584-96a2-3a6fe4141b2d",
+        "name": "connection status",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:85e11726-620a-4584-96a2-3a6fe4141b2d/characteristics/urn:infai:ses:characteristic:bc03ef2e-51d5-4034-8bec-75df78e3afee": {
+        "id": "urn:infai:ses:characteristic:bc03ef2e-51d5-4034-8bec-75df78e3afee",
+        "name": "online_offline",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Text"
     },
     "/concepts/urn:infai:ses:concept:8b1161d5-7878-4dd2-a36c-6f98f6b94bf8": {
         "base_characteristic_id": "urn:infai:ses:characteristic:5b4eea52-e8e5-4e80-9455-0382f81a1b43",
@@ -244,7 +328,9 @@
     "/concepts/urn:infai:ses:concept:9286d398-f49d-494f-8157-bea17947b1fa": {
         "base_characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
         "characteristic_ids": [
-            "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800"
+            "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+            "urn:infai:ses:characteristic:8b9411f3-bf56-4e57-8fd4-728bdcd451cd",
+            "urn:infai:ses:characteristic:c7dfcb86-2733-4917-a5ca-0a150a458eed"
         ],
         "id": "urn:infai:ses:concept:9286d398-f49d-494f-8157-bea17947b1fa",
         "name": "timestamp",
@@ -253,6 +339,20 @@
     "/concepts/urn:infai:ses:concept:9286d398-f49d-494f-8157-bea17947b1fa/characteristics/urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800": {
         "id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
         "name": "iso_format",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Text"
+    },
+    "/concepts/urn:infai:ses:concept:9286d398-f49d-494f-8157-bea17947b1fa/characteristics/urn:infai:ses:characteristic:8b9411f3-bf56-4e57-8fd4-728bdcd451cd": {
+        "id": "urn:infai:ses:characteristic:8b9411f3-bf56-4e57-8fd4-728bdcd451cd",
+        "name": "unix_format_seconds",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Text"
+    },
+    "/concepts/urn:infai:ses:concept:9286d398-f49d-494f-8157-bea17947b1fa/characteristics/urn:infai:ses:characteristic:c7dfcb86-2733-4917-a5ca-0a150a458eed": {
+        "id": "urn:infai:ses:characteristic:c7dfcb86-2733-4917-a5ca-0a150a458eed",
+        "name": "unix_format_nanoseconds",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Text"
@@ -296,7 +396,7 @@
         "id": "urn:infai:ses:characteristic:ca44269e-ab5a-4ed7-8acb-ce80a6a592a5",
         "max_value": 100,
         "min_value": 0,
-        "name": "percentage",
+        "name": "speed level percentage",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Integer"
@@ -431,7 +531,7 @@
         "id": "urn:infai:ses:characteristic:5caa707d-dc08-4f3b-bd9f-f08935c8dd3c",
         "max_value": 100,
         "min_value": 0,
-        "name": "percentage",
+        "name": "lifespan percentage",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
@@ -467,7 +567,7 @@
                 ],
                 "id": "urn:infai:ses:service:52afd26b-13b1-47ab-a787-5186f02ced63",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:128",
                 "name": "getBatteryStateService",
                 "outputs": [
@@ -547,7 +647,7 @@
                 ],
                 "id": "urn:infai:ses:service:5b9b21f4-ad88-42c9-94e0-2cda52d58568",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:48-10",
                 "name": "getOnOffStateService",
                 "outputs": [
@@ -641,7 +741,7 @@
                 ],
                 "id": "urn:infai:ses:service:68657f8e-7d7b-4e36-94d5-0a6a96833562",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "ENERGY",
                 "name": "ENERGY",
                 "outputs": [
@@ -682,7 +782,7 @@
                 ],
                 "id": "urn:infai:ses:service:c9f70590-0a4d-41b4-9c59-6ce28a037425",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER",
                 "name": "POWER",
                 "outputs": [
@@ -723,7 +823,7 @@
                 ],
                 "id": "urn:infai:ses:service:e7cb1a9b-d146-4972-af69-8418cd16c207",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER_2",
                 "name": "POWER_2",
                 "outputs": [
@@ -764,7 +864,7 @@
                 ],
                 "id": "urn:infai:ses:service:961a0d4b-7d4c-4e55-ad1c-8714486487a6",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER_3",
                 "name": "POWER_3",
                 "outputs": [
@@ -805,7 +905,7 @@
                 ],
                 "id": "urn:infai:ses:service:cd29f61d-2ae3-4a31-9609-a7fe59bb5906",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER_4",
                 "name": "POWER_4",
                 "outputs": [
@@ -860,7 +960,7 @@
                 ],
                 "id": "urn:infai:ses:service:7767bdc4-cc10-446d-9986-38dfcd44802e",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "Humidity",
                 "name": "getHumidityService",
                 "outputs": [
@@ -901,7 +1001,7 @@
                 ],
                 "id": "urn:infai:ses:service:388f5834-838c-46d3-abdf-5acd85757709",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "Pressure",
                 "name": "getPressureService",
                 "outputs": [
@@ -942,7 +1042,7 @@
                 ],
                 "id": "urn:infai:ses:service:73ce1cd9-d0fd-493e-99e8-3572921b7d38",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "Temperature",
                 "name": "getTemperatureService",
                 "outputs": [
@@ -983,7 +1083,7 @@
                 ],
                 "id": "urn:infai:ses:service:f7019cf4-c484-4455-b170-909eaae5a183",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "uptime",
                 "name": "getUptimeService",
                 "outputs": [
@@ -1038,7 +1138,7 @@
                 ],
                 "id": "urn:infai:ses:service:aa23f38e-b059-47dd-9988-24121b5c2e4a",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "ENERGY",
                 "name": "ENERGY",
                 "outputs": [
@@ -1079,7 +1179,7 @@
                 ],
                 "id": "urn:infai:ses:service:82f942ed-7fcd-4577-b112-be3c98ce6bd4",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "ENERGY_1",
                 "name": "ENERGY_1",
                 "outputs": [
@@ -1120,7 +1220,7 @@
                 ],
                 "id": "urn:infai:ses:service:921c590a-b95b-47d8-8a2e-c07a3b2ce658",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "ENERGY_2",
                 "name": "ENERGY_2",
                 "outputs": [
@@ -1161,7 +1261,7 @@
                 ],
                 "id": "urn:infai:ses:service:f62dd4c0-7718-4ef8-a646-eb307286a470",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "ENERGY_3",
                 "name": "ENERGY_3",
                 "outputs": [
@@ -1202,7 +1302,7 @@
                 ],
                 "id": "urn:infai:ses:service:d1d77bab-3954-4cf9-81ba-d195a640068c",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER",
                 "name": "POWER",
                 "outputs": [
@@ -1243,7 +1343,7 @@
                 ],
                 "id": "urn:infai:ses:service:22a89dc3-6bab-4090-8987-6fd86c631063",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER_5",
                 "name": "POWER_5",
                 "outputs": [
@@ -1284,7 +1384,7 @@
                 ],
                 "id": "urn:infai:ses:service:36c22538-1b46-4697-b4cb-89c1d89ddd61",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER_6",
                 "name": "POWER_6",
                 "outputs": [
@@ -1339,7 +1439,7 @@
                 ],
                 "id": "urn:infai:ses:service:3aaddac5-223b-4cd6-b9d1-b17b25b7ac0f",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:50-0",
                 "name": "getEnergyConsumptionService",
                 "outputs": [
@@ -1419,7 +1519,7 @@
                 ],
                 "id": "urn:infai:ses:service:33394eae-9df1-47d0-b115-adfcb0a50ff6",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:37",
                 "name": "getOnOffStateService",
                 "outputs": [
@@ -1499,7 +1599,7 @@
                 ],
                 "id": "urn:infai:ses:service:642ba3c3-5c7a-40f1-a134-4d6fd4d6cd95",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:50-2",
                 "name": "getPowerConsumptionService",
                 "outputs": [
@@ -1578,7 +1678,7 @@
                 ],
                 "id": "urn:infai:ses:service:eaa2284a-b0c9-48ab-9d94-9248d4a2e3cb",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "off:37",
                 "name": "setOffStateService",
                 "outputs": [],
@@ -1604,7 +1704,7 @@
                 ],
                 "id": "urn:infai:ses:service:c5f9cd86-3049-43fb-8a16-071b10e983ea",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "on:37",
                 "name": "setOnStateService",
                 "outputs": [],
@@ -1644,7 +1744,7 @@
                 ],
                 "id": "urn:infai:ses:service:ec59b466-d14e-48c9-8051-edd71d505455",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:128",
                 "name": "getBatteryStateService",
                 "outputs": [
@@ -1724,7 +1824,7 @@
                 ],
                 "id": "urn:infai:ses:service:c7b72b1b-42e7-42b6-9810-8b469b2c0266",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-3",
                 "name": "getLuminiscenceService",
                 "outputs": [
@@ -1804,7 +1904,7 @@
                 ],
                 "id": "urn:infai:ses:service:4e5f894a-bee7-454b-b9fe-6358b7174e8e",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:113-7-8-A",
                 "name": "getMotionStateService",
                 "outputs": [
@@ -1884,7 +1984,7 @@
                 ],
                 "id": "urn:infai:ses:service:20eb48e4-d89e-4e19-b86f-d6e85e6774a1",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:113-7-3-A",
                 "name": "getTamperStateService",
                 "outputs": [
@@ -1964,7 +2064,7 @@
                 ],
                 "id": "urn:infai:ses:service:08c7217a-7303-4f92-9434-1b8655a52e04",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-1",
                 "name": "getTemperatureService",
                 "outputs": [
@@ -2058,7 +2158,7 @@
                 ],
                 "id": "urn:infai:ses:service:13cc8f82-9259-4306-95ba-e0405ca1ecf5",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:128",
                 "name": "getBatteryService",
                 "outputs": [
@@ -2138,7 +2238,7 @@
                 ],
                 "id": "urn:infai:ses:service:b09a1709-a41e-48cf-b038-7a0b52883838",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:0-1-S",
                 "name": "getToggleStateService",
                 "outputs": [
@@ -2218,7 +2318,7 @@
                 ],
                 "id": "urn:infai:ses:service:5c77b797-0b9a-48a3-a998-8cdd07462c2e",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "on:0-1-S",
                 "name": "setToggleService",
                 "outputs": [],
@@ -2258,7 +2358,7 @@
                 ],
                 "id": "urn:infai:ses:service:f1c20335-8e24-4b8d-8fce-ec775742fc78",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:113-7-8-A",
                 "name": "getMotionStateService",
                 "outputs": [
@@ -2332,7 +2432,7 @@
                 ],
                 "id": "urn:infai:ses:service:8e7ad152-e537-4466-a4e4-287ff5a0f4cb",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:128",
                 "name": "getBatteryStateService",
                 "outputs": [
@@ -2412,7 +2512,7 @@
                 ],
                 "id": "urn:infai:ses:service:aec26a55-9953-4220-be60-987812e05419",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:113-6-Door-A",
                 "name": "getOnOffStateService",
                 "outputs": [
@@ -2476,13 +2576,13 @@
             {
                 "aspects": [
                     {
-                        "id": "urn:infai:ses:aspect:e4a736ff-803d-49f2-86fc-3980647e884e",
-                        "name": "Door/Window",
+                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                        "name": "Device",
                         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
                     },
                     {
-                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
-                        "name": "Device",
+                        "id": "urn:infai:ses:aspect:e4a736ff-803d-49f2-86fc-3980647e884e",
+                        "name": "Door/Window",
                         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
                     }
                 ],
@@ -2497,7 +2597,7 @@
                 ],
                 "id": "urn:infai:ses:service:173379b2-eb62-4a16-914a-f84712bf87e1",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:113-7-3-A",
                 "name": "getTamperStateService",
                 "outputs": [
@@ -2577,7 +2677,7 @@
                 ],
                 "id": "urn:infai:ses:service:d7170932-3500-4719-8555-9b2b94114a9e",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:48-11",
                 "name": "getTiltState",
                 "outputs": [
@@ -2671,7 +2771,7 @@
                 ],
                 "id": "urn:infai:ses:service:d7f13629-3613-43c9-bfe0-2f02051c0996",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:50-0",
                 "name": "getEnergyConsumptionService",
                 "outputs": [
@@ -2751,7 +2851,7 @@
                 ],
                 "id": "urn:infai:ses:service:cec84a8f-d284-4f28-87a2-aca72a3cd40e",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:37",
                 "name": "getOnOffStateService",
                 "outputs": [
@@ -2831,7 +2931,7 @@
                 ],
                 "id": "urn:infai:ses:service:a0c657b9-ecf9-43db-86fe-fa3c6f66324a",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:50-2",
                 "name": "getPowerMeterService",
                 "outputs": [
@@ -2911,7 +3011,7 @@
                 ],
                 "id": "urn:infai:ses:service:3c0b8793-f060-433f-a039-c6b6bcfd31de",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "off:37",
                 "name": "setOffStateService",
                 "outputs": [],
@@ -2937,7 +3037,7 @@
                 ],
                 "id": "urn:infai:ses:service:9fa5168c-0683-46f7-9ef7-e48dda952766",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "on:37",
                 "name": "setOnStateService",
                 "outputs": [],
@@ -2977,7 +3077,7 @@
                 ],
                 "id": "urn:infai:ses:service:76df88c6-4144-4eae-8a8b-d83be55d0f68",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:128",
                 "name": "getBatteryStateService",
                 "outputs": [
@@ -3057,7 +3157,7 @@
                 ],
                 "id": "urn:infai:ses:service:19e2a58f-b50c-4def-b5d2-8d9c782bb1e0",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-5",
                 "name": "getHumidityService",
                 "outputs": [
@@ -3137,7 +3237,7 @@
                 ],
                 "id": "urn:infai:ses:service:64ad04a3-de5e-4139-8e70-1946d27a35b7",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-3",
                 "name": "getLuminiscenceService",
                 "outputs": [
@@ -3217,7 +3317,7 @@
                 ],
                 "id": "urn:infai:ses:service:f0dd0dea-a5fd-477c-b4c6-5e46d59d5d41",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:48-1",
                 "name": "getMotionStateService",
                 "outputs": [
@@ -3297,7 +3397,7 @@
                 ],
                 "id": "urn:infai:ses:service:2e286ba3-7e62-438f-86dd-261bbdb0b917",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:113-7-3-A",
                 "name": "getTamperStateService",
                 "outputs": [
@@ -3377,7 +3477,7 @@
                 ],
                 "id": "urn:infai:ses:service:824f709b-dac7-47b6-8096-489cf24d5b98",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-1",
                 "name": "getTemperatureService",
                 "outputs": [
@@ -3457,7 +3557,7 @@
                 ],
                 "id": "urn:infai:ses:service:5aa3a36e-ca21-4a82-80a6-13ca4b33b81b",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-27",
                 "name": "getUltravioletService",
                 "outputs": [
@@ -3551,7 +3651,7 @@
                 ],
                 "id": "urn:infai:ses:service:9e106b8d-8d5e-4f45-bd00-d20f73f4fb3d",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:128",
                 "name": "getBatteryService",
                 "outputs": [
@@ -3631,7 +3731,7 @@
                 ],
                 "id": "urn:infai:ses:service:abc00710-c3ac-4c2d-b7ad-b87f5d187bd3",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-5",
                 "name": "getHumidityService",
                 "outputs": [
@@ -3711,7 +3811,7 @@
                 ],
                 "id": "urn:infai:ses:service:a659b88c-dc0a-4843-b19e-ca0323a43374",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-3",
                 "name": "getLuminiscenceService",
                 "outputs": [
@@ -3791,7 +3891,7 @@
                 ],
                 "id": "urn:infai:ses:service:51eb8a6e-c0e3-4021-bdaa-a39d0f7a75d5",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:113-7-8-A",
                 "name": "getMotionStateService",
                 "outputs": [
@@ -3871,7 +3971,7 @@
                 ],
                 "id": "urn:infai:ses:service:ab7515cb-ced3-41c3-b602-7b66ab1f0fb3",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:113-7-3-A",
                 "name": "getTamperStateService",
                 "outputs": [
@@ -3951,7 +4051,7 @@
                 ],
                 "id": "urn:infai:ses:service:d3dba284-ef6d-4f12-81df-ed11506702b2",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-1",
                 "name": "getTemperatureService",
                 "outputs": [
@@ -4045,7 +4145,7 @@
                 ],
                 "id": "urn:infai:ses:service:b4942bc4-95cc-4b54-acf7-adc8c5bf59df",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "ENERGY",
                 "name": "ENERGY",
                 "outputs": [
@@ -4086,7 +4186,7 @@
                 ],
                 "id": "urn:infai:ses:service:4e0ddde6-3964-4d3d-8640-7352e6f36cda",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "ENERGY_1",
                 "name": "ENERGY_1",
                 "outputs": [
@@ -4127,7 +4227,7 @@
                 ],
                 "id": "urn:infai:ses:service:1dc43b74-64d4-4508-83ba-ac117599ab24",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER",
                 "name": "POWER",
                 "outputs": [
@@ -4168,7 +4268,7 @@
                 ],
                 "id": "urn:infai:ses:service:d4a33d83-6498-4018-b9af-c937321280a1",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER_3",
                 "name": "POWER_3",
                 "outputs": [
@@ -4209,7 +4309,7 @@
                 ],
                 "id": "urn:infai:ses:service:62b1c9ca-0934-4ce7-8766-6aec524ad7a6",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER_4",
                 "name": "POWER_4",
                 "outputs": [
@@ -4250,7 +4350,7 @@
                 ],
                 "id": "urn:infai:ses:service:46d319f5-f8c6-4270-aad0-3ecd0c4f7ea4",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER_5",
                 "name": "POWER_5",
                 "outputs": [
@@ -4311,7 +4411,7 @@
                 ],
                 "id": "urn:infai:ses:service:137fdd3e-bf55-4129-b71a-f33df8223097",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "getStatus",
                 "name": "getStatusService",
                 "outputs": [
@@ -4510,7 +4610,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setBrightness",
                 "name": "setBrightnessService",
                 "outputs": [],
@@ -4588,7 +4688,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setColor",
                 "name": "setColorService",
                 "outputs": [],
@@ -4648,7 +4748,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setPower",
                 "name": "setOffService",
                 "outputs": [],
@@ -4708,7 +4808,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setPower",
                 "name": "setOnService",
                 "outputs": [],
@@ -4754,7 +4854,7 @@
                 ],
                 "id": "urn:infai:ses:service:99614933-4734-41b6-a131-3f96f134ee69",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "getStatus",
                 "name": "getStatusService",
                 "outputs": [
@@ -4934,7 +5034,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setBrightness",
                 "name": "setBrightnessService",
                 "outputs": [],
@@ -5012,7 +5112,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setColor",
                 "name": "setColorService",
                 "outputs": [],
@@ -5063,7 +5163,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setPower",
                 "name": "setOffService",
                 "outputs": [],
@@ -5114,7 +5214,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setPower",
                 "name": "setOnService",
                 "outputs": [],
@@ -5154,7 +5254,7 @@
                 ],
                 "id": "urn:infai:ses:service:c51d409a-f32a-4e7b-8e3d-9ddcac7176c6",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:50-0",
                 "name": "getEnergyConsumptionService",
                 "outputs": [
@@ -5234,7 +5334,7 @@
                 ],
                 "id": "urn:infai:ses:service:326d829c-f97e-44eb-8c6c-639c82765763",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:37",
                 "name": "getOnOffStateService",
                 "outputs": [
@@ -5314,7 +5414,7 @@
                 ],
                 "id": "urn:infai:ses:service:989a999f-c693-40c6-a9bb-4a63ff7f9ad9",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-4",
                 "name": "getPowerConsumptionService",
                 "outputs": [
@@ -5394,7 +5494,7 @@
                 ],
                 "id": "urn:infai:ses:service:faf85dc4-700d-4102-95c9-e7e2f0ecdbf2",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:50-2",
                 "name": "getPowerMeterService",
                 "outputs": [
@@ -5474,7 +5574,7 @@
                 ],
                 "id": "urn:infai:ses:service:a8fc1785-7286-40bf-b880-e4f73e43befe",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "off:37",
                 "name": "setOffStateService",
                 "outputs": [],
@@ -5500,7 +5600,7 @@
                 ],
                 "id": "urn:infai:ses:service:222b0836-adb0-4728-a001-41ac345f878b",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "on:37",
                 "name": "setOnStateService",
                 "outputs": [],
@@ -5540,7 +5640,7 @@
                 ],
                 "id": "urn:infai:ses:service:c4517cf7-9ab6-42cc-a800-ed43db04b949",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:113-7-8-A",
                 "name": "getMotionStateService",
                 "outputs": [
@@ -5614,7 +5714,7 @@
                 ],
                 "id": "urn:infai:ses:service:c978036a-cf91-4986-8055-a13ad288976b",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "temperature",
                 "name": "getTemperatureService",
                 "outputs": [
@@ -5669,7 +5769,7 @@
                 ],
                 "id": "urn:infai:ses:service:50da6b19-7be3-40eb-b2b8-b9c878b81b0f",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "humidity",
                 "name": "getHumidityService",
                 "outputs": [
@@ -5762,7 +5862,7 @@
                 ],
                 "id": "urn:infai:ses:service:b8e5f790-a5b1-4381-8fe4-a67a6f2d1441",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:128",
                 "name": "getBatteryStateService",
                 "outputs": [
@@ -5842,7 +5942,7 @@
                 ],
                 "id": "urn:infai:ses:service:f306de41-a55b-45ed-afc9-039bbe53db1b",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:67-1",
                 "name": "getTemperatureService",
                 "outputs": [
@@ -5947,7 +6047,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "exact:67-1",
                 "name": "setTemperatureService",
                 "outputs": [],
@@ -5987,7 +6087,7 @@
                 ],
                 "id": "urn:infai:ses:service:852bedb3-3669-4bdc-9942-97bf668bd4fb",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:37",
                 "name": "getOnOffStateService",
                 "outputs": [
@@ -6067,7 +6167,7 @@
                 ],
                 "id": "urn:infai:ses:service:321d5b38-f1fb-43ac-8ef1-82bed63e6726",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "off:37",
                 "name": "setOffStateService",
                 "outputs": [],
@@ -6093,7 +6193,7 @@
                 ],
                 "id": "urn:infai:ses:service:1deaed39-1438-4fbf-b85c-6346af2eec20",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "on:37",
                 "name": "setOnStateService",
                 "outputs": [],
@@ -6133,7 +6233,7 @@
                 ],
                 "id": "urn:infai:ses:service:421d849b-4287-434f-9cb5-303195383e42",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "#",
                 "name": "#",
                 "outputs": [],
@@ -6174,7 +6274,7 @@
                         "serialization": "plain-text"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "Color",
                 "name": "color",
                 "outputs": [],
@@ -6215,7 +6315,7 @@
                         "serialization": "plain-text"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "Dimmer",
                 "name": "dimmer",
                 "outputs": [],
@@ -6241,7 +6341,7 @@
                 ],
                 "id": "urn:infai:ses:service:45a2c18a-164e-4c14-9e87-14351358b679",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "LWT",
                 "name": "lwt",
                 "outputs": [
@@ -6297,7 +6397,7 @@
                         "serialization": "plain-text"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "POWER",
                 "name": "off",
                 "outputs": [],
@@ -6338,7 +6438,7 @@
                         "serialization": "plain-text"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "POWER",
                 "name": "on",
                 "outputs": [],
@@ -6364,7 +6464,7 @@
                 ],
                 "id": "urn:infai:ses:service:5d052df5-152b-4ed9-8ca6-55bd4947274d",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER",
                 "name": "power",
                 "outputs": [
@@ -6405,7 +6505,7 @@
                 ],
                 "id": "urn:infai:ses:service:0c5cb3d6-9270-4f7e-8e79-626bf8898e7d",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "RESULT",
                 "name": "result",
                 "outputs": [
@@ -6521,7 +6621,7 @@
                 ],
                 "id": "urn:infai:ses:service:908809bc-1f06-4c6e-8552-5643be34a15c",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "STATE",
                 "name": "state",
                 "outputs": [
@@ -6740,7 +6840,7 @@
                 ],
                 "id": "urn:infai:ses:service:81f73950-b340-48ae-b671-37dcb9cdabfc",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:50-0",
                 "name": "getEnergyConsumptionService",
                 "outputs": [
@@ -6820,7 +6920,7 @@
                 ],
                 "id": "urn:infai:ses:service:145d9626-ba35-412d-a5be-0c08b1d670e1",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:50-0:1",
                 "name": "getEnergyConsumptionService(1)",
                 "outputs": [
@@ -6900,7 +7000,7 @@
                 ],
                 "id": "urn:infai:ses:service:2f86c89d-0b70-4ce8-9e7c-6661e4475c0e",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:50-0:2",
                 "name": "getEnergyConsumptionService(2)",
                 "outputs": [
@@ -6980,7 +7080,7 @@
                 ],
                 "id": "urn:infai:ses:service:695bab5f-1e1f-42de-a3a9-82fc04a41be3",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:37",
                 "name": "getOnOffStateService",
                 "outputs": [
@@ -7060,7 +7160,7 @@
                 ],
                 "id": "urn:infai:ses:service:1d58a572-2ad2-47ed-b486-47ea97c67968",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:37:1",
                 "name": "getOnOffStateService (1)",
                 "outputs": [
@@ -7140,7 +7240,7 @@
                 ],
                 "id": "urn:infai:ses:service:48b8d06c-312c-4c30-b47e-b50f2258460b",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:37:2",
                 "name": "getOnOffStateService (2)",
                 "outputs": [
@@ -7220,7 +7320,7 @@
                 ],
                 "id": "urn:infai:ses:service:01748eff-eb5b-4046-92b8-61b483e70413",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:50-2",
                 "name": "getPowerMeterService",
                 "outputs": [
@@ -7300,7 +7400,7 @@
                 ],
                 "id": "urn:infai:ses:service:844467ee-7845-4a73-ae36-1a7c482bb5e6",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:50-2:1",
                 "name": "getPowerMeterService(1)",
                 "outputs": [
@@ -7380,7 +7480,7 @@
                 ],
                 "id": "urn:infai:ses:service:fb152a35-bcc9-4108-a598-b1e8bace739a",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:50-2:2",
                 "name": "getPowerMeterService(2)",
                 "outputs": [
@@ -7460,7 +7560,7 @@
                 ],
                 "id": "urn:infai:ses:service:cdf72591-ec60-4e4e-bbb4-86960f6fb661",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "off:37",
                 "name": "setOffStateService",
                 "outputs": [],
@@ -7486,7 +7586,7 @@
                 ],
                 "id": "urn:infai:ses:service:65f65f48-834c-4d68-ad91-d7d15162afb2",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "off:37:1",
                 "name": "setOffStateService (1)",
                 "outputs": [],
@@ -7512,7 +7612,7 @@
                 ],
                 "id": "urn:infai:ses:service:adeb7a9b-c822-45b7-bc82-c7816f0310d2",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "off:37:2",
                 "name": "setOffStateService (2)",
                 "outputs": [],
@@ -7538,7 +7638,7 @@
                 ],
                 "id": "urn:infai:ses:service:6ecb35c6-4e93-4e43-ae59-0abf9af4af10",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "on:37",
                 "name": "setOnStateService",
                 "outputs": [],
@@ -7564,7 +7664,7 @@
                 ],
                 "id": "urn:infai:ses:service:59e249e7-80fa-4369-a494-902e30c14037",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "on:37:1",
                 "name": "setOnStateService (1)",
                 "outputs": [],
@@ -7590,7 +7690,7 @@
                 ],
                 "id": "urn:infai:ses:service:5e03a31c-059f-4053-a0ae-e524deb6a32e",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "on:37:2",
                 "name": "setOnStateService (2)",
                 "outputs": [],
@@ -7630,7 +7730,7 @@
                 ],
                 "id": "urn:infai:ses:service:27268005-2d1c-4826-85f3-29d9c9165f17",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "1.0.1.8.1.255",
                 "name": "EnergyConsumptionHighTariff",
                 "outputs": [
@@ -7671,7 +7771,7 @@
                 ],
                 "id": "urn:infai:ses:service:a7e965db-d492-4635-9e9e-7d34ed36a1f0",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "1.0.1.8.2.255",
                 "name": "EnergyConsumptionLowTariff",
                 "outputs": [
@@ -7712,7 +7812,7 @@
                 ],
                 "id": "urn:infai:ses:service:9c1f5da6-41ca-45e4-8dfd-ef25a35f8aac",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "1.0.1.8.0.255",
                 "name": "EnergyConsumptionTotal",
                 "outputs": [
@@ -7753,7 +7853,7 @@
                 ],
                 "id": "urn:infai:ses:service:204eec81-c3be-46d8-8159-57dd47d6bba1",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "/08065744/1.0.2.8.1.255",
                 "name": "EnergyProductionHighTariff",
                 "outputs": [
@@ -7794,7 +7894,7 @@
                 ],
                 "id": "urn:infai:ses:service:bb5bd362-6c2e-44a8-8747-69b1072794c2",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "/08065744/1.0.2.8.2.255",
                 "name": "EnergyProductionLowTariff",
                 "outputs": [
@@ -7835,7 +7935,7 @@
                 ],
                 "id": "urn:infai:ses:service:0c618cf7-2b77-4e27-a21e-9ce543254387",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "1.0.2.8.0.255",
                 "name": "EnergyProductionTotal",
                 "outputs": [
@@ -7876,7 +7976,7 @@
                 ],
                 "id": "urn:infai:ses:service:a26c4905-ff9d-4307-a2bc-f033f532b8ac",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "1.0.16.7.0.255",
                 "name": "POWER",
                 "outputs": [
@@ -7931,7 +8031,7 @@
                 ],
                 "id": "urn:infai:ses:service:3ae233c2-5fce-40be-aec0-737a60acfcae",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "getDeviceState",
                 "name": "getFilterStateService",
                 "outputs": [
@@ -8056,7 +8156,7 @@
                 ],
                 "id": "urn:infai:ses:service:5850918a-a660-4b05-a15e-842c3e25906c",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "getDeviceState",
                 "name": "getMonitoringStateService",
                 "outputs": [
@@ -8181,7 +8281,7 @@
                 ],
                 "id": "urn:infai:ses:service:0f5d1220-f31e-40b2-b6b5-bc7cfa259dae",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "getDeviceState",
                 "name": "getOnOffStateService",
                 "outputs": [
@@ -8306,7 +8406,7 @@
                 ],
                 "id": "urn:infai:ses:service:44141edb-d630-4eb0-84bb-2e4f1ce31742",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "getDeviceState",
                 "name": "getOscillationStateService",
                 "outputs": [
@@ -8437,7 +8537,7 @@
                 ],
                 "id": "urn:infai:ses:service:f36197ab-f4cc-428a-9ad3-68c36a8da6d1",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "getSensorReadings",
                 "name": "getSensorReadingsService",
                 "outputs": [
@@ -8554,7 +8654,7 @@
                 ],
                 "id": "urn:infai:ses:service:469cb0a1-5325-4cb6-bfc1-1e966f472a04",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "getDeviceState",
                 "name": "getSpeedLevelFunction",
                 "outputs": [
@@ -8704,7 +8804,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setMonitoring",
                 "name": "setMonitoringOffService",
                 "outputs": [],
@@ -8755,7 +8855,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setMonitoring",
                 "name": "setMonitoringOnService",
                 "outputs": [],
@@ -8806,7 +8906,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setPower",
                 "name": "setOffService",
                 "outputs": [],
@@ -8857,7 +8957,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setPower",
                 "name": "setOnService",
                 "outputs": [],
@@ -8908,7 +9008,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setOscillation",
                 "name": "setOscillationOffService",
                 "outputs": [],
@@ -8959,7 +9059,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setOscillation",
                 "name": "setOscillationOnService",
                 "outputs": [],
@@ -9010,7 +9110,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setSpeed",
                 "name": "setSpeedLevelService",
                 "outputs": [],
@@ -9050,7 +9150,7 @@
                 ],
                 "id": "urn:infai:ses:service:ec5f637c-9a78-4928-b6c9-b3047b9dc2f3",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:128",
                 "name": "getBatteryStateService",
                 "outputs": [
@@ -9130,7 +9230,7 @@
                 ],
                 "id": "urn:infai:ses:service:da7431de-f566-4a74-8e30-f19407f527bd",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:67-1",
                 "name": "getTargetTemperatureService",
                 "outputs": [
@@ -9210,7 +9310,7 @@
                 ],
                 "id": "urn:infai:ses:service:e6566b71-3578-40bb-b4e1-92632e625e3a",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-1",
                 "name": "getTemperatureService",
                 "outputs": [
@@ -9315,7 +9415,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "exact:67-1",
                 "name": "setTargetTemperatureService",
                 "outputs": [],
@@ -9355,7 +9455,7 @@
                 ],
                 "id": "urn:infai:ses:service:b0e7ff86-6b2a-43ea-8fae-83a417f183ee",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "#",
                 "name": "#",
                 "outputs": [],
@@ -9381,7 +9481,7 @@
                 ],
                 "id": "urn:infai:ses:service:f4745e3f-f7b7-4cc0-b0d7-54fb730245eb",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "SENSOR",
                 "name": "getEnergyConsumptionService",
                 "outputs": [
@@ -9561,7 +9661,7 @@
                 ],
                 "id": "urn:infai:ses:service:41a629a8-2176-4e65-934d-11a2feb67758",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "LWT",
                 "name": "getLwtService",
                 "outputs": [
@@ -9602,7 +9702,7 @@
                 ],
                 "id": "urn:infai:ses:service:67adc50a-6a9e-4b0f-befc-0a94041b0c09",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER",
                 "name": "getPowerService",
                 "outputs": [
@@ -9643,7 +9743,7 @@
                 ],
                 "id": "urn:infai:ses:service:ed4f0721-5202-4983-b7dc-6ae6926ff2d6",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "RESULT",
                 "name": "getResultService",
                 "outputs": [
@@ -9704,7 +9804,7 @@
                 ],
                 "id": "urn:infai:ses:service:f144270c-8f7d-4597-924d-23bf04d068b9",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "STATE",
                 "name": "getStateService",
                 "outputs": [
@@ -9944,7 +10044,7 @@
                         "serialization": "plain-text"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "POWER",
                 "name": "setOffService",
                 "outputs": [],
@@ -9985,7 +10085,7 @@
                         "serialization": "plain-text"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "POWER",
                 "name": "setOnService",
                 "outputs": [],
@@ -10025,7 +10125,7 @@
                 ],
                 "id": "urn:infai:ses:service:a29f5cf9-b4f3-43ac-9b06-6823e1205de1",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "EXTERNAL_TEMPERATURE",
                 "name": "EXTERNAL_TEMPERATURE",
                 "outputs": [
@@ -10066,7 +10166,7 @@
                 ],
                 "id": "urn:infai:ses:service:71d5bd1f-5aa0-4bc5-ae74-b7afddfbf666",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "REL_HUMIDITY",
                 "name": "REL_HUMIDITY",
                 "outputs": [
@@ -10121,7 +10221,7 @@
                 ],
                 "id": "urn:infai:ses:service:422fd899-a2cc-4e43-8d81-4e330a7ca8ab",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "reading_pm10",
                 "name": "getParticleAmountPM10Service",
                 "outputs": [
@@ -10190,7 +10290,7 @@
                 ],
                 "id": "urn:infai:ses:service:1d20a68b-7136-456c-ace5-c3adb66866bf",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "reading_pm1",
                 "name": "getParticleAmountPM1Service",
                 "outputs": [
@@ -10259,7 +10359,7 @@
                 ],
                 "id": "urn:infai:ses:service:68a6aaeb-c0bc-46ce-aba4-8cf65a2dd4e5",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "reading_pm2.5",
                 "name": "getParticleAmountPM25Service",
                 "outputs": [
@@ -10342,7 +10442,7 @@
                 ],
                 "id": "urn:infai:ses:service:72e708f5-f642-4925-9baf-d82d48dbbd5e",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "getStatus",
                 "name": "getStatusService",
                 "outputs": [
@@ -10446,7 +10546,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setPower",
                 "name": "setOffService",
                 "outputs": [],
@@ -10497,7 +10597,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setPower",
                 "name": "setOnService",
                 "outputs": [],
@@ -10542,7 +10642,7 @@
                 ],
                 "id": "urn:infai:ses:service:c1f6919c-dd6c-4c6a-985d-438e895e40dc",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "off:38",
                 "name": "setOffService",
                 "outputs": [],
@@ -10573,7 +10673,7 @@
                 ],
                 "id": "urn:infai:ses:service:a431aaae-59e7-423b-9385-0aee8f0584d2",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "on:38",
                 "name": "setOnService",
                 "outputs": [],
@@ -10613,7 +10713,7 @@
                 ],
                 "id": "urn:infai:ses:service:1408be20-0c87-462e-9f5b-b8deb5bbf293",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:128",
                 "name": "getBatteryStateService",
                 "outputs": [
@@ -10693,7 +10793,7 @@
                 ],
                 "id": "urn:infai:ses:service:22f01588-7cf8-43bb-866d-3bcc1a90b430",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-3",
                 "name": "getLuminiscenceService",
                 "outputs": [
@@ -10773,7 +10873,7 @@
                 ],
                 "id": "urn:infai:ses:service:0de65d51-7cb1-4eeb-82af-50a3b186cd35",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:48-12",
                 "name": "getMotionStateService",
                 "outputs": [
@@ -10853,7 +10953,7 @@
                 ],
                 "id": "urn:infai:ses:service:8bad90eb-637b-4a37-8f72-5574e0b7b664",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:113-7-8-A",
                 "name": "getTamperStateService",
                 "outputs": [
@@ -10933,7 +11033,7 @@
                 ],
                 "id": "urn:infai:ses:service:1495adb5-d1a5-4596-b13c-55a10583efce",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-1",
                 "name": "getTemperatureService",
                 "outputs": [
@@ -11027,7 +11127,7 @@
                 ],
                 "id": "urn:infai:ses:service:35d8a885-1cd1-4982-8f11-b543f6868d51",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "REMAINING_BATTERY_LIFE_TIME",
                 "name": "REMAINING_BATTERY_LIFE_TIME",
                 "outputs": [
@@ -11068,7 +11168,7 @@
                 ],
                 "id": "urn:infai:ses:service:1470c446-24dd-41da-bab6-bbc044db162e",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "VOLUME",
                 "name": "VOLUME",
                 "outputs": [
@@ -11109,7 +11209,7 @@
                 ],
                 "id": "urn:infai:ses:service:25ef3fad-79a1-4a28-bec5-5ad57b473dd6",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "VOLUME_FLOW",
                 "name": "VOLUME_FLOW",
                 "outputs": [
@@ -11164,7 +11264,7 @@
                 ],
                 "id": "urn:infai:ses:service:f7f33015-6708-4b0a-becd-40591e45411b",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:113-3-1-A",
                 "name": "getAlarmService",
                 "outputs": [
@@ -11224,7 +11324,7 @@
                 ],
                 "id": "urn:infai:ses:service:f30a55f5-c481-4a90-9c1b-83ab6daf7c80",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-17",
                 "name": "getCarbonDioxidService",
                 "outputs": [
@@ -11284,7 +11384,7 @@
                 ],
                 "id": "urn:infai:ses:service:50093075-3e04-4e57-94b0-503b82e658ef",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-5",
                 "name": "getHumidityService",
                 "outputs": [
@@ -11344,7 +11444,7 @@
                 ],
                 "id": "urn:infai:ses:service:6c24ef3b-7731-4f30-8fdf-726b97c08d07",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-1",
                 "name": "getTemperatureService",
                 "outputs": [
@@ -11418,7 +11518,7 @@
                 ],
                 "id": "urn:infai:ses:service:125c0d38-edd6-41d1-aab2-b41d2af3a875",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:128",
                 "name": "getBatteryStateService",
                 "outputs": [
@@ -11498,7 +11598,7 @@
                 ],
                 "id": "urn:infai:ses:service:1caa7a04-1dc8-4927-961d-78d5eb743cc2",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:48-10",
                 "name": "getOnOffStateService",
                 "outputs": [
@@ -11578,7 +11678,7 @@
                 ],
                 "id": "urn:infai:ses:service:4ebc63d2-43f3-43c1-b9a1-3287fef1a276",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:48-8",
                 "name": "getTamperStateService",
                 "outputs": [
@@ -11658,7 +11758,7 @@
                 ],
                 "id": "urn:infai:ses:service:b82600b2-86a4-4289-8146-83b1df84ecf8",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "get_level:49-1",
                 "name": "getTemperatureService",
                 "outputs": [
@@ -11721,6 +11821,676 @@
             }
         ]
     },
+    "/device-types/urn:infai:ses:device-type:d63ed4f1-494c-4b36-8e4c-56634fb787ec": {
+        "description": "Dreiphasen-Logger zur Ermittlung des elektrischen Energieverbrauchs",
+        "device_class": {
+            "id": "urn:infai:ses:device-class:f00e3915-9f09-4aa4-9aaf-1177459c4312",
+            "name": "ElectricityMeter",
+            "rdf_type": "https://senergy.infai.org/ontology/DeviceClass"
+        },
+        "id": "urn:infai:ses:device-type:d63ed4f1-494c-4b36-8e4c-56634fb787ec",
+        "image": "https://i.imgur.com/TP3xaH3.png",
+        "name": "Emonio P3 v2.0_FW3.0.29",
+        "rdf_type": "",
+        "services": [
+            {
+                "aspects": [
+                    {
+                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                        "name": "Device",
+                        "rdf_type": "https://senergy.infai.org/ontology/Aspect"
+                    }
+                ],
+                "description": "",
+                "functions": [
+                    {
+                        "concept_id": "urn:infai:ses:concept:58d23b4f-c315-4d7d-9230-fa989d55640a",
+                        "id": "urn:infai:ses:measuring-function:77dbfd2c-770a-4c0c-bc5a-c2dcda878107",
+                        "name": "getUptimeFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    },
+                    {
+                        "concept_id": "urn:infai:ses:concept:2769a588-97e7-4bc3-94f4-b97bef591e95",
+                        "id": "urn:infai:ses:measuring-function:9377c366-2896-486e-9b28-cff237509555",
+                        "name": "getSignalStrengthFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    }
+                ],
+                "id": "urn:infai:ses:service:94e0fc77-5ef9-482d-a6e0-26d20848a615",
+                "inputs": [],
+                "interaction": "event",
+                "local_id": "debug",
+                "name": "getDebugService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:7d419d10-dfbd-4055-a859-c3a829a45159",
+                            "name": "root",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:5d18da6f-d806-49ad-9fe7-05e1ead11415",
+                                    "name": "device_id",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:e1200c82-6b44-4d37-96f4-4758fc4580ac",
+                                    "name": "device_name",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:9e1024da-3b60-4531-9f29-464addccb13c",
+                                    "id": "urn:infai:ses:content-variable:784a5bdc-35b6-45c9-ba05-26b020b603e9",
+                                    "name": "uptime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:121b8820-37cf-4fa3-bfef-444f2a80e8ca",
+                                    "name": "heap",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:bc17ee47-1829-4df7-9883-b32f8faf5254",
+                                    "name": "stack",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:bf1a16c3-b335-4209-b445-44eefe5816bc",
+                                    "name": "fs",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:2ed0e8ca-e396-4c42-9446-6e6981e87845",
+                                    "id": "urn:infai:ses:content-variable:4358411a-9f0b-4d6d-b252-417ee1df9f7a",
+                                    "name": "rssi",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:dfe96439-9f4f-4356-82f2-219b6950fdb8",
+                                    "name": "temp_cpu",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:6a758a3e-838b-4820-ba37-e8f6f937a886",
+                                    "name": "temp_ade",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:cbd376eb-4d5f-4928-90d0-b4c7bf297760",
+                                    "name": "temp_rtc",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:c45dd7a2-9a97-4703-b147-fca9c91cd374",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:ffaaf98e-7360-400c-94d4-7775683d38ca",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:c9a06d44-0cd0-465b-b0d9-560d604057a2",
+                "rdf_type": ""
+            },
+            {
+                "aspects": [
+                    {
+                        "id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                        "name": "Device",
+                        "rdf_type": "https://senergy.infai.org/ontology/Aspect"
+                    }
+                ],
+                "description": "",
+                "functions": [
+                    {
+                        "concept_id": "urn:infai:ses:concept:85e11726-620a-4584-96a2-3a6fe4141b2d",
+                        "id": "urn:infai:ses:measuring-function:b8791b17-cf01-467f-87cf-da2271fffb6d",
+                        "name": "getConnectionStatusFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    }
+                ],
+                "id": "urn:infai:ses:service:b76f9959-e24c-4723-bfd7-ff7607c680d2",
+                "inputs": [],
+                "interaction": "event",
+                "local_id": "status",
+                "name": "getStatusService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "urn:infai:ses:characteristic:bc03ef2e-51d5-4034-8bec-75df78e3afee",
+                            "id": "urn:infai:ses:content-variable:6da6c59d-e6ef-47a1-9cb4-6af3cd15664e",
+                            "name": "root",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Text",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:416aebe7-21e8-42c2-9227-3092e583e1b5",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:ffaaf98e-7360-400c-94d4-7775683d38ca",
+                        "serialization": "plain-text"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:c9a06d44-0cd0-465b-b0d9-560d604057a2",
+                "rdf_type": ""
+            },
+            {
+                "aspects": [
+                    {
+                        "id": "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83",
+                        "name": "Consumption",
+                        "rdf_type": "https://senergy.infai.org/ontology/Aspect"
+                    }
+                ],
+                "description": "",
+                "functions": [
+                    {
+                        "concept_id": "urn:infai:ses:concept:1c9e4d58-28e3-4e65-a0a0-48d8d519b0c9",
+                        "id": "urn:infai:ses:measuring-function:9f180351-e83b-437f-b13f-1ad030703036",
+                        "name": "getFrequencyFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    },
+                    {
+                        "concept_id": "urn:infai:ses:concept:7ffc7509-51dc-4a62-bb42-850090996586",
+                        "id": "urn:infai:ses:measuring-function:28326e5a-69fa-439b-baa9-0e63c453186f",
+                        "name": "getCurrentFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    },
+                    {
+                        "concept_id": "urn:infai:ses:concept:3e40dfa7-805d-4732-af15-5207c0a59c47",
+                        "id": "urn:infai:ses:measuring-function:4f3cbfb4-ccb0-4233-a7c3-61760a069c02",
+                        "name": "getPowerFactorFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    },
+                    {
+                        "concept_id": "urn:infai:ses:concept:397de0f8-a79f-484f-aa13-0042e48e5648",
+                        "id": "urn:infai:ses:measuring-function:65c32809-d693-4ac5-bb4e-3875ca25f709",
+                        "name": "getVoltageFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    },
+                    {
+                        "concept_id": "urn:infai:ses:concept:46de11b9-26ff-4cce-b945-e93b84f04fe6",
+                        "id": "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0",
+                        "name": "getPowerConsumptionFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    },
+                    {
+                        "concept_id": "urn:infai:ses:concept:cedf4396-8e55-491d-b6f8-02ff94679b7d",
+                        "id": "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e",
+                        "name": "getEnergyConsumptionFunction",
+                        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+                    }
+                ],
+                "id": "urn:infai:ses:service:4b43b7ca-ff85-4e81-b3b4-c77951a72281",
+                "inputs": [],
+                "interaction": "event",
+                "local_id": "values",
+                "name": "getValuesService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:8f32835a-eacc-4fdf-ac26-9bae453e3212",
+                            "name": "root",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:2f98a29a-d308-489e-b59d-4adc945c7db2",
+                                    "name": "time",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:251c5643-7216-42f9-962a-b723c3188ef3",
+                                    "name": "msec",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:c126c3fd-7eee-4783-87ca-fb4466099bad",
+                                    "name": "device_id",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3",
+                                    "id": "urn:infai:ses:content-variable:7bb59a46-544f-491a-a904-da39632f7651",
+                                    "name": "egy_vrms_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c",
+                                    "id": "urn:infai:ses:content-variable:0dc09d65-cb09-424e-b4c1-daf15db41d0d",
+                                    "name": "egy_irms_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:3e789860-cfd5-4549-bade-ff1bf5be7efa",
+                                    "name": "egy_watt_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:b9750d98-c17b-436a-bff3-85548bebf6e5",
+                                    "name": "egy_var_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:3e435b21-ca93-471b-aa94-a43f4c1ed3b5",
+                                    "name": "egy_va_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:0bf5bc86-dde2-465f-8a16-687ef9acba3d",
+                                    "id": "urn:infai:ses:content-variable:14391b9b-1a46-4c77-9ed4-f6a02693360e",
+                                    "name": "egy_freq_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e",
+                                    "id": "urn:infai:ses:content-variable:2a7b57d1-c63e-47a5-a88a-7d1d0e0f668b",
+                                    "name": "egy_kwh_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:e6874605-80cf-418a-9319-da3b27411af1",
+                                    "id": "urn:infai:ses:content-variable:110f1b51-3dd7-4098-b943-eabf29c539c4",
+                                    "name": "egy_pf_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3",
+                                    "id": "urn:infai:ses:content-variable:9f899565-f621-4316-974f-63a7776e455f",
+                                    "name": "egy_vrms_min_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3",
+                                    "id": "urn:infai:ses:content-variable:32b90ac4-e6de-440a-8273-42dcdd0dccd2",
+                                    "name": "egy_vrms_max_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c",
+                                    "id": "urn:infai:ses:content-variable:8d6bc9ae-5720-43f3-82cb-4e4b75da3706",
+                                    "name": "egy_irms_min_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c",
+                                    "id": "urn:infai:ses:content-variable:fb8ff512-9dad-4c64-9ef5-fe06142ea3e1",
+                                    "name": "egy_irms_max_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:4f31b065-7ce3-402e-89fa-8ca770af996d",
+                                    "name": "egy_watt_min_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:60ecb25e-be19-4d09-93db-104c902ee487",
+                                    "name": "egy_watt_max_a",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3",
+                                    "id": "urn:infai:ses:content-variable:f9802b4a-4604-4cff-9334-02ccef1ec8c0",
+                                    "name": "egy_vrms_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c",
+                                    "id": "urn:infai:ses:content-variable:d8b9e537-8788-4930-aa7f-72a0283fffff",
+                                    "name": "egy_irms_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:94cf138f-9ce2-4786-97d9-414127cde17b",
+                                    "name": "egy_watt_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:ae83c465-f337-468a-bb8c-6a29a3835770",
+                                    "name": "egy_var_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:3e3e94f4-c543-425b-8b20-8f47e5ac82d1",
+                                    "name": "egy_va_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:0bf5bc86-dde2-465f-8a16-687ef9acba3d",
+                                    "id": "urn:infai:ses:content-variable:5412ef24-7326-4b10-806d-9ee90a51d5a9",
+                                    "name": "egy_freq_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e",
+                                    "id": "urn:infai:ses:content-variable:8dd5d0fd-3514-44db-b240-771c27431d44",
+                                    "name": "egy_kwh_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:e6874605-80cf-418a-9319-da3b27411af1",
+                                    "id": "urn:infai:ses:content-variable:219f9fc4-6f49-4986-b896-b468ee6fd6c4",
+                                    "name": "egy_pf_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3",
+                                    "id": "urn:infai:ses:content-variable:89ff7435-e725-4c02-af1d-f0d3c862cd4c",
+                                    "name": "egy_vrms_min_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3",
+                                    "id": "urn:infai:ses:content-variable:29413766-15d6-457e-bde2-dc368142f993",
+                                    "name": "egy_vrms_max_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c",
+                                    "id": "urn:infai:ses:content-variable:32bcf0ea-f31d-4793-98c1-e52cc17e54de",
+                                    "name": "egy_irms_min_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c",
+                                    "id": "urn:infai:ses:content-variable:e4f7b1c7-e7fc-432d-9051-175978992aae",
+                                    "name": "egy_irms_max_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:4cd766b5-8ea9-4c95-8953-85d103252e76",
+                                    "name": "egy_watt_min_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:3cbec19f-2068-4b23-9ea9-76c639482a0a",
+                                    "name": "egy_watt_max_b",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3",
+                                    "id": "urn:infai:ses:content-variable:fa35ac02-c6dc-4588-8f20-773da5fe2944",
+                                    "name": "egy_vrms_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c",
+                                    "id": "urn:infai:ses:content-variable:3210a443-c41b-49be-a94d-423955af435d",
+                                    "name": "egy_irms_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:5a17caef-f1a5-48b8-8cc1-a95fa1f4553d",
+                                    "name": "egy_watt_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:f30c7846-cfcf-45ac-a3f7-167d2f446abe",
+                                    "name": "egy_var_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:aacd32c7-7f55-4ffb-9204-b600bccdc83d",
+                                    "name": "egy_va_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:0bf5bc86-dde2-465f-8a16-687ef9acba3d",
+                                    "id": "urn:infai:ses:content-variable:188ec7c5-c5eb-4aee-8e30-ec1fbde93238",
+                                    "name": "egy_freq_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e",
+                                    "id": "urn:infai:ses:content-variable:e7db1298-4fb0-4584-a8ed-2a93ac72d11c",
+                                    "name": "egy_kwh_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:e6874605-80cf-418a-9319-da3b27411af1",
+                                    "id": "urn:infai:ses:content-variable:82c52720-a5c8-4e52-b311-dee4f047e1ea",
+                                    "name": "egy_pf_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3",
+                                    "id": "urn:infai:ses:content-variable:dadfe7ec-73c3-4f87-99ae-7b4cb829a2e8",
+                                    "name": "egy_vrms_min_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3",
+                                    "id": "urn:infai:ses:content-variable:12816e09-b72e-4a2a-bf06-664cd463203e",
+                                    "name": "egy_vrms_max_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c",
+                                    "id": "urn:infai:ses:content-variable:e41cca31-eec9-49d5-8f1c-30c371bca18b",
+                                    "name": "egy_irms_min_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c",
+                                    "id": "urn:infai:ses:content-variable:75220e3e-127b-494f-bbde-7acad90c5d78",
+                                    "name": "egy_irms_max_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:ec454221-c4e8-4ffc-93d6-f656341e7166",
+                                    "name": "egy_watt_min_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:5d5a2ce0-a9fd-4caa-bd46-5beb2fce2f76",
+                                    "name": "egy_watt_max_c",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:25b498c2-b7ea-43af-9913-981b80f43cdf",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:ffaaf98e-7360-400c-94d4-7775683d38ca",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:c9a06d44-0cd0-465b-b0d9-560d604057a2",
+                "rdf_type": ""
+            }
+        ]
+    },
     "/device-types/urn:infai:ses:device-type:d8748755-9026-4296-aa0e-fa4df411bd4b": {
         "description": "",
         "device_class": {
@@ -11752,7 +12522,7 @@
                 ],
                 "id": "urn:infai:ses:service:2e91cded-71d6-4c5f-b350-78b059d6e6d2",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "ENERGY",
                 "name": "ENERGY",
                 "outputs": [
@@ -11793,7 +12563,7 @@
                 ],
                 "id": "urn:infai:ses:service:b13c015a-202d-469c-95aa-d6b84bf56b7b",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER",
                 "name": "POWER",
                 "outputs": [
@@ -11834,7 +12604,7 @@
                 ],
                 "id": "urn:infai:ses:service:da9d8f30-eb06-4b83-9302-189bf1433066",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER_2",
                 "name": "POWER_2",
                 "outputs": [
@@ -11875,7 +12645,7 @@
                 ],
                 "id": "urn:infai:ses:service:935769a9-ae24-403b-8976-67e00078693f",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "POWER_3",
                 "name": "POWER_3",
                 "outputs": [
@@ -11916,7 +12686,7 @@
                 ],
                 "id": "urn:infai:ses:service:7d79b641-ad4b-4755-8238-73b9a6c90bff",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "VOLTAGE",
                 "name": "VOLTAGE",
                 "outputs": [
@@ -11957,7 +12727,7 @@
                 ],
                 "id": "urn:infai:ses:service:b46cb98b-cdc1-4d21-97c3-ba6948988e98",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "VOLTAGE_5",
                 "name": "VOLTAGE_5",
                 "outputs": [
@@ -11998,7 +12768,7 @@
                 ],
                 "id": "urn:infai:ses:service:87d91e7b-8937-4949-a8be-f5bc78b12ed4",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event",
                 "local_id": "VOLTAGE_6",
                 "name": "VOLTAGE_6",
                 "outputs": [
@@ -12059,7 +12829,7 @@
                 ],
                 "id": "urn:infai:ses:service:917f5270-15b4-4c7b-8e70-3e70c8ac96c2",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "getMeasurements",
                 "name": "getMeasurementsService",
                 "outputs": [
@@ -12186,7 +12956,7 @@
                 ],
                 "id": "urn:infai:ses:service:1199edee-fbf7-44fb-9228-9a9db69bbdd4",
                 "inputs": [],
-                "interaction": "",
+                "interaction": "event+request",
                 "local_id": "getStatus",
                 "name": "getStatusService",
                 "outputs": [
@@ -12375,7 +13145,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setBrightness",
                 "name": "setBrightnessService",
                 "outputs": [],
@@ -12453,7 +13223,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setColor",
                 "name": "setColorService",
                 "outputs": [],
@@ -12504,7 +13274,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setPower",
                 "name": "setOffService",
                 "outputs": [],
@@ -12555,7 +13325,7 @@
                         "serialization": "json"
                     }
                 ],
-                "interaction": "",
+                "interaction": "request",
                 "local_id": "setPower",
                 "name": "setOnService",
                 "outputs": [],
@@ -12567,7 +13337,6 @@
     "/protocols/urn:infai:ses:protocol:3b59ea31-da98-45fd-a354-1b9bd06b837e": {
         "handler": "moses",
         "id": "urn:infai:ses:protocol:3b59ea31-da98-45fd-a354-1b9bd06b837e",
-        "interaction": "event+request",
         "name": "moses",
         "protocol_segments": [
             {
@@ -12579,7 +13348,6 @@
     "/protocols/urn:infai:ses:protocol:c9a06d44-0cd0-465b-b0d9-560d604057a2": {
         "handler": "mqtt",
         "id": "urn:infai:ses:protocol:c9a06d44-0cd0-465b-b0d9-560d604057a2",
-        "interaction": "event",
         "name": "mqtt-connector",
         "protocol_segments": [
             {
@@ -12595,7 +13363,6 @@
     "/protocols/urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b": {
         "handler": "connector",
         "id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
-        "interaction": "event+request",
         "name": "standard-connector",
         "protocol_segments": [
             {

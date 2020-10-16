@@ -539,7 +539,8 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:7621686a-56bc-402d-b4cc-5b266d39736f",
             "urn:infai:ses:characteristic:c0353532-a8fb-4553-a00b-418cb8a80a65",
-            "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5"
+            "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5",
+            "urn:infai:ses:characteristic:ec1c6df0-ab87-416e-827d-1ad1440cee6f"
         ],
         "id": "urn:infai:ses:concept:ebfeabb3-50f0-44bd-b06e-95eb52df484e",
         "name": "binary state",
@@ -567,6 +568,56 @@
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Integer"
+    },
+    "/concepts/urn:infai:ses:concept:ebfeabb3-50f0-44bd-b06e-95eb52df484e/characteristics/urn:infai:ses:characteristic:ec1c6df0-ab87-416e-827d-1ad1440cee6f": {
+        "id": "urn:infai:ses:characteristic:ec1c6df0-ab87-416e-827d-1ad1440cee6f",
+        "name": "jwtest",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": [
+            {
+                "id": "urn:infai:ses:characteristic:ee0a4dfa-d962-4611-89c9-930d359d51a6",
+                "name": "ima a what",
+                "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+                "sub_characteristics": null,
+                "type": "https://schema.org/Text",
+                "value": "lizard"
+            },
+            {
+                "id": "urn:infai:ses:characteristic:69e7b0cf-28ca-4a49-b248-7ff65c2a08b1",
+                "name": "sub1",
+                "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+                "sub_characteristics": [
+                    {
+                        "id": "urn:infai:ses:characteristic:a65d385d-0f80-4ba3-ac97-ab3550af5e19",
+                        "name": "subsub2",
+                        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+                        "sub_characteristics": null,
+                        "type": "https://schema.org/Boolean",
+                        "value": true
+                    },
+                    {
+                        "id": "urn:infai:ses:characteristic:4e0d8fd3-d2a2-4d59-b84d-2ce4b8262181",
+                        "max_value": 100,
+                        "min_value": 0,
+                        "name": "subsub1",
+                        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+                        "sub_characteristics": null,
+                        "type": "https://schema.org/Integer",
+                        "value": 12
+                    },
+                    {
+                        "id": "urn:infai:ses:characteristic:a43f5c9f-8a38-45f6-8c60-56c896ee8804",
+                        "name": "subisub",
+                        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+                        "sub_characteristics": null,
+                        "type": "https://schema.org/Float"
+                    }
+                ],
+                "type": "https://schema.org/ItemList"
+            }
+        ],
+        "type": "https://schema.org/ItemList",
+        "value": "{val:'ue'}"
     },
     "/concepts/urn:infai:ses:concept:f917e146-9192-4796-8bbe-6be14292346f": {
         "base_characteristic_id": "urn:infai:ses:characteristic:5caa707d-dc08-4f3b-bd9f-f08935c8dd3c",
@@ -6718,6 +6769,262 @@
             }
         ]
     },
+    "/device-types/urn:infai:ses:device-type:827a4201-cd4c-4c2f-8883-f6684bd6be39": {
+        "description": "",
+        "device_class_id": "urn:infai:ses:device-class:79de1bd9-b933-412d-b98e-4cfe19aa3250",
+        "id": "urn:infai:ses:device-type:827a4201-cd4c-4c2f-8883-f6684bd6be39",
+        "name": "Fibaro Wall Plug Testwohnung",
+        "rdf_type": "",
+        "services": [
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e"
+                ],
+                "id": "urn:infai:ses:service:18fa68fa-a66e-42da-b122-ef26b98b3c62",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "get_level:50-0",
+                "name": "getEnergyConsumptionService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:55add698-be92-4ad5-b814-393a46549238",
+                            "name": "state",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e",
+                                    "id": "urn:infai:ses:content-variable:ec660928-800b-4dbb-8d96-b06f59508a5f",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:7ed9aa4c-7ae6-4713-9890-4d13587b1cbd",
+                                    "name": "updateTime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:e0a164df-0b92-410a-a3df-077224be5d30",
+                                    "name": "level_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "level",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:287694b0-4fbe-4d4e-bcd9-6e4253a71f39",
+                                    "name": "updateTime_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "updateTime",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:16903917-f996-4e30-ace0-1769dbba929d",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
+                ],
+                "id": "urn:infai:ses:service:a514b6f9-8e2c-401c-ad0e-0d9e88c5e859",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "get_level:37",
+                "name": "getOnOffStateService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:977c6816-6f5d-4646-ad75-7b7a75c03564",
+                            "name": "status",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:7621686a-56bc-402d-b4cc-5b266d39736f",
+                                    "id": "urn:infai:ses:content-variable:ba0957ba-11cb-4c66-8832-1a842f9b8dbf",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:325e296b-3a1f-4de6-a2c1-d02a2e83e05c",
+                                    "name": "updateTime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:dca85626-5c20-4688-ada4-9084ddf0ced9",
+                                    "name": "level_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "level",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:adfc3530-dd83-4b6c-a9b5-f7cbc5cffe05",
+                                    "name": "updateTime_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "updateTime",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:568aed8e-aee8-41d9-ba4c-0bcff7687df9",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0"
+                ],
+                "id": "urn:infai:ses:service:e7efcc1f-818c-441e-8f06-45353a784b90",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "get_level:50-2",
+                "name": "getPowerMeterService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:b6e11c42-0fc1-48e4-8f30-e973d39a0aa7",
+                            "name": "state",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:dbe9a50d-58bd-4ff6-b5ce-381ee567b0fe",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:63222338-af4d-4a68-b4f0-1810d44ddf52",
+                                    "name": "updateTime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:8c091c41-d8ea-41e6-a08b-09f133fcb32b",
+                                    "name": "level_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "level",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:78d75f47-e742-473c-b13c-6f549f6e45a5",
+                                    "name": "updateTime_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "updateTime",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:8b9b8ad4-8605-4b0f-83b3-34cda282dd49",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:controlling-function:2f35150b-9df7-4cad-95bc-165fa00219fd"
+                ],
+                "id": "urn:infai:ses:service:8e12b9b4-d6c0-44a3-ad1a-60e3e626a6d5",
+                "inputs": [],
+                "interaction": "request",
+                "local_id": "off:37",
+                "name": "setOffStateService",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:controlling-function:79e7914b-f303-4a7d-90af-dee70db05fd9"
+                ],
+                "id": "urn:infai:ses:service:31d43d1c-69e5-440f-95e4-86e840091026",
+                "inputs": [],
+                "interaction": "request",
+                "local_id": "on:37",
+                "name": "setOnStateService",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            }
+        ]
+    },
     "/device-types/urn:infai:ses:device-type:906d2c88-5d78-4f83-b2f5-ad3641a257fc": {
         "description": "",
         "device_class_id": "urn:infai:ses:device-class:f00e3915-9f09-4aa4-9aaf-1177459c4312",
@@ -9634,32 +9941,6 @@
             }
         ]
     },
-    "/device-types/urn:infai:ses:device-type:c688c7ce-11cc-4cda-b74e-eefa35b01999": {
-        "description": "",
-        "device_class_id": "urn:infai:ses:device-class:ff64280a-58e6-4cf9-9a44-e70d3831a79d",
-        "id": "urn:infai:ses:device-type:c688c7ce-11cc-4cda-b74e-eefa35b01999",
-        "name": "testsdfsfdfdsdfs",
-        "rdf_type": "",
-        "services": [
-            {
-                "aspect_ids": [
-                    "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6"
-                ],
-                "description": "",
-                "function_ids": [
-                    "urn:infai:ses:controlling-function:79e7914b-f303-4a7d-90af-dee70db05fd9"
-                ],
-                "id": "urn:infai:ses:service:21cac340-af8d-4ce9-a2c9-a8e7276767ed",
-                "inputs": [],
-                "interaction": "event+request",
-                "local_id": "t",
-                "name": "t",
-                "outputs": [],
-                "protocol_id": "urn:infai:ses:protocol:c9a06d44-0cd0-465b-b0d9-560d604057a2",
-                "rdf_type": ""
-            }
-        ]
-    },
     "/device-types/urn:infai:ses:device-type:c74a03be-a47f-445a-b705-ba1578832249": {
         "description": "",
         "device_class_id": "urn:infai:ses:device-class:ac2ea17c-9818-4e60-b011-8880b2fc94ce",
@@ -9761,6 +10042,333 @@
                     }
                 ],
                 "protocol_id": "urn:infai:ses:protocol:c9a06d44-0cd0-465b-b0d9-560d604057a2",
+                "rdf_type": ""
+            }
+        ]
+    },
+    "/device-types/urn:infai:ses:device-type:c82a0a2f-b9fe-4f2f-ad5e-798508a8095f": {
+        "description": "",
+        "device_class_id": "urn:infai:ses:device-class:79de1bd9-b933-412d-b98e-4cfe19aa3250",
+        "id": "urn:infai:ses:device-type:c82a0a2f-b9fe-4f2f-ad5e-798508a8095f",
+        "name": "Fibaro Smart Plug Testwohnung",
+        "rdf_type": "",
+        "services": [
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e"
+                ],
+                "id": "urn:infai:ses:service:e9d2d14d-5461-4012-96f7-b0aa5890e7e8",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "get_level:50-0",
+                "name": "getEnergyConsumptionService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:c6630f6f-852c-4362-a1e1-598577c3f40a",
+                            "name": "state",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e",
+                                    "id": "urn:infai:ses:content-variable:6db38565-e110-4a37-af1a-a95748932fbd",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:c6e59f51-5313-4467-94e8-6670012ca2b5",
+                                    "name": "updateTime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:2c367aea-3403-4529-9e67-efe3cf78603d",
+                                    "name": "level_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "level",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:2ad4a58a-b089-447a-bf3c-3d797a3c69b7",
+                                    "name": "updateTime_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "updateTime",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:e75a4e3f-c201-4faf-9c7b-7da22463d059",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
+                ],
+                "id": "urn:infai:ses:service:701b1b16-9e0e-4da4-9374-789abb9a4bd6",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "get_level:37",
+                "name": "getOnOffStateService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:2c0075e0-478b-4174-9219-b8eef754f33c",
+                            "name": "status",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:7621686a-56bc-402d-b4cc-5b266d39736f",
+                                    "id": "urn:infai:ses:content-variable:bad50a1f-af10-4cca-8e58-3c57a009a3dd",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:64d05a2d-3cc6-4d16-94c3-75e51c0b0823",
+                                    "name": "updateTime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:b8716b94-a0ec-4fc2-9fe0-e451be9e7dd8",
+                                    "name": "level_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "level",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:73e2d19f-67cd-4b22-bfff-69095211681a",
+                                    "name": "updateTime_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "updateTime",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:8776cb73-ca4f-4776-8342-00eaa1f7a0ad",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0"
+                ],
+                "id": "urn:infai:ses:service:e6e7203d-bf3d-4380-8da4-99ca96fe2021",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "get_level:49-4",
+                "name": "getPowerConsumptionService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:eca4425d-fcbd-4ed1-9bb3-f7f45d601cf2",
+                            "name": "power",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:4a55d728-631c-4201-ae9f-339620bd5077",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": "0"
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:acfda186-e27e-4063-8541-a5dc7bc0a884",
+                                    "name": "updateTime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:b83ad23b-0e05-4b8c-a1c0-99bbbeb956f0",
+                                    "name": "level_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "level",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:3d45a0b8-da62-492d-8474-07ccd33ab98b",
+                                    "name": "updateTime_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "updateTime",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:c7413024-0157-4989-89ef-68931d55e7bc",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0"
+                ],
+                "id": "urn:infai:ses:service:9846ad9c-9236-4b56-97ab-e462f9f2028a",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "get_level:50-2",
+                "name": "getPowerMeterService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:059b82c2-5650-4725-8c9b-dc0b268aee32",
+                            "name": "state",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:1bfa3f35-3389-4737-89eb-f27d6eed7a87",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                    "id": "urn:infai:ses:content-variable:8d5555c2-dab9-473c-9885-efb0255d35ad",
+                                    "name": "updateTime",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:977ee598-910a-4ac3-a7a7-26f438e0c1b3",
+                                    "name": "level_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "level",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:434de437-bdb1-48f0-972c-014840c61058",
+                                    "name": "updateTime_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "updateTime",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:d6f72823-7449-401b-8b07-f504442e7877",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:controlling-function:2f35150b-9df7-4cad-95bc-165fa00219fd"
+                ],
+                "id": "urn:infai:ses:service:c95a6f36-e834-41b5-86f0-2f20e0cd7004",
+                "inputs": [],
+                "interaction": "request",
+                "local_id": "off:37",
+                "name": "setOffStateService",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:controlling-function:79e7914b-f303-4a7d-90af-dee70db05fd9"
+                ],
+                "id": "urn:infai:ses:service:fa3a0647-588c-4545-8df1-61dc071dae6a",
+                "inputs": [],
+                "interaction": "request",
+                "local_id": "on:37",
+                "name": "setOnStateService",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
                 "rdf_type": ""
             }
         ]

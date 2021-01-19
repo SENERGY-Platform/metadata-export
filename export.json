@@ -749,6 +749,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:00549f18-88b5-44c7-adb1-f558e8d53d1d"
                 ],
                 "id": "urn:infai:ses:service:52afd26b-13b1-47ab-a787-5186f02ced63",
@@ -820,6 +821,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:5b9b21f4-ad88-42c9-94e0-2cda52d58568",
@@ -1439,6 +1441,7 @@
                 ],
                 "description": "{          \"type\":\"sensorMultilevel\",          \"vDevId\":\"ZWayVDev_zway_50-0-50-0\",          \"commandClass\":\"Meter\",          \"localId\":\"get_level:50-0\",          \"info\":{             \"sensorTypeString\":\"Electric\",             \"scaleString\":\"kWh\"          },          \"outputExample\":{             \"level\":42,             \"updateTime\":\"date and time as string\"          }       },",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e"
                 ],
                 "id": "urn:infai:ses:service:3aaddac5-223b-4cd6-b9d1-b17b25b7ac0f",
@@ -1510,6 +1513,7 @@
                 ],
                 "description": "{          \"type\":\"switchBinary\",          \"vDevId\":\"ZWayVDev_zway_50-0-37\",          \"commandClass\":\"SwitchBinary\",          \"localId\":\"get_level:37\",          \"outputExample\":{             \"level\":\"on|off\",             \"updateTime\":\"date and time as string\"          }       }",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:33394eae-9df1-47d0-b115-adfcb0a50ff6",
@@ -1581,6 +1585,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0"
                 ],
                 "id": "urn:infai:ses:service:642ba3c3-5c7a-40f1-a134-4d6fd4d6cd95",
@@ -1695,7 +1700,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:c51a6ea5-90c3-4223-9052-6fe4136386cd"
+                    "urn:infai:ses:measuring-function:c51a6ea5-90c3-4223-9052-6fe4136386cd",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:ba338bca-15d5-4041-a2a9-6960b270b113",
                 "inputs": [],
@@ -1755,6 +1761,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:bdb6a7c8-4a3d-4fe0-bab3-ce02e09b5869"
                 ],
                 "id": "urn:infai:ses:service:510941da-4f18-403f-9c28-8ba686439ec6",
@@ -1833,7 +1840,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b"
+                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:86d8a826-f875-41c9-97ea-632e6b735609",
                 "inputs": [],
@@ -1893,6 +1901,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:3118d662-77d4-436e-8274-8430b3bce54f",
@@ -2342,6 +2351,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:00549f18-88b5-44c7-adb1-f558e8d53d1d"
                 ],
                 "id": "urn:infai:ses:service:ec59b466-d14e-48c9-8051-edd71d505455",
@@ -2413,6 +2423,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:d7bd8d39-92f7-49da-9dd9-5445c45f2e27"
                 ],
                 "id": "urn:infai:ses:service:c7b72b1b-42e7-42b6-9810-8b469b2c0266",
@@ -2484,7 +2495,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:64dfd53a-f288-40f7-a3ef-a6a7f7c8a7c3"
+                    "urn:infai:ses:measuring-function:64dfd53a-f288-40f7-a3ef-a6a7f7c8a7c3",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:4e5f894a-bee7-454b-b9fe-6358b7174e8e",
                 "inputs": [],
@@ -2555,7 +2567,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:531efa86-f476-4c9f-8181-8753b7fb938c"
+                    "urn:infai:ses:measuring-function:531efa86-f476-4c9f-8181-8753b7fb938c",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:20eb48e4-d89e-4e19-b86f-d6e85e6774a1",
                 "inputs": [],
@@ -2626,7 +2639,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b"
+                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:08c7217a-7303-4f92-9434-1b8655a52e04",
                 "inputs": [],
@@ -2706,6 +2720,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:00549f18-88b5-44c7-adb1-f558e8d53d1d"
                 ],
                 "id": "urn:infai:ses:service:13cc8f82-9259-4306-95ba-e0405ca1ecf5",
@@ -2777,6 +2792,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:b09a1709-a41e-48cf-b038-7a0b52883838",
@@ -2934,6 +2950,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:00549f18-88b5-44c7-adb1-f558e8d53d1d"
                 ],
                 "id": "urn:infai:ses:service:8e7ad152-e537-4466-a4e4-287ff5a0f4cb",
@@ -3005,6 +3022,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:aec26a55-9953-4220-be60-987812e05419",
@@ -3077,7 +3095,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:531efa86-f476-4c9f-8181-8753b7fb938c"
+                    "urn:infai:ses:measuring-function:531efa86-f476-4c9f-8181-8753b7fb938c",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:173379b2-eb62-4a16-914a-f84712bf87e1",
                 "inputs": [],
@@ -3148,6 +3167,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:231da98e-f21d-47bc-9f56-6606397221a2"
                 ],
                 "id": "urn:infai:ses:service:d7170932-3500-4719-8555-9b2b94114a9e",
@@ -3484,6 +3504,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:00549f18-88b5-44c7-adb1-f558e8d53d1d"
                 ],
                 "id": "urn:infai:ses:service:76df88c6-4144-4eae-8a8b-d83be55d0f68",
@@ -3555,6 +3576,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:53bb96e5-1fb1-4409-89a6-ae6c7332eae4"
                 ],
                 "id": "urn:infai:ses:service:19e2a58f-b50c-4def-b5d2-8d9c782bb1e0",
@@ -3626,6 +3648,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:d7bd8d39-92f7-49da-9dd9-5445c45f2e27"
                 ],
                 "id": "urn:infai:ses:service:64ad04a3-de5e-4139-8e70-1946d27a35b7",
@@ -3697,7 +3720,8 @@
                 ],
                 "description": "PIR ",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:64dfd53a-f288-40f7-a3ef-a6a7f7c8a7c3"
+                    "urn:infai:ses:measuring-function:64dfd53a-f288-40f7-a3ef-a6a7f7c8a7c3",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:f0dd0dea-a5fd-477c-b4c6-5e46d59d5d41",
                 "inputs": [],
@@ -3768,7 +3792,8 @@
                 ],
                 "description": "Burglar",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:531efa86-f476-4c9f-8181-8753b7fb938c"
+                    "urn:infai:ses:measuring-function:531efa86-f476-4c9f-8181-8753b7fb938c",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:2e286ba3-7e62-438f-86dd-261bbdb0b917",
                 "inputs": [],
@@ -3839,7 +3864,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b"
+                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:824f709b-dac7-47b6-8096-489cf24d5b98",
                 "inputs": [],
@@ -3910,6 +3936,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:be920197-3eae-4625-8373-ae82b86f21da"
                 ],
                 "id": "urn:infai:ses:service:5aa3a36e-ca21-4a82-80a6-13ca4b33b81b",
@@ -3990,6 +4017,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:00549f18-88b5-44c7-adb1-f558e8d53d1d"
                 ],
                 "id": "urn:infai:ses:service:9e106b8d-8d5e-4f45-bd00-d20f73f4fb3d",
@@ -4061,6 +4089,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:53bb96e5-1fb1-4409-89a6-ae6c7332eae4"
                 ],
                 "id": "urn:infai:ses:service:abc00710-c3ac-4c2d-b7ad-b87f5d187bd3",
@@ -4132,6 +4161,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:d7bd8d39-92f7-49da-9dd9-5445c45f2e27"
                 ],
                 "id": "urn:infai:ses:service:a659b88c-dc0a-4843-b19e-ca0323a43374",
@@ -4203,7 +4233,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:64dfd53a-f288-40f7-a3ef-a6a7f7c8a7c3"
+                    "urn:infai:ses:measuring-function:64dfd53a-f288-40f7-a3ef-a6a7f7c8a7c3",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:51eb8a6e-c0e3-4021-bdaa-a39d0f7a75d5",
                 "inputs": [],
@@ -4274,7 +4305,8 @@
                 ],
                 "description": "Burglar",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:531efa86-f476-4c9f-8181-8753b7fb938c"
+                    "urn:infai:ses:measuring-function:531efa86-f476-4c9f-8181-8753b7fb938c",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:ab7515cb-ced3-41c3-b602-7b66ab1f0fb3",
                 "inputs": [],
@@ -4345,7 +4377,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b"
+                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:d3dba284-ef6d-4f12-81df-ed11506702b2",
                 "inputs": [],
@@ -4626,6 +4659,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0",
                     "urn:infai:ses:measuring-function:bdb6a7c8-4a3d-4fe0-bab3-ce02e09b5869"
                 ],
@@ -5014,6 +5048,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0",
                     "urn:infai:ses:measuring-function:bdb6a7c8-4a3d-4fe0-bab3-ce02e09b5869"
                 ],
@@ -5793,6 +5828,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:53bb96e5-1fb1-4409-89a6-ae6c7332eae4"
                 ],
                 "id": "urn:infai:ses:service:50da6b19-7be3-40eb-b2b8-b9c878b81b0f",
@@ -5872,6 +5908,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:00549f18-88b5-44c7-adb1-f558e8d53d1d"
                 ],
                 "id": "urn:infai:ses:service:b8e5f790-a5b1-4381-8fe4-a67a6f2d1441",
@@ -5943,7 +5980,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b"
+                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:f306de41-a55b-45ed-afc9-039bbe53db1b",
                 "inputs": [],
@@ -6065,6 +6103,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:852bedb3-3669-4bdc-9942-97bf668bd4fb",
@@ -6495,6 +6534,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:908809bc-1f06-4c6e-8552-5643be34a15c",
@@ -6700,6 +6740,7 @@
                 ],
                 "description": "Electric Meter kWh",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e"
                 ],
                 "id": "urn:infai:ses:service:81f73950-b340-48ae-b671-37dcb9cdabfc",
@@ -6771,6 +6812,7 @@
                 ],
                 "description": "Electric Meter kWh",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e"
                 ],
                 "id": "urn:infai:ses:service:145d9626-ba35-412d-a5be-0c08b1d670e1",
@@ -6842,6 +6884,7 @@
                 ],
                 "description": "Electric Meter kWh",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e"
                 ],
                 "id": "urn:infai:ses:service:2f86c89d-0b70-4ce8-9e7c-6661e4475c0e",
@@ -6913,6 +6956,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:695bab5f-1e1f-42de-a3a9-82fc04a41be3",
@@ -6984,6 +7028,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:1d58a572-2ad2-47ed-b486-47ea97c67968",
@@ -7055,6 +7100,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:48b8d06c-312c-4c30-b47e-b50f2258460b",
@@ -7126,6 +7172,7 @@
                 ],
                 "description": "Electric Meter",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0"
                 ],
                 "id": "urn:infai:ses:service:01748eff-eb5b-4046-92b8-61b483e70413",
@@ -7197,6 +7244,7 @@
                 ],
                 "description": "Electric Meter",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0"
                 ],
                 "id": "urn:infai:ses:service:844467ee-7845-4a73-ae36-1a7c482bb5e6",
@@ -7268,6 +7316,7 @@
                 ],
                 "description": "Electric Meter",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0"
                 ],
                 "id": "urn:infai:ses:service:fb152a35-bcc9-4108-a598-b1e8bace739a",
@@ -7939,6 +7988,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:8b994547-dbf4-4e3c-a356-e676a744c601"
                 ],
                 "id": "urn:infai:ses:service:3ae233c2-5fce-40be-aec0-737a60acfcae",
@@ -8055,6 +8105,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:231da98e-f21d-47bc-9f56-6606397221a2"
                 ],
                 "id": "urn:infai:ses:service:5850918a-a660-4b05-a15e-842c3e25906c",
@@ -8171,6 +8222,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:0f5d1220-f31e-40b2-b6b5-bc7cfa259dae",
@@ -8287,7 +8339,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:61b1f2db-3cff-49d8-b22d-424073269f35"
+                    "urn:infai:ses:measuring-function:61b1f2db-3cff-49d8-b22d-424073269f35",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:44141edb-d630-4eb0-84bb-2e4f1ce31742",
                 "inputs": [],
@@ -8404,6 +8457,7 @@
                 "description": "",
                 "function_ids": [
                     "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:53bb96e5-1fb1-4409-89a6-ae6c7332eae4"
                 ],
                 "id": "urn:infai:ses:service:f36197ab-f4cc-428a-9ad3-68c36a8da6d1",
@@ -8512,7 +8566,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:f6066d39-ed16-4c69-82aa-e18bcf2be2a7"
+                    "urn:infai:ses:measuring-function:f6066d39-ed16-4c69-82aa-e18bcf2be2a7",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:469cb0a1-5325-4cb6-bfc1-1e966f472a04",
                 "inputs": [],
@@ -8931,6 +8986,7 @@
                 ],
                 "description": "{             \"type\":\"battery\",             \"vDevId\":\"ZWayVDev_zway_43-0-128\",             \"commandClass\":\"Battery\",             \"localId\":\"get_level:128\",             \"outputExample\":{                \"level\":42,                \"updateTime\":\"date and time as string\"             }          }",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:00549f18-88b5-44c7-adb1-f558e8d53d1d"
                 ],
                 "id": "urn:infai:ses:service:ec5f637c-9a78-4928-b6c9-b3047b9dc2f3",
@@ -9002,7 +9058,8 @@
                 ],
                 "description": "{             \"type\":\"thermostat\",             \"vDevId\":\"ZWayVDev_zway_43-0-67-1\",             \"commandClass\":\"ThermostatSetPoint\",             \"localId\":\"get_level:67-1\",             \"info\":{                \"scaleString\":\"°C\",                \"modeName\":\"Heating\",                \"deviceScaleString\":\"°C\"             },             \"outputExample\":{                \"level\":42.2,                \"updateTime\":\"date and time as string\"             }          }",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b"
+                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:da7431de-f566-4a74-8e30-f19407f527bd",
                 "inputs": [],
@@ -9073,7 +9130,8 @@
                 ],
                 "description": "{             \"type\":\"sensorMultilevel\",             \"vDevId\":\"ZWayVDev_zway_43-0-49-1\",             \"commandClass\":\"SensorMultilevel\",             \"localId\":\"get_level:49-1\",             \"info\":{                \"sensorTypeString\":\"Temperature\",                \"scaleString\":\"°C\"             },             \"outputExample\":{                \"level\":42,                \"updateTime\":\"date and time as string\"             }          }",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b"
+                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:e6566b71-3578-40bb-b4e1-92632e625e3a",
                 "inputs": [],
@@ -9212,6 +9270,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e"
                 ],
                 "id": "urn:infai:ses:service:f4745e3f-f7b7-4cc0-b0d7-54fb730245eb",
@@ -9499,6 +9558,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:f144270c-8f7d-4597-924d-23bf04d068b9",
@@ -9861,7 +9921,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:f2c1a22f-a49e-4549-9833-62f0994afec0"
+                    "urn:infai:ses:measuring-function:f2c1a22f-a49e-4549-9833-62f0994afec0",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:422fd899-a2cc-4e43-8d81-4e330a7ca8ab",
                 "inputs": [],
@@ -9921,7 +9982,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:0e19d094-70c6-402c-8523-3aaff2ce6dd9"
+                    "urn:infai:ses:measuring-function:0e19d094-70c6-402c-8523-3aaff2ce6dd9",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:1d20a68b-7136-456c-ace5-c3adb66866bf",
                 "inputs": [],
@@ -9981,6 +10043,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:22bbaa27-595c-4f53-bdda-8b9614ecdf76"
                 ],
                 "id": "urn:infai:ses:service:68a6aaeb-c0bc-46ce-aba4-8cf65a2dd4e5",
@@ -10258,7 +10321,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:c51a6ea5-90c3-4223-9052-6fe4136386cd"
+                    "urn:infai:ses:measuring-function:c51a6ea5-90c3-4223-9052-6fe4136386cd",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:5bd70640-07dc-4a7f-8d76-8f311e124e19",
                 "inputs": [],
@@ -10318,6 +10382,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:bdb6a7c8-4a3d-4fe0-bab3-ce02e09b5869"
                 ],
                 "id": "urn:infai:ses:service:14de8d83-a4c7-4d5e-b103-5850f013e232",
@@ -10396,6 +10461,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:67052258-dc4a-449a-8813-3ff64a3f9bac",
@@ -10644,7 +10710,7 @@
                                     "serialization_options": null,
                                     "sub_content_variables": null,
                                     "type": "https://schema.org/Boolean",
-                                    "value": "false"
+                                    "value": false
                                 }
                             ],
                             "type": "https://schema.org/StructuredValue",
@@ -10769,6 +10835,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:00549f18-88b5-44c7-adb1-f558e8d53d1d"
                 ],
                 "id": "urn:infai:ses:service:1408be20-0c87-462e-9f5b-b8deb5bbf293",
@@ -10840,6 +10907,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:d7bd8d39-92f7-49da-9dd9-5445c45f2e27"
                 ],
                 "id": "urn:infai:ses:service:22f01588-7cf8-43bb-866d-3bcc1a90b430",
@@ -10911,7 +10979,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:64dfd53a-f288-40f7-a3ef-a6a7f7c8a7c3"
+                    "urn:infai:ses:measuring-function:64dfd53a-f288-40f7-a3ef-a6a7f7c8a7c3",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:0de65d51-7cb1-4eeb-82af-50a3b186cd35",
                 "inputs": [],
@@ -10982,7 +11051,8 @@
                 ],
                 "description": "Burglar",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:531efa86-f476-4c9f-8181-8753b7fb938c"
+                    "urn:infai:ses:measuring-function:531efa86-f476-4c9f-8181-8753b7fb938c",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:8bad90eb-637b-4a37-8f72-5574e0b7b664",
                 "inputs": [],
@@ -11053,7 +11123,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b"
+                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:1495adb5-d1a5-4596-b13c-55a10583efce",
                 "inputs": [],
@@ -11238,6 +11309,7 @@
                 ],
                 "description": "warning if CO2 ppm is greater than threshold",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:e59bbee4-32a4-456b-99b9-dea8c3545dfc"
                 ],
                 "id": "urn:infai:ses:service:f7f33015-6708-4b0a-becd-40591e45411b",
@@ -11289,7 +11361,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:ad89a222-75a2-47e1-9fe3-969094320881"
+                    "urn:infai:ses:measuring-function:ad89a222-75a2-47e1-9fe3-969094320881",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:f30a55f5-c481-4a90-9c1b-83ab6daf7c80",
                 "inputs": [],
@@ -11340,6 +11413,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:53bb96e5-1fb1-4409-89a6-ae6c7332eae4"
                 ],
                 "id": "urn:infai:ses:service:50093075-3e04-4e57-94b0-503b82e658ef",
@@ -11391,7 +11465,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b"
+                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:6c24ef3b-7731-4f30-8fdf-726b97c08d07",
                 "inputs": [],
@@ -11451,6 +11526,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:00549f18-88b5-44c7-adb1-f558e8d53d1d"
                 ],
                 "id": "urn:infai:ses:service:125c0d38-edd6-41d1-aab2-b41d2af3a875",
@@ -11522,6 +11598,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:1caa7a04-1dc8-4927-961d-78d5eb743cc2",
@@ -11593,7 +11670,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:531efa86-f476-4c9f-8181-8753b7fb938c"
+                    "urn:infai:ses:measuring-function:531efa86-f476-4c9f-8181-8753b7fb938c",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:4ebc63d2-43f3-43c1-b9a1-3287fef1a276",
                 "inputs": [],
@@ -11664,7 +11742,8 @@
                 ],
                 "description": "",
                 "function_ids": [
-                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b"
+                    "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290"
                 ],
                 "id": "urn:infai:ses:service:b82600b2-86a4-4289-8146-83b1df84ecf8",
                 "inputs": [],
@@ -12930,6 +13009,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:7f7fca4b-8812-487b-956f-351c5cda0098",
@@ -13133,6 +13213,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e",
                     "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0"
                 ],
@@ -13241,6 +13322,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0",
                     "urn:infai:ses:measuring-function:bdb6a7c8-4a3d-4fe0-bab3-ce02e09b5869"
                 ],
@@ -13601,6 +13683,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e"
                 ],
                 "id": "urn:infai:ses:service:97805820-ca0a-46c5-9dcf-16c2e386b050",
@@ -13804,6 +13887,7 @@
                 ],
                 "description": "",
                 "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                     "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
                 ],
                 "id": "urn:infai:ses:service:8900391e-28b6-49c2-b90d-a57a6ba02315",
@@ -14218,6 +14302,13 @@
         "description": "",
         "id": "urn:infai:ses:measuring-function:2acad12c-8983-4655-9a2d-e2359a706101",
         "name": "getPressureFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290": {
+        "concept_id": "urn:infai:ses:concept:9286d398-f49d-494f-8157-bea17947b1fa",
+        "description": "",
+        "id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+        "name": "getTimestampFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
     "/functions/urn:infai:ses:measuring-function:4f3cbfb4-ccb0-4233-a7c3-61760a069c02": {

@@ -7535,7 +7535,7 @@
         "description": "",
         "device_class_id": "urn:infai:ses:device-class:79de1bd9-b933-412d-b98e-4cfe19aa3250",
         "id": "urn:infai:ses:device-type:7f1d4ee3-a456-431d-a4af-16b560650e98",
-        "name": "Fibaro Walli Switch 2 (2 Schaltkreise)",
+        "name": "Fibaro Walli Switch 2 (2 Schaltkreise) (deprecated)",
         "rdf_type": "",
         "services": [
             {
@@ -12313,6 +12313,855 @@
                         "serialization": "json"
                     }
                 ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            }
+        ]
+    },
+    "/device-types/urn:infai:ses:device-type:d1ead2cb-ab6e-4a3f-b412-db497ae30971": {
+        "description": "",
+        "device_class_id": "urn:infai:ses:device-class:79de1bd9-b933-412d-b98e-4cfe19aa3250",
+        "id": "urn:infai:ses:device-type:d1ead2cb-ab6e-4a3f-b412-db497ae30971",
+        "name": "Fibaro Walli Switch 2 (2 Schaltkreise)",
+        "rdf_type": "",
+        "services": [
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "Electric Meter kWh",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                    "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e"
+                ],
+                "id": "urn:infai:ses:service:c110a3b6-3ad0-4a1f-ba74-151d3579d6d4",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "50-1-0:get",
+                "name": "getEnergyConsumptionService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:6c0c27cc-6058-4b8b-9512-98be5f41427c",
+                            "name": "energy",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e",
+                                    "id": "urn:infai:ses:content-variable:65287506-1a59-4ee5-87a1-22729d2ad9fd",
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": 0
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "id": "urn:infai:ses:content-variable:23e45561-b622-48df-b933-d2db6c516056",
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:b0023843-51bd-4c10-b913-e94288061058",
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:16d8d8b2-091f-484b-bc60-10624040c445",
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:43aeb1f0-0e99-46e3-afe7-4c37759764cd",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "Electric Meter kWh",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                    "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e"
+                ],
+                "id": "urn:infai:ses:service:bb337c2a-5100-4aa6-9cf1-df2aed559f31",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "50-2-0:get",
+                "name": "getEnergyConsumptionService(1)",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:46491447-d6e0-4102-ba53-15e40d19adb1",
+                            "name": "energy",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e",
+                                    "id": "urn:infai:ses:content-variable:2a3bacda-7ab1-436d-b935-a351ca4578bd",
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": 0
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "id": "urn:infai:ses:content-variable:b8a1338e-3344-470e-982c-86eb247f7a7c",
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:13a6fd6d-1261-4151-b340-b8bbe02a252b",
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:7d5a8faf-9ecc-4a0f-827d-90208060f816",
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:c205a3b5-69b7-47f0-aec9-4ef5b5c84c0d",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "Electric Meter kWh",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                    "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e"
+                ],
+                "id": "urn:infai:ses:service:3aa0ab43-0a6c-4877-b931-35a10b4bc75f",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "50-3-0",
+                "name": "getEnergyConsumptionService(2)",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:29edbd21-705e-4562-a9b4-eb5992a8be54",
+                            "name": "energy",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e",
+                                    "id": "urn:infai:ses:content-variable:58edca0a-c4aa-4ffd-9a71-550d60dc634a",
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": 0
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "id": "urn:infai:ses:content-variable:653f513e-27b9-4c71-bb46-686c425bbcfa",
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:f0a1dad1-3f8b-4f11-8c89-284048d43f8f",
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:29855bdb-0028-4cb8-b8d5-515c669eac0f",
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:2a1fc0e7-9ff5-4e12-a68a-0f79d8c3f500",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                    "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
+                ],
+                "id": "urn:infai:ses:service:55fc0af0-2d82-447a-8899-529a1c250e54",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "37-1-0:get",
+                "name": "getOnOffStateService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:87851561-c1f7-48b8-9466-ba6c8541ba11",
+                            "name": "status",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5",
+                                    "id": "urn:infai:ses:content-variable:0410f31e-a8a2-4ac8-9421-bfe6c89ca4bd",
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Boolean",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "id": "urn:infai:ses:content-variable:a6667c87-cff4-4d18-8134-2f6bcbf90d61",
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:904ac211-bd1e-4e56-b3a6-1289bd4f2627",
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:89783f24-bad7-4bc5-92b0-88fc265be920",
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:7bac852c-0271-4197-9022-33190a54263e",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                    "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
+                ],
+                "id": "urn:infai:ses:service:8eceb112-8023-4534-baa0-5adc246a7386",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "37-2-0:get",
+                "name": "getOnOffStateService (1)",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:60661538-d69e-4042-aab4-3d421bc2adf5",
+                            "name": "status",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5",
+                                    "id": "urn:infai:ses:content-variable:60a1a6a9-0568-4c7d-bcca-9fc875c8de62",
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Boolean",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "id": "urn:infai:ses:content-variable:a8e11249-afc5-4e94-88cc-95f920515cdd",
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:094ae02d-5c6f-4c78-a4a8-82ba5638add6",
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:cb80f5ad-91aa-42a7-a1dd-132cf42db9ad",
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:4df92b84-a7b2-444f-a1d4-6952013e6034",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                    "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0"
+                ],
+                "id": "urn:infai:ses:service:56b50548-942a-48bf-8dab-0ec057acd81e",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "37-3-0:get",
+                "name": "getOnOffStateService (2)",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:da2008fd-74e7-4761-93b2-c415ea912496",
+                            "name": "status",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5",
+                                    "id": "urn:infai:ses:content-variable:b83a91c4-2595-4ee4-b6e5-34b703d83042",
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Boolean",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "id": "urn:infai:ses:content-variable:804d5440-08af-403e-9869-18c5b629724e",
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:d6328d2c-e22b-4a97-9277-909c267b6975",
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:62093689-90f4-4560-a081-9f2087fa0e17",
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:7e6def85-11c1-4a9c-8580-2644dd109110",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "Electric Meter",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                    "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0"
+                ],
+                "id": "urn:infai:ses:service:92d30fba-5a51-4285-adb7-20426cb7f929",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "50-1-2:get",
+                "name": "getPowerMeterService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:0a21cfa3-2312-4b72-836b-32e832df5649",
+                            "name": "power",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:050e8c7c-d850-4a9c-9352-5c9a83355dc4",
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": 0
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "id": "urn:infai:ses:content-variable:d57da7e7-99a1-4ccd-ae40-377cb22c864c",
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:81a6a29f-6afe-4316-bf6a-3c33b4da366e",
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:875f4b32-f540-481e-9844-d636841e7c6a",
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:01916f86-3b5e-4930-9cc1-24ef0229a174",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "Electric Meter",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                    "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0"
+                ],
+                "id": "urn:infai:ses:service:647e7d2f-c35c-4ed6-8ba1-79ce212fe55c",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "50-2-2:get",
+                "name": "getPowerMeterService(1)",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:136c5659-17a1-4f14-8f5c-50ba0d4dd79a",
+                            "name": "power",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:919350e5-11e7-4245-b4af-22641bad3e4c",
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": 0
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "id": "urn:infai:ses:content-variable:fc89c96f-d440-4814-8e0a-87002cf5308f",
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:bf50f600-abdd-4a35-9162-2aa84a85d77b",
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:13d67faf-0118-42ed-824a-bbb962e983b1",
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:6b67e6a3-aebe-4ae5-8bd5-329756d302f6",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "Electric Meter",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                    "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0"
+                ],
+                "id": "urn:infai:ses:service:93dc9c3b-3579-4aae-baa9-0efa235b88cc",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "50-3-2:get",
+                "name": "getPowerMeterService(2)",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:8f3556be-5c2c-421b-9ef3-93e9c6083e1a",
+                            "name": "power",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "id": "urn:infai:ses:content-variable:17df6007-efae-43b9-ba7d-bbb3f1ca2173",
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": 0
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "id": "urn:infai:ses:content-variable:8d82ba08-4304-499a-b785-5db434492251",
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:6a3c234d-e7e0-4d02-9fe2-3542a9c348c6",
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:8384924d-93d4-432b-a650-c6f86db6369d",
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:615d4960-5719-49c4-b3ba-762986383b32",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:controlling-function:2f35150b-9df7-4cad-95bc-165fa00219fd"
+                ],
+                "id": "urn:infai:ses:service:d04827fc-a10a-481a-80fb-042b6c7e4a95",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:a52fb94f-dc46-44e7-b64a-1861f72b6f9d",
+                            "name": "value",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Boolean",
+                            "value": false
+                        },
+                        "id": "urn:infai:ses:content:6d1b8c77-0d46-445d-a350-d62072a8d5c4",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "37-1-0",
+                "name": "setOffStateService",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:controlling-function:2f35150b-9df7-4cad-95bc-165fa00219fd"
+                ],
+                "id": "urn:infai:ses:service:1bfdbc9d-1e88-4ead-ad1a-7a8340544d51",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:c0cd7af5-7573-4deb-bd02-a22345a45447",
+                            "name": "value",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Boolean",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:5da4c326-95c2-4608-ad24-e50b3ea4b246",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "37-2-0",
+                "name": "setOffStateService (1)",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:controlling-function:2f35150b-9df7-4cad-95bc-165fa00219fd"
+                ],
+                "id": "urn:infai:ses:service:9f6cd563-ac78-482f-bc75-fd08a48d79a7",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:8ad8bfa4-b27b-4c2c-a696-904d7f6b4622",
+                            "name": "value",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Boolean",
+                            "value": false
+                        },
+                        "id": "urn:infai:ses:content:510b4b95-43fd-4207-97ad-3dc7041990c3",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "37-3-0",
+                "name": "setOffStateService (2)",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:controlling-function:79e7914b-f303-4a7d-90af-dee70db05fd9"
+                ],
+                "id": "urn:infai:ses:service:ee27e4ba-45a8-459d-b3dd-700da70046da",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:5077a707-6442-4987-b46d-d9fc956df44b",
+                            "name": "value",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Boolean",
+                            "value": true
+                        },
+                        "id": "urn:infai:ses:content:bdd02317-5297-4e40-9e2c-d53e7d7324e5",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "37-1-0",
+                "name": "setOnStateService",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:controlling-function:79e7914b-f303-4a7d-90af-dee70db05fd9"
+                ],
+                "id": "urn:infai:ses:service:c2bfe169-06ae-4367-bf41-5b740453ea0b",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:6f769684-31dd-472b-865e-1ec079a8593a",
+                            "name": "value",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Boolean",
+                            "value": true
+                        },
+                        "id": "urn:infai:ses:content:ad8f54c9-3f53-48a3-bc2a-b803b37fceff",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "37-2-0",
+                "name": "setOnStateService (1)",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            },
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:81a54897-07ba-4a4d-939f-99a71227cf83"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:controlling-function:79e7914b-f303-4a7d-90af-dee70db05fd9"
+                ],
+                "id": "urn:infai:ses:service:213d4374-6c97-4f56-9f62-275fd6ae1e25",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:8c5d9caa-a39c-43c6-a6cd-a20c6ff5bdb2",
+                            "name": "value",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Boolean",
+                            "value": true
+                        },
+                        "id": "urn:infai:ses:content:75734a6c-c26c-430a-8a4a-480c0399e6e7",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "37-3-0",
+                "name": "setOnStateService (2)",
+                "outputs": [],
                 "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
                 "rdf_type": ""
             }

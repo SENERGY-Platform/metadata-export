@@ -34,6 +34,11 @@
         "name": "Presence",
         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
     },
+    "/aspects/urn:infai:ses:aspect:b8b3b549-3b01-4604-a727-20aa528c21c9": {
+        "id": "urn:infai:ses:aspect:b8b3b549-3b01-4604-a727-20aa528c21c9",
+        "name": "Water",
+        "rdf_type": "https://senergy.infai.org/ontology/Aspect"
+    },
     "/aspects/urn:infai:ses:aspect:e4a736ff-803d-49f2-86fc-3980647e884e": {
         "id": "urn:infai:ses:aspect:e4a736ff-803d-49f2-86fc-3980647e884e",
         "name": "Door/Window",
@@ -62,7 +67,7 @@
     "/concepts/urn:infai:ses:concept:0bc81398-3ed6-4e2b-a6c4-b754583aac37/characteristics/urn:infai:ses:characteristic:5ba31623-0ccb-4488-bfb7-f73b50e03b5a": {
         "id": "urn:infai:ses:characteristic:5ba31623-0ccb-4488-bfb7-f73b50e03b5a",
         "min_value": -273.15,
-        "name": "celcius",
+        "name": "celsius",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
@@ -74,6 +79,54 @@
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Integer"
+    },
+    "/concepts/urn:infai:ses:concept:0c1eaf2b-ea3d-4ca9-8446-02c55dd5d3f4": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:7424a147-fb0e-4e71-a666-6c4997928e61"
+        ],
+        "id": "urn:infai:ses:concept:0c1eaf2b-ea3d-4ca9-8446-02c55dd5d3f4",
+        "name": "precipitation",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:0c1eaf2b-ea3d-4ca9-8446-02c55dd5d3f4/characteristics/urn:infai:ses:characteristic:7424a147-fb0e-4e71-a666-6c4997928e61": {
+        "id": "urn:infai:ses:characteristic:7424a147-fb0e-4e71-a666-6c4997928e61",
+        "name": "precipitation mm",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:0ec0adad-6873-4baa-931f-6544aa1dd210": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:b6070dc9-0327-47b4-ba27-3287325940e5"
+        ],
+        "id": "urn:infai:ses:concept:0ec0adad-6873-4baa-931f-6544aa1dd210",
+        "name": "water level",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:0ec0adad-6873-4baa-931f-6544aa1dd210/characteristics/urn:infai:ses:characteristic:b6070dc9-0327-47b4-ba27-3287325940e5": {
+        "id": "urn:infai:ses:characteristic:b6070dc9-0327-47b4-ba27-3287325940e5",
+        "name": "water level cm",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:1b926adc-8e35-4c88-bfe1-15f23e67f4f5": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:f17ed384-82b6-4fba-908a-d146366c9779"
+        ],
+        "id": "urn:infai:ses:concept:1b926adc-8e35-4c88-bfe1-15f23e67f4f5",
+        "name": "ozone",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:1b926adc-8e35-4c88-bfe1-15f23e67f4f5/characteristics/urn:infai:ses:characteristic:f17ed384-82b6-4fba-908a-d146366c9779": {
+        "id": "urn:infai:ses:characteristic:f17ed384-82b6-4fba-908a-d146366c9779",
+        "name": "ozone Âµg/mÂ³",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:1c9e4d58-28e3-4e65-a0a0-48d8d519b0c9": {
         "base_characteristic_id": "urn:infai:ses:characteristic:0bf5bc86-dde2-465f-8a16-687ef9acba3d",
@@ -87,6 +140,22 @@
     "/concepts/urn:infai:ses:concept:1c9e4d58-28e3-4e65-a0a0-48d8d519b0c9/characteristics/urn:infai:ses:characteristic:0bf5bc86-dde2-465f-8a16-687ef9acba3d": {
         "id": "urn:infai:ses:characteristic:0bf5bc86-dde2-465f-8a16-687ef9acba3d",
         "name": "hertz",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:1f60e21d-0682-483c-9b0b-0146d8a1618d": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:3fec34de-0832-43c7-a071-bf0a858e3292"
+        ],
+        "id": "urn:infai:ses:concept:1f60e21d-0682-483c-9b0b-0146d8a1618d",
+        "name": "nitrogen dioxide",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:1f60e21d-0682-483c-9b0b-0146d8a1618d/characteristics/urn:infai:ses:characteristic:3fec34de-0832-43c7-a071-bf0a858e3292": {
+        "id": "urn:infai:ses:characteristic:3fec34de-0832-43c7-a071-bf0a858e3292",
+        "name": "nitrogen dioxide Âµg/mÂ³",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
@@ -143,6 +212,24 @@
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
     },
+    "/concepts/urn:infai:ses:concept:40e8e501-85a0-4406-9aa9-7d5fd6985d1f": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:ec4ab96e-bfc3-4a80-96c4-b9e12634611f"
+        ],
+        "id": "urn:infai:ses:concept:40e8e501-85a0-4406-9aa9-7d5fd6985d1f",
+        "name": "precipitation probability",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:40e8e501-85a0-4406-9aa9-7d5fd6985d1f/characteristics/urn:infai:ses:characteristic:ec4ab96e-bfc3-4a80-96c4-b9e12634611f": {
+        "id": "urn:infai:ses:characteristic:ec4ab96e-bfc3-4a80-96c4-b9e12634611f",
+        "max_value": 100,
+        "min_value": 0,
+        "name": "precipitation probability percentage",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
     "/concepts/urn:infai:ses:concept:46de11b9-26ff-4cce-b945-e93b84f04fe6": {
         "base_characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
         "characteristic_ids": [
@@ -174,6 +261,24 @@
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:5859621b-f6b3-4430-8b4f-b25a53bae708": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:b060dacf-f198-452b-87cf-740bf139e0c1"
+        ],
+        "id": "urn:infai:ses:concept:5859621b-f6b3-4430-8b4f-b25a53bae708",
+        "name": "pollen level",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:5859621b-f6b3-4430-8b4f-b25a53bae708/characteristics/urn:infai:ses:characteristic:b060dacf-f198-452b-87cf-740bf139e0c1": {
+        "id": "urn:infai:ses:characteristic:b060dacf-f198-452b-87cf-740bf139e0c1",
+        "max_value": 7,
+        "min_value": 1,
+        "name": "dwd pollen level",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Integer"
     },
     "/concepts/urn:infai:ses:concept:58d23b4f-c315-4d7d-9230-fa989d55640a": {
         "base_characteristic_id": "urn:infai:ses:characteristic:9e1024da-3b60-4531-9f29-464addccb13c",
@@ -227,6 +332,42 @@
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
     },
+    "/concepts/urn:infai:ses:concept:64106d72-d5b7-4df3-a1bf-cc369799434e": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:0958edd7-eaae-46fe-b612-0bf4e53400af"
+        ],
+        "id": "urn:infai:ses:concept:64106d72-d5b7-4df3-a1bf-cc369799434e",
+        "name": "cloud fraction",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:64106d72-d5b7-4df3-a1bf-cc369799434e/characteristics/urn:infai:ses:characteristic:0958edd7-eaae-46fe-b612-0bf4e53400af": {
+        "id": "urn:infai:ses:characteristic:0958edd7-eaae-46fe-b612-0bf4e53400af",
+        "max_value": 100,
+        "min_value": 0,
+        "name": "cloud fraction percentage",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:6625cc35-a8d0-4d9d-91ef-3c0cb71f0285": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:02c7ea52-fc76-470e-b2b2-401653412de6"
+        ],
+        "id": "urn:infai:ses:concept:6625cc35-a8d0-4d9d-91ef-3c0cb71f0285",
+        "name": "thunder probability",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:6625cc35-a8d0-4d9d-91ef-3c0cb71f0285/characteristics/urn:infai:ses:characteristic:02c7ea52-fc76-470e-b2b2-401653412de6": {
+        "id": "urn:infai:ses:characteristic:02c7ea52-fc76-470e-b2b2-401653412de6",
+        "max_value": 100,
+        "min_value": 0,
+        "name": "thunder probability percentage",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
     "/concepts/urn:infai:ses:concept:67fbf29b-fd77-4c82-b8fa-19a6000c602d": {
         "base_characteristic_id": "urn:infai:ses:characteristic:aaf2385d-92a6-4fd0-ba4d-3e8567e733d6",
         "characteristic_ids": [
@@ -241,6 +382,40 @@
         "max_value": 100,
         "min_value": 0,
         "name": "humidity percentage",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:76a1082b-7e86-4ba0-b126-7c449e581563": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:005ca5d3-44da-4fc8-b2b8-a88e3209e9f7"
+        ],
+        "id": "urn:infai:ses:concept:76a1082b-7e86-4ba0-b126-7c449e581563",
+        "name": "direction",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:76a1082b-7e86-4ba0-b126-7c449e581563/characteristics/urn:infai:ses:characteristic:005ca5d3-44da-4fc8-b2b8-a88e3209e9f7": {
+        "id": "urn:infai:ses:characteristic:005ca5d3-44da-4fc8-b2b8-a88e3209e9f7",
+        "max_value": 360,
+        "name": "degrees",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:7d28f92e-8836-42bf-bca6-342989059ddf": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:afb0ebb5-8f10-4c09-b6af-15eb291cacc1"
+        ],
+        "id": "urn:infai:ses:concept:7d28f92e-8836-42bf-bca6-342989059ddf",
+        "name": "dew point",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:7d28f92e-8836-42bf-bca6-342989059ddf/characteristics/urn:infai:ses:characteristic:afb0ebb5-8f10-4c09-b6af-15eb291cacc1": {
+        "id": "urn:infai:ses:characteristic:afb0ebb5-8f10-4c09-b6af-15eb291cacc1",
+        "min_value": -273.15,
+        "name": "dew point celsius",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
@@ -415,6 +590,22 @@
         "sub_characteristics": null,
         "type": "https://schema.org/Text"
     },
+    "/concepts/urn:infai:ses:concept:95f01a66-f7ea-4c49-9304-29cf065a0c55": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:04bce19c-839d-45de-8cfb-bd470715f4cd"
+        ],
+        "id": "urn:infai:ses:concept:95f01a66-f7ea-4c49-9304-29cf065a0c55",
+        "name": "speed",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:95f01a66-f7ea-4c49-9304-29cf065a0c55/characteristics/urn:infai:ses:characteristic:04bce19c-839d-45de-8cfb-bd470715f4cd": {
+        "id": "urn:infai:ses:characteristic:04bce19c-839d-45de-8cfb-bd470715f4cd",
+        "name": "meters per second",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
     "/concepts/urn:infai:ses:concept:9924ea1a-d96a-4882-88a2-165493956ec3": {
         "base_characteristic_id": "urn:infai:ses:characteristic:eb33cf65-b0a2-413d-891d-cada05be01ed",
         "characteristic_ids": [
@@ -474,6 +665,22 @@
         "sub_characteristics": null,
         "type": "https://schema.org/Integer"
     },
+    "/concepts/urn:infai:ses:concept:a570ecaf-2939-4524-8bd3-c5f12b1e6863": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:d8a73a4d-8745-40b9-87e5-50c5d31f745a"
+        ],
+        "id": "urn:infai:ses:concept:a570ecaf-2939-4524-8bd3-c5f12b1e6863",
+        "name": "longitude",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:a570ecaf-2939-4524-8bd3-c5f12b1e6863/characteristics/urn:infai:ses:characteristic:d8a73a4d-8745-40b9-87e5-50c5d31f745a": {
+        "id": "urn:infai:ses:characteristic:d8a73a4d-8745-40b9-87e5-50c5d31f745a",
+        "name": "longitude EPSG:4326",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
     "/concepts/urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b": {
         "base_characteristic_id": "urn:infai:ses:characteristic:9673cd38-8adf-48d0-b9ff-54ab56bbdcf0",
         "characteristic_ids": [
@@ -506,6 +713,54 @@
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Integer"
+    },
+    "/concepts/urn:infai:ses:concept:bc7a76fc-86d0-470a-a872-00ef211904f9": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:193ff994-60a4-4ed2-90a1-21b82622cb43"
+        ],
+        "id": "urn:infai:ses:concept:bc7a76fc-86d0-470a-a872-00ef211904f9",
+        "name": "carbon monoxide",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:bc7a76fc-86d0-470a-a872-00ef211904f9/characteristics/urn:infai:ses:characteristic:193ff994-60a4-4ed2-90a1-21b82622cb43": {
+        "id": "urn:infai:ses:characteristic:193ff994-60a4-4ed2-90a1-21b82622cb43",
+        "name": "carbon monoxide Âµg/mÂ³",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:c41d2566-aad6-458a-8f21-fee504225b17": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:2ce5f9c7-3c44-438b-91e6-3e9901b8a3db"
+        ],
+        "id": "urn:infai:ses:concept:c41d2566-aad6-458a-8f21-fee504225b17",
+        "name": "sulfur dioxide",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:c41d2566-aad6-458a-8f21-fee504225b17/characteristics/urn:infai:ses:characteristic:2ce5f9c7-3c44-438b-91e6-3e9901b8a3db": {
+        "id": "urn:infai:ses:characteristic:2ce5f9c7-3c44-438b-91e6-3e9901b8a3db",
+        "name": "sulfur dioxide Âµg/mÂ³",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:c6d4cb5b-5ae4-489e-a664-cf02003f1d25": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:63bb46ea-64f1-4a60-aabb-67b9febdb588"
+        ],
+        "id": "urn:infai:ses:concept:c6d4cb5b-5ae4-489e-a664-cf02003f1d25",
+        "name": "latitude",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:c6d4cb5b-5ae4-489e-a664-cf02003f1d25/characteristics/urn:infai:ses:characteristic:63bb46ea-64f1-4a60-aabb-67b9febdb588": {
+        "id": "urn:infai:ses:characteristic:63bb46ea-64f1-4a60-aabb-67b9febdb588",
+        "name": "latitude EPSG:4326",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:cb2608c2-b671-46be-8bad-1539e6c6e2af": {
         "base_characteristic_id": "urn:infai:ses:characteristic:3f0294a9-a53e-4650-b3d1-6a6482cf3b70",
@@ -562,8 +817,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:7621686a-56bc-402d-b4cc-5b266d39736f",
             "urn:infai:ses:characteristic:c0353532-a8fb-4553-a00b-418cb8a80a65",
-            "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5",
-            "urn:infai:ses:characteristic:ec1c6df0-ab87-416e-827d-1ad1440cee6f"
+            "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5"
         ],
         "id": "urn:infai:ses:concept:ebfeabb3-50f0-44bd-b06e-95eb52df484e",
         "name": "binary state",
@@ -592,55 +846,23 @@
         "sub_characteristics": null,
         "type": "https://schema.org/Integer"
     },
-    "/concepts/urn:infai:ses:concept:ebfeabb3-50f0-44bd-b06e-95eb52df484e/characteristics/urn:infai:ses:characteristic:ec1c6df0-ab87-416e-827d-1ad1440cee6f": {
-        "id": "urn:infai:ses:characteristic:ec1c6df0-ab87-416e-827d-1ad1440cee6f",
-        "name": "jwtest",
-        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
-        "sub_characteristics": [
-            {
-                "id": "urn:infai:ses:characteristic:ee0a4dfa-d962-4611-89c9-930d359d51a6",
-                "name": "ima a what",
-                "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
-                "sub_characteristics": null,
-                "type": "https://schema.org/Text",
-                "value": "lizard"
-            },
-            {
-                "id": "urn:infai:ses:characteristic:69e7b0cf-28ca-4a49-b248-7ff65c2a08b1",
-                "name": "sub1",
-                "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
-                "sub_characteristics": [
-                    {
-                        "id": "urn:infai:ses:characteristic:a65d385d-0f80-4ba3-ac97-ab3550af5e19",
-                        "name": "subsub2",
-                        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
-                        "sub_characteristics": null,
-                        "type": "https://schema.org/Boolean",
-                        "value": true
-                    },
-                    {
-                        "id": "urn:infai:ses:characteristic:4e0d8fd3-d2a2-4d59-b84d-2ce4b8262181",
-                        "max_value": 100,
-                        "min_value": 0,
-                        "name": "subsub1",
-                        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
-                        "sub_characteristics": null,
-                        "type": "https://schema.org/Integer",
-                        "value": 12
-                    },
-                    {
-                        "id": "urn:infai:ses:characteristic:a43f5c9f-8a38-45f6-8c60-56c896ee8804",
-                        "name": "subisub",
-                        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
-                        "sub_characteristics": null,
-                        "type": "https://schema.org/Float"
-                    }
-                ],
-                "type": "https://schema.org/ItemList"
-            }
+    "/concepts/urn:infai:ses:concept:f7fae105-b4d9-40c9-8a47-82c377899cd5": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:7aaf53b9-6cd3-4e36-b27e-9e77489f6f78"
         ],
-        "type": "https://schema.org/ItemList",
-        "value": "{val:'ue'}"
+        "id": "urn:infai:ses:concept:f7fae105-b4d9-40c9-8a47-82c377899cd5",
+        "name": "fog area fraction",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:f7fae105-b4d9-40c9-8a47-82c377899cd5/characteristics/urn:infai:ses:characteristic:7aaf53b9-6cd3-4e36-b27e-9e77489f6f78": {
+        "id": "urn:infai:ses:characteristic:7aaf53b9-6cd3-4e36-b27e-9e77489f6f78",
+        "max_value": 100,
+        "min_value": 0,
+        "name": "fog area fraction percentage",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:f917e146-9192-4796-8bbe-6be14292346f": {
         "base_characteristic_id": "urn:infai:ses:characteristic:5caa707d-dc08-4f3b-bd9f-f08935c8dd3c",
@@ -6370,6 +6592,7 @@
             },
             {
                 "aspect_ids": [
+                    "urn:infai:ses:aspect:e4a736ff-803d-49f2-86fc-3980647e884e",
                     "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32"
                 ],
                 "description": "",
@@ -13341,7 +13564,7 @@
                 "id": "urn:infai:ses:service:3aa0ab43-0a6c-4877-b931-35a10b4bc75f",
                 "inputs": [],
                 "interaction": "event+request",
-                "local_id": "50-3-0",
+                "local_id": "50-3-0:get",
                 "name": "getEnergyConsumptionService(2)",
                 "outputs": [
                     {
@@ -16700,7 +16923,8 @@
                 "description": "",
                 "function_ids": [
                     "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
-                    "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e"
+                    "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e",
+                    "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0"
                 ],
                 "id": "urn:infai:ses:service:97805820-ca0a-46c5-9dcf-16c2e386b050",
                 "inputs": [],
@@ -16796,7 +17020,7 @@
                                             "value": null
                                         },
                                         {
-                                            "characteristic_id": "",
+                                            "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
                                             "id": "urn:infai:ses:content-variable:19f7e226-9491-4be6-99bb-066e91d81ed9",
                                             "name": "Power",
                                             "serialization_options": null,
@@ -17271,6 +17495,13 @@
         "name": "getVolumeFlowFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
+    "/functions/urn:infai:ses:measuring-function:065c7aa6-5ce3-415b-92a6-4c3a84036488": {
+        "concept_id": "urn:infai:ses:concept:40e8e501-85a0-4406-9aa9-7d5fd6985d1f",
+        "description": "Read how likely precipitation is",
+        "id": "urn:infai:ses:measuring-function:065c7aa6-5ce3-415b-92a6-4c3a84036488",
+        "name": "getPrecipitationProbability",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
     "/functions/urn:infai:ses:measuring-function:0e19d094-70c6-402c-8523-3aaff2ce6dd9": {
         "concept_id": "urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b",
         "description": "Read a PM1 measurement",
@@ -17306,6 +17537,13 @@
         "name": "getMonitoringStateFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
+    "/functions/urn:infai:ses:measuring-function:26508f1a-ad3c-4850-8731-dbf966b96335": {
+        "concept_id": "urn:infai:ses:concept:a570ecaf-2939-4524-8bd3-c5f12b1e6863",
+        "description": "Get a longitude measurement",
+        "id": "urn:infai:ses:measuring-function:26508f1a-ad3c-4850-8731-dbf966b96335",
+        "name": "getLongitudeFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
     "/functions/urn:infai:ses:measuring-function:28326e5a-69fa-439b-baa9-0e63c453186f": {
         "concept_id": "urn:infai:ses:concept:7ffc7509-51dc-4a62-bb42-850090996586",
         "description": "Return a current measurement",
@@ -17320,11 +17558,46 @@
         "name": "getPressureFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
+    "/functions/urn:infai:ses:measuring-function:2d9bb487-7430-4830-bf09-955e8824c871": {
+        "concept_id": "urn:infai:ses:concept:76a1082b-7e86-4ba0-b126-7c449e581563",
+        "description": "Direction of something",
+        "id": "urn:infai:ses:measuring-function:2d9bb487-7430-4830-bf09-955e8824c871",
+        "name": "getDirectionFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
     "/functions/urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290": {
         "concept_id": "urn:infai:ses:concept:9286d398-f49d-494f-8157-bea17947b1fa",
         "description": "Get a timestamp reading",
         "id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
         "name": "getTimestampFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:3e766b2d-0ab5-421d-a4f6-de4a61ccdd62": {
+        "concept_id": "urn:infai:ses:concept:5859621b-f6b3-4430-8b4f-b25a53bae708",
+        "description": "Get how much pollen is in the air",
+        "id": "urn:infai:ses:measuring-function:3e766b2d-0ab5-421d-a4f6-de4a61ccdd62",
+        "name": "getPollenLevel",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:43525897-6a9c-4501-86ad-768dcbcb7c57": {
+        "concept_id": "urn:infai:ses:concept:1f60e21d-0682-483c-9b0b-0146d8a1618d",
+        "description": "Get a nitrogen dioxide measurement",
+        "id": "urn:infai:ses:measuring-function:43525897-6a9c-4501-86ad-768dcbcb7c57",
+        "name": "getNitrogenDioxideFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:487b35ef-4a10-4305-9514-a00f71c5850a": {
+        "concept_id": "urn:infai:ses:concept:0ec0adad-6873-4baa-931f-6544aa1dd210",
+        "description": "Gets the measurement of a water level",
+        "id": "urn:infai:ses:measuring-function:487b35ef-4a10-4305-9514-a00f71c5850a",
+        "name": "getWaterLevelFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:48c6f5fe-2ad8-49c2-b63d-4e4b13b7af67": {
+        "concept_id": "urn:infai:ses:concept:7d28f92e-8836-42bf-bca6-342989059ddf",
+        "description": "Get a dew point measurement",
+        "id": "urn:infai:ses:measuring-function:48c6f5fe-2ad8-49c2-b63d-4e4b13b7af67",
+        "name": "getDewPointFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
     "/functions/urn:infai:ses:measuring-function:4f3cbfb4-ccb0-4233-a7c3-61760a069c02": {
@@ -17348,6 +17621,13 @@
         "name": "getHumidityFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
+    "/functions/urn:infai:ses:measuring-function:56d6b5c6-9b95-4181-ad8f-d0b109cedb18": {
+        "concept_id": "urn:infai:ses:concept:1b926adc-8e35-4c88-bfe1-15f23e67f4f5",
+        "description": "Get an ozone measurement",
+        "id": "urn:infai:ses:measuring-function:56d6b5c6-9b95-4181-ad8f-d0b109cedb18",
+        "name": "getOzoneFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
     "/functions/urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e": {
         "concept_id": "urn:infai:ses:concept:cedf4396-8e55-491d-b6f8-02ff94679b7d",
         "description": "Return the energy consumption",
@@ -17360,6 +17640,20 @@
         "description": "Check if something is oscillating",
         "id": "urn:infai:ses:measuring-function:61b1f2db-3cff-49d8-b22d-424073269f35",
         "name": "getOscillationStateFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:61ebe348-6abc-4e14-911c-0908bd7ba1f8": {
+        "concept_id": "urn:infai:ses:concept:0c1eaf2b-ea3d-4ca9-8446-02c55dd5d3f4",
+        "description": "",
+        "id": "urn:infai:ses:measuring-function:61ebe348-6abc-4e14-911c-0908bd7ba1f8",
+        "name": "getPrecipitationFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:642558a6-4ba2-4b7e-9bda-1afba86a5c40": {
+        "concept_id": "urn:infai:ses:concept:6625cc35-a8d0-4d9d-91ef-3c0cb71f0285",
+        "description": "Read how likely thunder is",
+        "id": "urn:infai:ses:measuring-function:642558a6-4ba2-4b7e-9bda-1afba86a5c40",
+        "name": "getThunderProbabilityFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
     "/functions/urn:infai:ses:measuring-function:64dfd53a-f288-40f7-a3ef-a6a7f7c8a7c3": {
@@ -17376,11 +17670,25 @@
         "name": "getVoltageFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
+    "/functions/urn:infai:ses:measuring-function:68998f82-33e8-4ca7-8e3a-a3bba077f0fa": {
+        "concept_id": "urn:infai:ses:concept:f7fae105-b4d9-40c9-8a47-82c377899cd5",
+        "description": "Check how much of the horizontal area is covered in fog",
+        "id": "urn:infai:ses:measuring-function:68998f82-33e8-4ca7-8e3a-a3bba077f0fa",
+        "name": "getFogAreaFractionFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
     "/functions/urn:infai:ses:measuring-function:6a04430c-0b40-4d26-8851-2401e13edfd6": {
         "concept_id": "urn:infai:ses:concept:7ffc7509-51dc-4a62-bb42-850090996586",
         "description": "Return the current consumption",
         "id": "urn:infai:ses:measuring-function:6a04430c-0b40-4d26-8851-2401e13edfd6",
         "name": "getCurrentConsumptionFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:76423a12-eac2-4f6c-8f79-0216360e2e61": {
+        "concept_id": "urn:infai:ses:concept:bc7a76fc-86d0-470a-a872-00ef211904f9",
+        "description": "Get a carbon monoxide measurement",
+        "id": "urn:infai:ses:measuring-function:76423a12-eac2-4f6c-8f79-0216360e2e61",
+        "name": "getCarbonMonoxideFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
     "/functions/urn:infai:ses:measuring-function:77dbfd2c-770a-4c0c-bc5a-c2dcda878107": {
@@ -17395,6 +17703,13 @@
         "description": "Return the energy production",
         "id": "urn:infai:ses:measuring-function:826e5a04-71cc-4935-9fd4-92c930dc06bb",
         "name": "getEnergyProductionFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:87709727-53c7-417c-8072-6a50cc3bbf1d": {
+        "concept_id": "urn:infai:ses:concept:64106d72-d5b7-4df3-a1bf-cc369799434e",
+        "description": "Read how much of the sky is covered in clouds",
+        "id": "urn:infai:ses:measuring-function:87709727-53c7-417c-8072-6a50cc3bbf1d",
+        "name": "getCloudFractionFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
     "/functions/urn:infai:ses:measuring-function:8b994547-dbf4-4e3c-a356-e676a744c601": {
@@ -17467,6 +17782,13 @@
         "name": "getVolumeFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
+    "/functions/urn:infai:ses:measuring-function:cfefc207-44f9-4a25-b40b-162a96846599": {
+        "concept_id": "urn:infai:ses:concept:c41d2566-aad6-458a-8f21-fee504225b17",
+        "description": "Get a sulfur dioxide measurement",
+        "id": "urn:infai:ses:measuring-function:cfefc207-44f9-4a25-b40b-162a96846599",
+        "name": "getSulfurDioxideFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
     "/functions/urn:infai:ses:measuring-function:d7bd8d39-92f7-49da-9dd9-5445c45f2e27": {
         "concept_id": "urn:infai:ses:concept:59b02acd-aac2-4415-976e-bd4790963ce4",
         "description": "Read a luminiscence measurement",
@@ -17495,11 +17817,25 @@
         "name": "getParticleAmountPM10",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
+    "/functions/urn:infai:ses:measuring-function:f3865739-6de2-41ce-83f7-b878d7c63bcc": {
+        "concept_id": "urn:infai:ses:concept:95f01a66-f7ea-4c49-9304-29cf065a0c55",
+        "description": "Read the speed of something",
+        "id": "urn:infai:ses:measuring-function:f3865739-6de2-41ce-83f7-b878d7c63bcc",
+        "name": "getSpeedFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
     "/functions/urn:infai:ses:measuring-function:f6066d39-ed16-4c69-82aa-e18bcf2be2a7": {
         "concept_id": "urn:infai:ses:concept:a43e8989-7d4b-4d9c-97d7-766799106499",
         "description": "Read the speed of something",
         "id": "urn:infai:ses:measuring-function:f6066d39-ed16-4c69-82aa-e18bcf2be2a7",
         "name": "getSpeedLevelFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:f9f2b270-8c74-4289-b822-649e96b39206": {
+        "concept_id": "urn:infai:ses:concept:c6d4cb5b-5ae4-489e-a664-cf02003f1d25",
+        "description": "Get a latitude measurement",
+        "id": "urn:infai:ses:measuring-function:f9f2b270-8c74-4289-b822-649e96b39206",
+        "name": "getLatitudeFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
     "/protocols/urn:infai:ses:protocol:3b59ea31-da98-45fd-a354-1b9bd06b837e": {

@@ -3785,7 +3785,7 @@
                 "id": "urn:infai:ses:service:3da2ea53-13ba-457e-9eca-e74aa537be0b",
                 "inputs": [],
                 "interaction": "event+request",
-                "local_id": "get_value:50-0",
+                "local_id": "50-1-0:get",
                 "name": "getEnergyConsumptionService",
                 "outputs": [
                     {
@@ -3927,7 +3927,7 @@
                 "id": "urn:infai:ses:service:4a591917-8993-4182-b325-a21875c74c55",
                 "inputs": [],
                 "interaction": "event+request",
-                "local_id": "get_value:49-4",
+                "local_id": "49-1-4:get",
                 "name": "getPowerConsumptionService",
                 "outputs": [
                     {
@@ -3998,7 +3998,7 @@
                 "id": "urn:infai:ses:service:330af7dc-8f5f-4a1c-bb6d-88726ad56e33",
                 "inputs": [],
                 "interaction": "event+request",
-                "local_id": "get_value:50-2",
+                "local_id": "50-1-2:get",
                 "name": "getPowerMeterService",
                 "outputs": [
                     {

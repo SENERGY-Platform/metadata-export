@@ -54,6 +54,22 @@
         "name": "test_aspect",
         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
     },
+    "/concepts/urn:infai:ses:concept:08cde541-54dc-4d92-b2d9-b07304bd659a": {
+        "base_characteristic_id": "",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:f6b7ee6e-423c-47f1-8b1f-c489461d3039"
+        ],
+        "id": "urn:infai:ses:concept:08cde541-54dc-4d92-b2d9-b07304bd659a",
+        "name": "benzene",
+        "rdf_type": "https://senergy.infai.org/ontology/Concept"
+    },
+    "/concepts/urn:infai:ses:concept:08cde541-54dc-4d92-b2d9-b07304bd659a/characteristics/urn:infai:ses:characteristic:f6b7ee6e-423c-47f1-8b1f-c489461d3039": {
+        "id": "urn:infai:ses:characteristic:f6b7ee6e-423c-47f1-8b1f-c489461d3039",
+        "name": "benzene Âµg/mÂ³",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
     "/concepts/urn:infai:ses:concept:0bc81398-3ed6-4e2b-a6c4-b754583aac37": {
         "base_characteristic_id": "urn:infai:ses:characteristic:5ba31623-0ccb-4488-bfb7-f73b50e03b5a",
         "characteristic_ids": [
@@ -684,6 +700,7 @@
     "/concepts/urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b": {
         "base_characteristic_id": "urn:infai:ses:characteristic:9673cd38-8adf-48d0-b9ff-54ab56bbdcf0",
         "characteristic_ids": [
+            "urn:infai:ses:characteristic:de1a0d1d-85ae-45d3-844b-56c324c116cd",
             "urn:infai:ses:characteristic:9673cd38-8adf-48d0-b9ff-54ab56bbdcf0"
         ],
         "id": "urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b",
@@ -693,6 +710,13 @@
     "/concepts/urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b/characteristics/urn:infai:ses:characteristic:9673cd38-8adf-48d0-b9ff-54ab56bbdcf0": {
         "id": "urn:infai:ses:characteristic:9673cd38-8adf-48d0-b9ff-54ab56bbdcf0",
         "name": "ppm",
+        "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
+        "sub_characteristics": null,
+        "type": "https://schema.org/Float"
+    },
+    "/concepts/urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b/characteristics/urn:infai:ses:characteristic:de1a0d1d-85ae-45d3-844b-56c324c116cd": {
+        "id": "urn:infai:ses:characteristic:de1a0d1d-85ae-45d3-844b-56c324c116cd",
+        "name": "particle amount Âµg/mÂ³",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
@@ -17432,6 +17456,13 @@
         "name": "setOnStateFunction",
         "rdf_type": "https://senergy.infai.org/ontology/ControllingFunction"
     },
+    "/functions/urn:infai:ses:controlling-function:8335e851-05e2-479d-8c17-1cf8174e90e9": {
+        "concept_id": "urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b",
+        "description": "Measure arsenic in particulate matter",
+        "id": "urn:infai:ses:controlling-function:8335e851-05e2-479d-8c17-1cf8174e90e9",
+        "name": "getParticleAmountPM10AS",
+        "rdf_type": "https://senergy.infai.org/ontology/ControllingFunction"
+    },
     "/functions/urn:infai:ses:controlling-function:85bdd7d4-df11-4077-8f58-9f08e8c142bf": {
         "concept_id": "",
         "description": "Turn oscillation off",
@@ -17551,6 +17582,13 @@
         "name": "getCurrentFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
+    "/functions/urn:infai:ses:measuring-function:29cb52fe-e2d9-446b-8be1-f5447ee7967f": {
+        "concept_id": "urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b",
+        "description": "Measure benzo(a)pyrene in particulate matter",
+        "id": "urn:infai:ses:measuring-function:29cb52fe-e2d9-446b-8be1-f5447ee7967f",
+        "name": "getParticleAmountPM10BAP",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
     "/functions/urn:infai:ses:measuring-function:2acad12c-8983-4655-9a2d-e2359a706101": {
         "concept_id": "urn:infai:ses:concept:9924ea1a-d96a-4882-88a2-165493956ec3",
         "description": "Read a pressure measurement",
@@ -17563,6 +17601,13 @@
         "description": "Direction of something",
         "id": "urn:infai:ses:measuring-function:2d9bb487-7430-4830-bf09-955e8824c871",
         "name": "getDirectionFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:3395f090-9ac5-45fd-b064-81ccea7eb236": {
+        "concept_id": "urn:infai:ses:concept:08cde541-54dc-4d92-b2d9-b07304bd659a",
+        "description": "Measure benzene",
+        "id": "urn:infai:ses:measuring-function:3395f090-9ac5-45fd-b064-81ccea7eb236",
+        "name": "getBenzeneFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
     "/functions/urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290": {
@@ -17775,6 +17820,20 @@
         "name": "getBrightnessFunction",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
+    "/functions/urn:infai:ses:measuring-function:cd475584-1b23-4879-ab72-e879f90ade91": {
+        "concept_id": "urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b",
+        "description": "Measure cadmium in particulate matter",
+        "id": "urn:infai:ses:measuring-function:cd475584-1b23-4879-ab72-e879f90ade91",
+        "name": "getParticleAmountPM10CD",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:cee9e218-2bdd-4bfd-bfab-2bcd6dd75bb7": {
+        "concept_id": "urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b",
+        "description": "Measure nickel in particulate matter",
+        "id": "urn:infai:ses:measuring-function:cee9e218-2bdd-4bfd-bfab-2bcd6dd75bb7",
+        "name": "getParticleAmountPM10NI",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
     "/functions/urn:infai:ses:measuring-function:cfa56e75-8e8f-4f0d-a3fa-ed2758422b2a": {
         "concept_id": "urn:infai:ses:concept:81c003ac-ed79-4b3d-8d49-6d95b61b2863",
         "description": "",
@@ -17794,6 +17853,13 @@
         "description": "Read a luminiscence measurement",
         "id": "urn:infai:ses:measuring-function:d7bd8d39-92f7-49da-9dd9-5445c45f2e27",
         "name": "getLuminiscenceFunction",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:dd0c3b2f-3a04-430c-8b39-4e8b927cf20e": {
+        "concept_id": "urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b",
+        "description": "Measure lead in particulate matter",
+        "id": "urn:infai:ses:measuring-function:dd0c3b2f-3a04-430c-8b39-4e8b927cf20e",
+        "name": "getParticleAmountPM10PB",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
     "/functions/urn:infai:ses:measuring-function:e59bbee4-32a4-456b-99b9-dea8c3545dfc": {

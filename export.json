@@ -65,7 +65,7 @@
     },
     "/concepts/urn:infai:ses:concept:08cde541-54dc-4d92-b2d9-b07304bd659a/characteristics/urn:infai:ses:characteristic:f6b7ee6e-423c-47f1-8b1f-c489461d3039": {
         "id": "urn:infai:ses:characteristic:f6b7ee6e-423c-47f1-8b1f-c489461d3039",
-        "name": "benzene Âµg/mÂ³",
+        "name": "benzene µg/m³",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
@@ -716,7 +716,7 @@
     },
     "/concepts/urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b/characteristics/urn:infai:ses:characteristic:de1a0d1d-85ae-45d3-844b-56c324c116cd": {
         "id": "urn:infai:ses:characteristic:de1a0d1d-85ae-45d3-844b-56c324c116cd",
-        "name": "particle amount Âµg/mÂ³",
+        "name": "particle amount µg/m³",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"

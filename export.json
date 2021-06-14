@@ -55,7 +55,7 @@
         "rdf_type": "https://senergy.infai.org/ontology/Aspect"
     },
     "/concepts/urn:infai:ses:concept:08cde541-54dc-4d92-b2d9-b07304bd659a": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:f6b7ee6e-423c-47f1-8b1f-c489461d3039",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:f6b7ee6e-423c-47f1-8b1f-c489461d3039"
         ],
@@ -97,7 +97,7 @@
         "type": "https://schema.org/Integer"
     },
     "/concepts/urn:infai:ses:concept:0c1eaf2b-ea3d-4ca9-8446-02c55dd5d3f4": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:7424a147-fb0e-4e71-a666-6c4997928e61",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:7424a147-fb0e-4e71-a666-6c4997928e61"
         ],
@@ -113,7 +113,7 @@
         "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:0ec0adad-6873-4baa-931f-6544aa1dd210": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:b6070dc9-0327-47b4-ba27-3287325940e5",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:b6070dc9-0327-47b4-ba27-3287325940e5"
         ],
@@ -129,7 +129,7 @@
         "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:1b926adc-8e35-4c88-bfe1-15f23e67f4f5": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:f17ed384-82b6-4fba-908a-d146366c9779",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:f17ed384-82b6-4fba-908a-d146366c9779"
         ],
@@ -139,7 +139,7 @@
     },
     "/concepts/urn:infai:ses:concept:1b926adc-8e35-4c88-bfe1-15f23e67f4f5/characteristics/urn:infai:ses:characteristic:f17ed384-82b6-4fba-908a-d146366c9779": {
         "id": "urn:infai:ses:characteristic:f17ed384-82b6-4fba-908a-d146366c9779",
-        "name": "ozone Âµg/mÂ³",
+        "name": "ozone µg/m³",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
@@ -161,7 +161,7 @@
         "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:1f60e21d-0682-483c-9b0b-0146d8a1618d": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:3fec34de-0832-43c7-a071-bf0a858e3292",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:3fec34de-0832-43c7-a071-bf0a858e3292"
         ],
@@ -171,7 +171,7 @@
     },
     "/concepts/urn:infai:ses:concept:1f60e21d-0682-483c-9b0b-0146d8a1618d/characteristics/urn:infai:ses:characteristic:3fec34de-0832-43c7-a071-bf0a858e3292": {
         "id": "urn:infai:ses:characteristic:3fec34de-0832-43c7-a071-bf0a858e3292",
-        "name": "nitrogen dioxide Âµg/mÂ³",
+        "name": "nitrogen dioxide µg/m³",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
@@ -229,7 +229,7 @@
         "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:40e8e501-85a0-4406-9aa9-7d5fd6985d1f": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:ec4ab96e-bfc3-4a80-96c4-b9e12634611f",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:ec4ab96e-bfc3-4a80-96c4-b9e12634611f"
         ],
@@ -279,7 +279,7 @@
         "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:5859621b-f6b3-4430-8b4f-b25a53bae708": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:b060dacf-f198-452b-87cf-740bf139e0c1",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:b060dacf-f198-452b-87cf-740bf139e0c1"
         ],
@@ -349,7 +349,7 @@
         "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:64106d72-d5b7-4df3-a1bf-cc369799434e": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:0958edd7-eaae-46fe-b612-0bf4e53400af",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:0958edd7-eaae-46fe-b612-0bf4e53400af"
         ],
@@ -367,7 +367,7 @@
         "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:6625cc35-a8d0-4d9d-91ef-3c0cb71f0285": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:02c7ea52-fc76-470e-b2b2-401653412de6",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:02c7ea52-fc76-470e-b2b2-401653412de6"
         ],
@@ -403,7 +403,7 @@
         "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:76a1082b-7e86-4ba0-b126-7c449e581563": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:005ca5d3-44da-4fc8-b2b8-a88e3209e9f7",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:005ca5d3-44da-4fc8-b2b8-a88e3209e9f7"
         ],
@@ -420,7 +420,7 @@
         "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:7d28f92e-8836-42bf-bca6-342989059ddf": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:afb0ebb5-8f10-4c09-b6af-15eb291cacc1",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:afb0ebb5-8f10-4c09-b6af-15eb291cacc1"
         ],
@@ -607,7 +607,7 @@
         "type": "https://schema.org/Text"
     },
     "/concepts/urn:infai:ses:concept:95f01a66-f7ea-4c49-9304-29cf065a0c55": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:04bce19c-839d-45de-8cfb-bd470715f4cd",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:04bce19c-839d-45de-8cfb-bd470715f4cd"
         ],
@@ -647,7 +647,7 @@
         "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:a43e8989-7d4b-4d9c-97d7-766799106499": {
-        "base_characteristic_id": "urn:infai:ses:characteristic:ca44269e-ab5a-4ed7-8acb-ce80a6a592a5",
+        "base_characteristic_id": "urn:infai:ses:characteristic:2b4040c4-63b2-497f-8673-96378dcbc4cf",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:2b4040c4-63b2-497f-8673-96378dcbc4cf",
             "urn:infai:ses:characteristic:ac7ad69f-b82e-454a-8b44-5c0440cba787"
@@ -682,7 +682,7 @@
         "type": "https://schema.org/Integer"
     },
     "/concepts/urn:infai:ses:concept:a570ecaf-2939-4524-8bd3-c5f12b1e6863": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:d8a73a4d-8745-40b9-87e5-50c5d31f745a",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:d8a73a4d-8745-40b9-87e5-50c5d31f745a"
         ],
@@ -739,7 +739,7 @@
         "type": "https://schema.org/Integer"
     },
     "/concepts/urn:infai:ses:concept:bc7a76fc-86d0-470a-a872-00ef211904f9": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:193ff994-60a4-4ed2-90a1-21b82622cb43",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:193ff994-60a4-4ed2-90a1-21b82622cb43"
         ],
@@ -749,13 +749,13 @@
     },
     "/concepts/urn:infai:ses:concept:bc7a76fc-86d0-470a-a872-00ef211904f9/characteristics/urn:infai:ses:characteristic:193ff994-60a4-4ed2-90a1-21b82622cb43": {
         "id": "urn:infai:ses:characteristic:193ff994-60a4-4ed2-90a1-21b82622cb43",
-        "name": "carbon monoxide Âµg/mÂ³",
+        "name": "carbon monoxide µg/m³",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:c41d2566-aad6-458a-8f21-fee504225b17": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:2ce5f9c7-3c44-438b-91e6-3e9901b8a3db",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:2ce5f9c7-3c44-438b-91e6-3e9901b8a3db"
         ],
@@ -765,13 +765,13 @@
     },
     "/concepts/urn:infai:ses:concept:c41d2566-aad6-458a-8f21-fee504225b17/characteristics/urn:infai:ses:characteristic:2ce5f9c7-3c44-438b-91e6-3e9901b8a3db": {
         "id": "urn:infai:ses:characteristic:2ce5f9c7-3c44-438b-91e6-3e9901b8a3db",
-        "name": "sulfur dioxide Âµg/mÂ³",
+        "name": "sulfur dioxide µg/m³",
         "rdf_type": "https://senergy.infai.org/ontology/Characteristic",
         "sub_characteristics": null,
         "type": "https://schema.org/Float"
     },
     "/concepts/urn:infai:ses:concept:c6d4cb5b-5ae4-489e-a664-cf02003f1d25": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:63bb46ea-64f1-4a60-aabb-67b9febdb588",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:63bb46ea-64f1-4a60-aabb-67b9febdb588"
         ],
@@ -871,7 +871,7 @@
         "type": "https://schema.org/Integer"
     },
     "/concepts/urn:infai:ses:concept:f7fae105-b4d9-40c9-8a47-82c377899cd5": {
-        "base_characteristic_id": "",
+        "base_characteristic_id": "urn:infai:ses:characteristic:7aaf53b9-6cd3-4e36-b27e-9e77489f6f78",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:7aaf53b9-6cd3-4e36-b27e-9e77489f6f78"
         ],
@@ -9650,6 +9650,57 @@
                 "name": "setOnStateService",
                 "outputs": [],
                 "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "rdf_type": ""
+            }
+        ]
+    },
+    "/device-types/urn:infai:ses:device-type:844ab69d-4211-4a81-a0b3-a23c8ed875e8": {
+        "description": "",
+        "device_class_id": "urn:infai:ses:device-class:ac2ea17c-9818-4e60-b011-8880b2fc94ce",
+        "id": "urn:infai:ses:device-type:844ab69d-4211-4a81-a0b3-a23c8ed875e8",
+        "name": "MOSES Water Meter",
+        "rdf_type": "",
+        "services": [
+            {
+                "aspect_ids": [
+                    "urn:infai:ses:aspect:b8b3b549-3b01-4604-a727-20aa528c21c9"
+                ],
+                "description": "",
+                "function_ids": [
+                    "urn:infai:ses:measuring-function:487b35ef-4a10-4305-9514-a00f71c5850a"
+                ],
+                "id": "urn:infai:ses:service:7e6cdcc0-13c8-4ba3-b9d5-b3530d48900a",
+                "inputs": [],
+                "interaction": "event",
+                "local_id": "getWaterLevelService",
+                "name": "getWaterLevelService",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:c7ad64a1-69c5-4e34-9cd9-ad3d3254066d",
+                            "name": "root",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:b6070dc9-0327-47b4-ba27-3287325940e5",
+                                    "id": "urn:infai:ses:content-variable:0a64d453-2251-4a29-a290-e3c72ed82ee7",
+                                    "name": "level",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:b56b68b2-c0b1-4ec5-95ca-5b4a1864a48a",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:05f1467c-95c8-4a83-a1ed-1c8369fd158a",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:3b59ea31-da98-45fd-a354-1b9bd06b837e",
                 "rdf_type": ""
             }
         ]

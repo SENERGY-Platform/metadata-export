@@ -511,6 +511,13 @@
         "sub_characteristics": [],
         "type": "https://schema.org/Float"
     },
+    "/characteristics/urn:infai:ses:characteristic:e4e4fbb3-ef93-4702-b770-44e4186a00b4": {
+        "display_unit": "mg/m³",
+        "id": "urn:infai:ses:characteristic:e4e4fbb3-ef93-4702-b770-44e4186a00b4",
+        "name": "Milligram Per Cubic Meter (Carbon Monoxide)",
+        "sub_characteristics": [],
+        "type": "https://schema.org/Float"
+    },
     "/characteristics/urn:infai:ses:characteristic:e6874605-80cf-418a-9319-da3b27411af1": {
         "display_unit": "cos φ",
         "id": "urn:infai:ses:characteristic:e6874605-80cf-418a-9319-da3b27411af1",

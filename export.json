@@ -1,4 +1,9 @@
 {
+    "/aspects/urn:infai:ses:aspect:1d69d3b6-d16f-430c-bf58-f23b26cd84c4": {
+        "id": "urn:infai:ses:aspect:1d69d3b6-d16f-430c-bf58-f23b26cd84c4",
+        "name": "Heating",
+        "sub_aspects": null
+    },
     "/aspects/urn:infai:ses:aspect:412a48ad-3a80-46f7-8b99-408c4b9c3528": {
         "id": "urn:infai:ses:aspect:412a48ad-3a80-46f7-8b99-408c4b9c3528",
         "name": "Electricity",
@@ -154,6 +159,13 @@
         "display_unit": "ppm",
         "id": "urn:infai:ses:characteristic:15af5b7b-8b17-4b18-b37e-2e91c839886b",
         "name": "Parts per Million (Carbon Monoxide)",
+        "sub_characteristics": [],
+        "type": "https://schema.org/Integer"
+    },
+    "/characteristics/urn:infai:ses:characteristic:181141ed-7b1d-4d31-924c-93e6929fdd0c": {
+        "display_unit": "HCA",
+        "id": "urn:infai:ses:characteristic:181141ed-7b1d-4d31-924c-93e6929fdd0c",
+        "name": "Heat Cost Allocator Unit",
         "sub_characteristics": [],
         "type": "https://schema.org/Integer"
     },
@@ -434,7 +446,7 @@
         "id": "urn:infai:ses:characteristic:ac7ad69f-b82e-454a-8b44-5c0440cba787",
         "max_value": 10,
         "min_value": 1,
-        "name": "1 to 10 (Speed Level)",
+        "name": "Level 1 to 10",
         "sub_characteristics": [],
         "type": "https://schema.org/Integer"
     },
@@ -497,6 +509,13 @@
         "sub_characteristics": [],
         "type": "https://schema.org/Text"
     },
+    "/characteristics/urn:infai:ses:characteristic:d4ac88cf-f10b-45d5-a3a9-e42b4b2a55ca": {
+        "display_unit": "Wh",
+        "id": "urn:infai:ses:characteristic:d4ac88cf-f10b-45d5-a3a9-e42b4b2a55ca",
+        "name": "Watt Hours",
+        "sub_characteristics": [],
+        "type": "https://schema.org/Float"
+    },
     "/characteristics/urn:infai:ses:characteristic:d8a73a4d-8745-40b9-87e5-50c5d31f745a": {
         "display_unit": "°",
         "id": "urn:infai:ses:characteristic:d8a73a4d-8745-40b9-87e5-50c5d31f745a",
@@ -554,11 +573,21 @@
         "sub_characteristics": [],
         "type": "https://schema.org/Float"
     },
+    "/characteristics/urn:infai:ses:characteristic:fcf0b6da-4d94-42ee-863f-e5e817f82ca4": {
+        "display_unit": "",
+        "id": "urn:infai:ses:characteristic:fcf0b6da-4d94-42ee-863f-e5e817f82ca4",
+        "max_value": 99,
+        "min_value": 0,
+        "name": "Level 0 to 99",
+        "sub_characteristics": [],
+        "type": "https://schema.org/Integer"
+    },
     "/concepts/urn:infai:ses:concept:08cde541-54dc-4d92-b2d9-b07304bd659a": {
         "base_characteristic_id": "urn:infai:ses:characteristic:f6b7ee6e-423c-47f1-8b1f-c489461d3039",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:f6b7ee6e-423c-47f1-8b1f-c489461d3039"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:08cde541-54dc-4d92-b2d9-b07304bd659a",
         "name": "Benzene Concentration"
     },
@@ -568,6 +597,7 @@
             "urn:infai:ses:characteristic:5ba31623-0ccb-4488-bfb7-f73b50e03b5a",
             "urn:infai:ses:characteristic:75b2d113-1d03-4ef8-977a-8dbcbb31a683"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:0bc81398-3ed6-4e2b-a6c4-b754583aac37",
         "name": "Temperature"
     },
@@ -576,6 +606,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:7424a147-fb0e-4e71-a666-6c4997928e61"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:0c1eaf2b-ea3d-4ca9-8446-02c55dd5d3f4",
         "name": "Precipitation"
     },
@@ -584,6 +615,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:b6070dc9-0327-47b4-ba27-3287325940e5"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:0ec0adad-6873-4baa-931f-6544aa1dd210",
         "name": "Height"
     },
@@ -592,6 +624,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:f17ed384-82b6-4fba-908a-d146366c9779"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:1b926adc-8e35-4c88-bfe1-15f23e67f4f5",
         "name": "Ozone Concentration"
     },
@@ -600,6 +633,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:0bf5bc86-dde2-465f-8a16-687ef9acba3d"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:1c9e4d58-28e3-4e65-a0a0-48d8d519b0c9",
         "name": "Frequency"
     },
@@ -608,6 +642,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:3fec34de-0832-43c7-a071-bf0a858e3292"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:1f60e21d-0682-483c-9b0b-0146d8a1618d",
         "name": "Nitrogen Dioxide Concentration"
     },
@@ -616,6 +651,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:2769a588-97e7-4bc3-94f4-b97bef591e95",
         "name": "Signal Strength"
     },
@@ -624,6 +660,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:7424a147-fb0e-4e71-a666-6c4997928e61"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:364fde87-34a2-4c48-9979-c766b2c6ebf0",
         "name": "Rain Rate"
     },
@@ -632,6 +669,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:a924efd4-9397-474b-ba01-6de49e0283e3"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:397de0f8-a79f-484f-aa13-0042e48e5648",
         "name": "Electric Voltage"
     },
@@ -640,6 +678,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:e6874605-80cf-418a-9319-da3b27411af1"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:3e40dfa7-805d-4732-af15-5207c0a59c47",
         "name": "Electric Power Factor"
     },
@@ -648,6 +687,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:40e8e501-85a0-4406-9aa9-7d5fd6985d1f",
         "name": "Precipitation Probability"
     },
@@ -656,6 +696,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:46de11b9-26ff-4cce-b945-e93b84f04fe6",
         "name": "Power"
     },
@@ -664,6 +705,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:2b4040c4-63b2-497f-8673-96378dcbc4cf"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:5344b5fe-621d-42b8-b58c-7214a5f93ef8",
         "name": "Rotation Speed"
     },
@@ -672,6 +714,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:7768d6da-d53f-4afb-aeb3-e0980756ec06"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:55efac99-6e5b-4ef3-8f4a-8576c1fe8614",
         "name": "Carbon Dioxide Concentration"
     },
@@ -680,6 +723,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:b060dacf-f198-452b-87cf-740bf139e0c1"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:5859621b-f6b3-4430-8b4f-b25a53bae708",
         "name": "DWD Pollen Level"
     },
@@ -690,6 +734,7 @@
             "urn:infai:ses:characteristic:b36eee5d-52f0-4476-a6f7-6dd03b24e0f8",
             "urn:infai:ses:characteristic:9e1024da-3b60-4531-9f29-464addccb13c"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:58d23b4f-c315-4d7d-9230-fa989d55640a",
         "name": "Duration"
     },
@@ -698,6 +743,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:0419856b-d198-480e-9998-bf990f226844"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:59b02acd-aac2-4415-976e-bd4790963ce4",
         "name": "Luminiscence"
     },
@@ -706,6 +752,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:631c16ea-e23e-47a8-b79f-5f5773036c4f",
         "name": "Moisture"
     },
@@ -714,6 +761,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:64106d72-d5b7-4df3-a1bf-cc369799434e",
         "name": "Cloud Fraction"
     },
@@ -722,6 +770,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:6625cc35-a8d0-4d9d-91ef-3c0cb71f0285",
         "name": "Thunder Probability"
     },
@@ -730,6 +779,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:67fbf29b-fd77-4c82-b8fa-19a6000c602d",
         "name": "Relative Humidity"
     },
@@ -738,6 +788,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:005ca5d3-44da-4fc8-b2b8-a88e3209e9f7"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:76a1082b-7e86-4ba0-b126-7c449e581563",
         "name": "Direction"
     },
@@ -746,6 +797,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:7723a10a-ffd4-47ba-b31f-388337b5a4e5",
         "name": "Fossil Fuel Fraction"
     },
@@ -754,6 +806,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:5ba31623-0ccb-4488-bfb7-f73b50e03b5a"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:7d28f92e-8836-42bf-bca6-342989059ddf",
         "name": "Dew Point"
     },
@@ -762,6 +815,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:b59c3965-c270-4053-b46a-f58b44cc980c"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:7ffc7509-51dc-4a62-bb42-850090996586",
         "name": "Electric Current"
     },
@@ -770,6 +824,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:fbfea6c7-3392-4ec2-9ec5-0d0ef6362b9b"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:81c003ac-ed79-4b3d-8d49-6d95b61b2863",
         "name": "Volume"
     },
@@ -778,6 +833,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:bc03ef2e-51d5-4034-8bec-75df78e3afee"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:85e11726-620a-4584-96a2-3a6fe4141b2d",
         "name": "Connection State"
     },
@@ -788,6 +844,7 @@
             "urn:infai:ses:characteristic:5b4eea52-e8e5-4e80-9455-0382f81a1b43",
             "urn:infai:ses:characteristic:0fc343ce-4627-4c88-b1e0-d3ed29754af8"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:8b1161d5-7878-4dd2-a36c-6f98f6b94bf8",
         "name": "Color"
     },
@@ -796,6 +853,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:5b5358c4-efd3-48a5-87b5-a8e0a34ce1ab"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:8f4a00c9-061b-41d8-901f-192b15f5a465",
         "name": "Device Configuration"
     },
@@ -807,6 +865,7 @@
             "urn:infai:ses:characteristic:c7dfcb86-2733-4917-a5ca-0a150a458eed",
             "urn:infai:ses:characteristic:8b9411f3-bf56-4e57-8fd4-728bdcd451cd"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:9286d398-f49d-494f-8157-bea17947b1fa",
         "name": "Timestamp"
     },
@@ -816,6 +875,7 @@
             "urn:infai:ses:characteristic:becfc22a-7f24-44df-9a46-45acebc56d00",
             "urn:infai:ses:characteristic:04bce19c-839d-45de-8cfb-bd470715f4cd"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:95f01a66-f7ea-4c49-9304-29cf065a0c55",
         "name": "Speed"
     },
@@ -825,15 +885,31 @@
             "urn:infai:ses:characteristic:2871c1c4-1c8c-4169-81f6-fb5313df08b1",
             "urn:infai:ses:characteristic:eb33cf65-b0a2-413d-891d-cada05be01ed"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:9924ea1a-d96a-4882-88a2-165493956ec3",
         "name": "Pressure"
     },
     "/concepts/urn:infai:ses:concept:a43e8989-7d4b-4d9c-97d7-766799106499": {
-        "base_characteristic_id": "urn:infai:ses:characteristic:2b4040c4-63b2-497f-8673-96378dcbc4cf",
+        "base_characteristic_id": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273",
         "characteristic_ids": [
-            "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273",
-            "urn:infai:ses:characteristic:2b4040c4-63b2-497f-8673-96378dcbc4cf",
-            "urn:infai:ses:characteristic:ac7ad69f-b82e-454a-8b44-5c0440cba787"
+            "urn:infai:ses:characteristic:ac7ad69f-b82e-454a-8b44-5c0440cba787",
+            "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
+        ],
+        "conversions": [
+            {
+                "distance": 1,
+                "formula": "x * 10",
+                "from": "urn:infai:ses:characteristic:ac7ad69f-b82e-454a-8b44-5c0440cba787",
+                "placeholder_name": "x",
+                "to": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
+            },
+            {
+                "distance": 1,
+                "formula": "x / 10",
+                "from": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273",
+                "placeholder_name": "x",
+                "to": "urn:infai:ses:characteristic:ac7ad69f-b82e-454a-8b44-5c0440cba787"
+            }
         ],
         "id": "urn:infai:ses:concept:a43e8989-7d4b-4d9c-97d7-766799106499",
         "name": "Speed Level"
@@ -843,6 +919,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:d8a73a4d-8745-40b9-87e5-50c5d31f745a"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:a570ecaf-2939-4524-8bd3-c5f12b1e6863",
         "name": "Location Longitude"
     },
@@ -851,6 +928,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:9673cd38-8adf-48d0-b9ff-54ab56bbdcf0"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:a63a960d-1f36-4d95-ad5b-dfb4a7fe3b5b",
         "name": "Particle Amount"
     },
@@ -859,6 +937,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:0a61343d-c0d1-4af8-9329-3829c30ba59f"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:a7cd1e62-72fc-448c-8492-6a8f0307bbdc",
         "name": "Ultraviolet"
     },
@@ -867,6 +946,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:a87957d7-299b-4264-ac6e-6c86c6cb5cda",
         "name": "Solar Radiation Perceived"
     },
@@ -875,6 +955,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:661559e8-630f-44b4-83ab-89a934939901"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:a92df129-89a3-42c9-99e0-8ad6a264a807",
         "name": "Carbon Dioxid per Kilowatthour"
     },
@@ -883,6 +964,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:b12151d3-d187-4839-82ac-8cc18fae3dd9",
         "name": "Position Fraction"
     },
@@ -892,14 +974,25 @@
             "urn:infai:ses:characteristic:15af5b7b-8b17-4b18-b37e-2e91c839886b",
             "urn:infai:ses:characteristic:193ff994-60a4-4ed2-90a1-21b82622cb43"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:bc7a76fc-86d0-470a-a872-00ef211904f9",
         "name": "Carbon Monoxide Concentration"
+    },
+    "/concepts/urn:infai:ses:concept:bea57900-9b7d-4e75-bfac-bab78f013bd0": {
+        "base_characteristic_id": "urn:infai:ses:characteristic:181141ed-7b1d-4d31-924c-93e6929fdd0c",
+        "characteristic_ids": [
+            "urn:infai:ses:characteristic:181141ed-7b1d-4d31-924c-93e6929fdd0c"
+        ],
+        "conversions": null,
+        "id": "urn:infai:ses:concept:bea57900-9b7d-4e75-bfac-bab78f013bd0",
+        "name": "Heat Cost Allocation"
     },
     "/concepts/urn:infai:ses:concept:c41d2566-aad6-458a-8f21-fee504225b17": {
         "base_characteristic_id": "urn:infai:ses:characteristic:2ce5f9c7-3c44-438b-91e6-3e9901b8a3db",
         "characteristic_ids": [
             "urn:infai:ses:characteristic:2ce5f9c7-3c44-438b-91e6-3e9901b8a3db"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:c41d2566-aad6-458a-8f21-fee504225b17",
         "name": "Sulfur Dioxide Concentration"
     },
@@ -908,6 +1001,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:63bb46ea-64f1-4a60-aabb-67b9febdb588"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:c6d4cb5b-5ae4-489e-a664-cf02003f1d25",
         "name": "Location Latitude"
     },
@@ -916,13 +1010,31 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:3f0294a9-a53e-4650-b3d1-6a6482cf3b70"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:cb2608c2-b671-46be-8bad-1539e6c6e2af",
         "name": "Volume Flow"
     },
     "/concepts/urn:infai:ses:concept:cedf4396-8e55-491d-b6f8-02ff94679b7d": {
         "base_characteristic_id": "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e",
         "characteristic_ids": [
+            "urn:infai:ses:characteristic:d4ac88cf-f10b-45d5-a3a9-e42b4b2a55ca",
             "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e"
+        ],
+        "conversions": [
+            {
+                "distance": 1,
+                "formula": "x/1000",
+                "from": "urn:infai:ses:characteristic:d4ac88cf-f10b-45d5-a3a9-e42b4b2a55ca",
+                "placeholder_name": "x",
+                "to": "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e"
+            },
+            {
+                "distance": 1,
+                "formula": "x*1000",
+                "from": "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e",
+                "placeholder_name": "x",
+                "to": "urn:infai:ses:characteristic:d4ac88cf-f10b-45d5-a3a9-e42b4b2a55ca"
+            }
         ],
         "id": "urn:infai:ses:concept:cedf4396-8e55-491d-b6f8-02ff94679b7d",
         "name": "Energy"
@@ -933,13 +1045,31 @@
             "urn:infai:ses:characteristic:0419856b-d198-480e-9998-bf990f226844",
             "urn:infai:ses:characteristic:a03ef4d9-cee5-4c4c-b797-e813db59dde5"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:d84fd856-8afc-4e1a-a054-ecedcc5322d8",
         "name": "Solar Radiation"
     },
     "/concepts/urn:infai:ses:concept:dbe4ad57-aa1d-4d24-9bee-a44a1c670d7f": {
         "base_characteristic_id": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273",
         "characteristic_ids": [
+            "urn:infai:ses:characteristic:fcf0b6da-4d94-42ee-863f-e5e817f82ca4",
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
+        ],
+        "conversions": [
+            {
+                "distance": 1,
+                "formula": "x",
+                "from": "urn:infai:ses:characteristic:fcf0b6da-4d94-42ee-863f-e5e817f82ca4",
+                "placeholder_name": "x",
+                "to": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
+            },
+            {
+                "distance": 1,
+                "formula": "x \u003e 99 ? 99 : x",
+                "from": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273",
+                "placeholder_name": "x",
+                "to": "urn:infai:ses:characteristic:fcf0b6da-4d94-42ee-863f-e5e817f82ca4"
+            }
         ],
         "id": "urn:infai:ses:concept:dbe4ad57-aa1d-4d24-9bee-a44a1c670d7f",
         "name": "Brightness"
@@ -949,16 +1079,34 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:de1a0d1d-85ae-45d3-844b-56c324c116cd"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:dcb28fee-4b5e-4055-ab63-40e355281f4f",
         "name": "Particle Concentration"
     },
     "/concepts/urn:infai:ses:concept:ebfeabb3-50f0-44bd-b06e-95eb52df484e": {
         "base_characteristic_id": "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5",
         "characteristic_ids": [
-            "urn:infai:ses:characteristic:8e520c73-7ee1-4a4b-954b-1c7c55139e27",
+            "urn:infai:ses:characteristic:fcf0b6da-4d94-42ee-863f-e5e817f82ca4",
             "urn:infai:ses:characteristic:c0353532-a8fb-4553-a00b-418cb8a80a65",
-            "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5",
-            "urn:infai:ses:characteristic:7621686a-56bc-402d-b4cc-5b266d39736f"
+            "urn:infai:ses:characteristic:8e520c73-7ee1-4a4b-954b-1c7c55139e27",
+            "urn:infai:ses:characteristic:7621686a-56bc-402d-b4cc-5b266d39736f",
+            "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5"
+        ],
+        "conversions": [
+            {
+                "distance": 1,
+                "formula": "x \u003e 0",
+                "from": "urn:infai:ses:characteristic:fcf0b6da-4d94-42ee-863f-e5e817f82ca4",
+                "placeholder_name": "x",
+                "to": "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5"
+            },
+            {
+                "distance": 1,
+                "formula": "x ? 99 : 0",
+                "from": "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5",
+                "placeholder_name": "x",
+                "to": "urn:infai:ses:characteristic:fcf0b6da-4d94-42ee-863f-e5e817f82ca4"
+            }
         ],
         "id": "urn:infai:ses:concept:ebfeabb3-50f0-44bd-b06e-95eb52df484e",
         "name": "Binary State"
@@ -968,6 +1116,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:75b2d113-1d03-4ef8-977a-8dbcbb31a683"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:efb42538-43d3-41fc-9a65-37f0bd81f97a",
         "name": "Color Temperature"
     },
@@ -976,6 +1125,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:f7fae105-b4d9-40c9-8a47-82c377899cd5",
         "name": "Fog Area Fraction"
     },
@@ -984,6 +1134,7 @@
         "characteristic_ids": [
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:f917e146-9192-4796-8bbe-6be14292346f",
         "name": "Remaining Relative Durability"
     },
@@ -995,6 +1146,7 @@
             "urn:infai:ses:characteristic:c0353532-a8fb-4553-a00b-418cb8a80a65",
             "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5"
         ],
+        "conversions": null,
         "id": "urn:infai:ses:concept:fb85f32b-1864-456d-b99f-1540892ffd02",
         "name": "Contact State"
     },
@@ -4997,6 +5149,7 @@
                             "serialization_options": null,
                             "sub_content_variables": [
                                 {
+                                    "aspect_id": "urn:infai:ses:aspect:b8b3b549-3b01-4604-a727-20aa528c21c9",
                                     "characteristic_id": "urn:infai:ses:characteristic:8e520c73-7ee1-4a4b-954b-1c7c55139e27",
                                     "function_id": "urn:infai:ses:measuring-function:e59bbee4-32a4-456b-99b9-dea8c3545dfc",
                                     "id": "urn:infai:ses:content-variable:2c1b3abf-2bd0-458a-8a0a-1502450aaf26",
@@ -5008,6 +5161,7 @@
                                     "value": "clear"
                                 },
                                 {
+                                    "aspect_id": "urn:infai:ses:aspect:b8b3b549-3b01-4604-a727-20aa528c21c9",
                                     "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
                                     "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                                     "id": "urn:infai:ses:content-variable:bc7229bd-3644-4962-911b-41943d7407d2",
@@ -5661,6 +5815,44 @@
                     }
                 ],
                 "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            }
+        ]
+    },
+    "/device-types/urn:infai:ses:device-type:2f56cb21-2f1d-51c1-8430-9da455594741": {
+        "attributes": [
+            {
+                "key": "wmbus/manufacturer",
+                "origin": "",
+                "value": "97A6"
+            },
+            {
+                "key": "wmbus/devicetype",
+                "origin": "",
+                "value": "30"
+            },
+            {
+                "key": "wmbus/version",
+                "origin": "",
+                "value": "32"
+            }
+        ],
+        "description": "WMBus DeviceType",
+        "device_class_id": "urn:infai:ses:device-class:fea0ad69-3ef2-4332-9afb-ba5885fa7045",
+        "id": "urn:infai:ses:device-type:2f56cb21-2f1d-51c1-8430-9da455594741",
+        "name": "iTW RESERVED_FOR_SYSTEM_DEVICES_0X30 Version 32",
+        "service_groups": null,
+        "services": [
+            {
+                "attributes": null,
+                "description": "Gets a decoded wireless meter bus message",
+                "id": "urn:infai:ses:service:08a82025-80e6-4209-9ea3-91e66452fd77",
+                "inputs": null,
+                "interaction": "event",
+                "local_id": "wmbus",
+                "name": "getWMBus",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:6b481216-1619-496d-92fc-a7570ec989e8",
                 "service_group_key": ""
             }
         ]
@@ -9015,6 +9207,44 @@
             }
         ]
     },
+    "/device-types/urn:infai:ses:device-type:4907d622-3fd5-572e-b323-e44b8c8d58b7": {
+        "attributes": [
+            {
+                "key": "wmbus/manufacturer",
+                "origin": "",
+                "value": "97E6"
+            },
+            {
+                "key": "wmbus/devicetype",
+                "origin": "",
+                "value": "30"
+            },
+            {
+                "key": "wmbus/version",
+                "origin": "",
+                "value": "0"
+            }
+        ],
+        "description": "WMBus DeviceType",
+        "device_class_id": "urn:infai:ses:device-class:fea0ad69-3ef2-4332-9afb-ba5885fa7045",
+        "id": "urn:infai:ses:device-type:4907d622-3fd5-572e-b323-e44b8c8d58b7",
+        "name": "yTW RESERVED_FOR_SYSTEM_DEVICES_0X30 Version 0",
+        "service_groups": null,
+        "services": [
+            {
+                "attributes": null,
+                "description": "Gets a decoded wireless meter bus message",
+                "id": "urn:infai:ses:service:9c3cef78-100d-4ea2-a222-7b245235f8f1",
+                "inputs": null,
+                "interaction": "event",
+                "local_id": "wmbus",
+                "name": "getWMBus",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:6b481216-1619-496d-92fc-a7570ec989e8",
+                "service_group_key": ""
+            }
+        ]
+    },
     "/device-types/urn:infai:ses:device-type:491b2c12-6dea-4cb5-bdf5-c773542dddfa": {
         "attributes": [],
         "description": "",
@@ -9348,13 +9578,13 @@
         "device_class_id": "urn:infai:ses:device-class:fea0ad69-3ef2-4332-9afb-ba5885fa7045",
         "id": "urn:infai:ses:device-type:4efff554-3cbb-5e2b-af9c-cc41fcac8ece",
         "name": "ZRI WATER Version 0",
-        "service_groups": null,
+        "service_groups": [],
         "services": [
             {
-                "attributes": null,
+                "attributes": [],
                 "description": "Gets a decoded wireless meter bus message",
                 "id": "urn:infai:ses:service:bf4f97d8-a5dd-4c10-a27a-357491c5d614",
-                "inputs": null,
+                "inputs": [],
                 "interaction": "event",
                 "local_id": "wmbus",
                 "name": "getWMBus",
@@ -9597,7 +9827,9 @@
                                     "serialization_options": null,
                                     "sub_content_variables": [
                                         {
-                                            "characteristic_id": "",
+                                            "aspect_id": "urn:infai:ses:aspect:b8b3b549-3b01-4604-a727-20aa528c21c9",
+                                            "characteristic_id": "urn:infai:ses:characteristic:fbfea6c7-3392-4ec2-9ec5-0d0ef6362b9b",
+                                            "function_id": "urn:infai:ses:measuring-function:cfa56e75-8e8f-4f0d-a3fa-ed2758422b2a",
                                             "id": "urn:infai:ses:content-variable:840a5db5-30b6-4778-9054-2f395a295cf6",
                                             "is_void": false,
                                             "name": "value",
@@ -9658,7 +9890,9 @@
                                     "serialization_options": null,
                                     "sub_content_variables": [
                                         {
-                                            "characteristic_id": "",
+                                            "aspect_id": "urn:infai:ses:aspect:b8b3b549-3b01-4604-a727-20aa528c21c9",
+                                            "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                            "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                                             "id": "urn:infai:ses:content-variable:30c4fbbf-a35b-4c9f-9d1e-392a4cad8599",
                                             "is_void": false,
                                             "name": "value",
@@ -12371,10 +12605,10 @@
         "device_class_id": "urn:infai:ses:device-class:fea0ad69-3ef2-4332-9afb-ba5885fa7045",
         "id": "urn:infai:ses:device-type:579f330f-5064-5578-aa9e-98db68f0eca0",
         "name": "TCH HEAT_COST_ALLOCATOR Version 148",
-        "service_groups": null,
+        "service_groups": [],
         "services": [
             {
-                "attributes": null,
+                "attributes": [],
                 "description": "Gets a decoded wireless meter bus message",
                 "id": "urn:infai:ses:service:cbe5a454-c1fb-4cfc-892d-d53a2a487e71",
                 "inputs": [],
@@ -12480,7 +12714,9 @@
                                     "serialization_options": null,
                                     "sub_content_variables": [
                                         {
-                                            "characteristic_id": "",
+                                            "aspect_id": "urn:infai:ses:aspect:1d69d3b6-d16f-430c-bf58-f23b26cd84c4",
+                                            "characteristic_id": "urn:infai:ses:characteristic:181141ed-7b1d-4d31-924c-93e6929fdd0c",
+                                            "function_id": "urn:infai:ses:measuring-function:18337bab-ae35-4900-b307-597aefb99ff0",
                                             "id": "urn:infai:ses:content-variable:b76ae33a-19d1-484a-8431-0cdb9554adee",
                                             "is_void": false,
                                             "name": "value",
@@ -12643,7 +12879,9 @@
                                     "serialization_options": null,
                                     "sub_content_variables": [
                                         {
-                                            "characteristic_id": "",
+                                            "aspect_id": "urn:infai:ses:aspect:a14c5efb-b0b6-46c3-982e-9fded75b5ab6",
+                                            "characteristic_id": "urn:infai:ses:characteristic:5ba31623-0ccb-4488-bfb7-f73b50e03b5a",
+                                            "function_id": "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
                                             "id": "urn:infai:ses:content-variable:c3c3c60e-a0c1-43a0-a3fd-e9ee54e532ab",
                                             "is_void": false,
                                             "name": "value",
@@ -12694,7 +12932,9 @@
                                     "serialization_options": null,
                                     "sub_content_variables": [
                                         {
-                                            "characteristic_id": "",
+                                            "aspect_id": "urn:infai:ses:aspect:1d69d3b6-d16f-430c-bf58-f23b26cd84c4",
+                                            "characteristic_id": "urn:infai:ses:characteristic:5ba31623-0ccb-4488-bfb7-f73b50e03b5a",
+                                            "function_id": "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
                                             "id": "urn:infai:ses:content-variable:29300b47-8828-49d0-84c3-311147bf932c",
                                             "is_void": false,
                                             "name": "value",
@@ -16225,13 +16465,13 @@
         "device_class_id": "urn:infai:ses:device-class:fea0ad69-3ef2-4332-9afb-ba5885fa7045",
         "id": "urn:infai:ses:device-type:7c8ef1b2-d0f1-5939-95be-5a9718998620",
         "name": "DME WATER Version 112",
-        "service_groups": null,
+        "service_groups": [],
         "services": [
             {
-                "attributes": null,
+                "attributes": [],
                 "description": "Gets a decoded wireless meter bus message",
                 "id": "urn:infai:ses:service:8f9ce715-6cfb-4a60-b4f4-4a45a1ffeebe",
-                "inputs": null,
+                "inputs": [],
                 "interaction": "event",
                 "local_id": "wmbus",
                 "name": "getWMBus",
@@ -16252,7 +16492,9 @@
                                     "serialization_options": null,
                                     "sub_content_variables": [
                                         {
-                                            "characteristic_id": "",
+                                            "aspect_id": "urn:infai:ses:aspect:b8b3b549-3b01-4604-a727-20aa528c21c9",
+                                            "characteristic_id": "urn:infai:ses:characteristic:fbfea6c7-3392-4ec2-9ec5-0d0ef6362b9b",
+                                            "function_id": "urn:infai:ses:measuring-function:cfa56e75-8e8f-4f0d-a3fa-ed2758422b2a",
                                             "id": "urn:infai:ses:content-variable:182661e2-529e-404e-ac00-550ec43e4a05",
                                             "is_void": false,
                                             "name": "value",
@@ -16313,7 +16555,9 @@
                                     "serialization_options": null,
                                     "sub_content_variables": [
                                         {
-                                            "characteristic_id": "",
+                                            "aspect_id": "urn:infai:ses:aspect:b8b3b549-3b01-4604-a727-20aa528c21c9",
+                                            "characteristic_id": "urn:infai:ses:characteristic:6bc41b45-a9f3-4d87-9c51-dd3e11257800",
+                                            "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
                                             "id": "urn:infai:ses:content-variable:856ab077-b017-405b-b86c-ea6071f972b8",
                                             "is_void": false,
                                             "name": "value",
@@ -22117,6 +22361,44 @@
                     }
                 ],
                 "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            }
+        ]
+    },
+    "/device-types/urn:infai:ses:device-type:a9aadf66-4303-5539-b859-6e4703c16c1e": {
+        "attributes": [
+            {
+                "key": "wmbus/manufacturer",
+                "origin": "",
+                "value": "8BB3"
+            },
+            {
+                "key": "wmbus/devicetype",
+                "origin": "",
+                "value": "02"
+            },
+            {
+                "key": "wmbus/version",
+                "origin": "",
+                "value": "140"
+            }
+        ],
+        "description": "WMBus DeviceType",
+        "device_class_id": "urn:infai:ses:device-class:fea0ad69-3ef2-4332-9afb-ba5885fa7045",
+        "id": "urn:infai:ses:device-type:a9aadf66-4303-5539-b859-6e4703c16c1e",
+        "name": "l\\K ELECTRICTY Version 140",
+        "service_groups": null,
+        "services": [
+            {
+                "attributes": null,
+                "description": "Gets a decoded wireless meter bus message",
+                "id": "urn:infai:ses:service:774b1770-becd-407a-8dc7-3fbcb1f2bf76",
+                "inputs": null,
+                "interaction": "event",
+                "local_id": "wmbus",
+                "name": "getWMBus",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:6b481216-1619-496d-92fc-a7570ec989e8",
                 "service_group_key": ""
             }
         ]
@@ -29836,6 +30118,361 @@
             }
         ]
     },
+    "/device-types/urn:infai:ses:device-type:fd8cb8d7-9eb8-47a8-9cf0-f79c6aca445c": {
+        "attributes": [],
+        "description": "for zwavejs2mqtt",
+        "device_class_id": "urn:infai:ses:device-class:14e56881-16f9-4120-bb41-270a43070c86",
+        "id": "urn:infai:ses:device-type:fd8cb8d7-9eb8-47a8-9cf0-f79c6aca445c",
+        "name": "Aeotec Bulb 6 Multi-Color",
+        "service_groups": [],
+        "services": [
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:949f20bb-25b0-426d-81fc-7984dd711f59",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "38-0-currentValue:get",
+                "name": "Get Brightness",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:1fc29b05-1646-4c3d-8685-1a0be6f90702",
+                            "is_void": false,
+                            "name": "root",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:fcf0b6da-4d94-42ee-863f-e5e817f82ca4",
+                                    "function_id": "urn:infai:ses:measuring-function:c51a6ea5-90c3-4223-9052-6fe4136386cd",
+                                    "id": "urn:infai:ses:content-variable:dc5a7e5e-17fa-4ebe-bfde-bdc1b8e54acc",
+                                    "is_void": false,
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                                    "id": "urn:infai:ses:content-variable:0d8129b3-bdbc-4d2f-ba64-dac33e6ef436",
+                                    "is_void": false,
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:6c5b61f8-d161-4cc8-9b84-129c6010b951",
+                                    "is_void": false,
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:809cd8ab-a301-4156-a8ce-03a37cc615b5",
+                                    "is_void": false,
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:f17d3046-e046-456d-a532-c21ee733948d",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:9079b411-e5ee-4a84-80b8-97ec9558ff66",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "51-0-hexColor:get",
+                "name": "Get Color",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:e7e0a107-4fd0-4e2a-8147-f4fed9895894",
+                            "is_void": false,
+                            "name": "root",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:0fc343ce-4627-4c88-b1e0-d3ed29754af8",
+                                    "function_id": "urn:infai:ses:measuring-function:bdb6a7c8-4a3d-4fe0-bab3-ce02e09b5869",
+                                    "id": "urn:infai:ses:content-variable:042b2583-c8c8-4ea6-85de-22b4b77749ee",
+                                    "is_void": false,
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                                    "id": "urn:infai:ses:content-variable:8339c223-0adb-4efc-9058-92b2c6463f5f",
+                                    "is_void": false,
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:b1178d3a-4fb9-45c7-be04-0ecf7862a1dd",
+                                    "is_void": false,
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:fc7c64b4-4944-44e2-964f-3c3b69a8f8e5",
+                                    "is_void": false,
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:87d6bf96-9203-4296-bc49-749faee6d19f",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:6bab982d-becf-4e1b-8161-3bd99e170d33",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "38-0-currentValue:get",
+                "name": "Get Power State",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:2da51886-0ab8-496c-b37b-3218a5975e0d",
+                            "is_void": false,
+                            "name": "root",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:fcf0b6da-4d94-42ee-863f-e5e817f82ca4",
+                                    "function_id": "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0",
+                                    "id": "urn:infai:ses:content-variable:6054aaf8-2b2d-4157-8536-0c50e44f09fd",
+                                    "is_void": false,
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                                    "id": "urn:infai:ses:content-variable:86a0a4d4-af47-47c9-8a95-af29e8fd1984",
+                                    "is_void": false,
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:887f1cce-b113-4fdb-b44e-af06fd8e7af8",
+                                    "is_void": false,
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:e48c575f-5307-4e2c-875b-24fb0a812ab0",
+                                    "is_void": false,
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:3d2cf804-8169-4b08-a917-723d638f10af",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:c431bac9-12ae-41a5-b619-7480a7881d4f",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                            "characteristic_id": "urn:infai:ses:characteristic:fcf0b6da-4d94-42ee-863f-e5e817f82ca4",
+                            "function_id": "urn:infai:ses:controlling-function:6ce74d6d-7acb-40b7-aac7-49daca214e85",
+                            "id": "urn:infai:ses:content-variable:2b59a475-bae4-41f9-a783-5f8834ae99ba",
+                            "is_void": false,
+                            "name": "value",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Integer",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:80583df1-0f02-4aff-a198-74fae37a0b9b",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "38-0-targetValue",
+                "name": "Set Brightness",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:0374f5cf-134e-48be-b44e-15c7f5172842",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                            "characteristic_id": "urn:infai:ses:characteristic:0fc343ce-4627-4c88-b1e0-d3ed29754af8",
+                            "function_id": "urn:infai:ses:controlling-function:c54e2a89-1fb8-4ecb-8993-a7b40b355599",
+                            "id": "urn:infai:ses:content-variable:49769c9f-c3e7-46dd-80d8-71cad39099dc",
+                            "is_void": false,
+                            "name": "value",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Text",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:d23c2203-a9c4-4b6c-be50-bc4784710a50",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "51-0-hexColor",
+                "name": "Set Color",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:18dcef94-93cb-476c-a5ca-aca75bd5b2bc",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                            "characteristic_id": "",
+                            "function_id": "urn:infai:ses:controlling-function:2f35150b-9df7-4cad-95bc-165fa00219fd",
+                            "id": "urn:infai:ses:content-variable:42676f51-1b11-4dbd-971d-2fb4bd76a88a",
+                            "is_void": false,
+                            "name": "value",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Boolean",
+                            "value": true
+                        },
+                        "id": "urn:infai:ses:content:def5c1b2-ecb7-4ac9-b40d-f6be5896f1a0",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "38-0-Down",
+                "name": "Set Power Off",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:c0cf38be-b65d-43f6-bfd2-866cd2a5d6c9",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                            "characteristic_id": "",
+                            "function_id": "urn:infai:ses:controlling-function:79e7914b-f303-4a7d-90af-dee70db05fd9",
+                            "id": "urn:infai:ses:content-variable:2139ea32-7cfb-4bc1-ba36-dd9e86563640",
+                            "is_void": false,
+                            "name": "value",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Boolean",
+                            "value": true
+                        },
+                        "id": "urn:infai:ses:content:c6aef794-875e-4c92-a23a-6135b619ff2c",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "38-0-Up",
+                "name": "Set Power On",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            }
+        ]
+    },
     "/functions/urn:infai:ses:controlling-function:11ede745-afb3-41a6-98fc-6942d0e9cb33": {
         "concept_id": "urn:infai:ses:concept:efb42538-43d3-41fc-9a65-37f0bd81f97a",
         "description": "",
@@ -30050,6 +30687,14 @@
         "display_name": "Rain Rate",
         "id": "urn:infai:ses:measuring-function:149f8178-e73b-417e-b67f-38e2fbcdbdd9",
         "name": "getRainRate",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
+    "/functions/urn:infai:ses:measuring-function:18337bab-ae35-4900-b307-597aefb99ff0": {
+        "concept_id": "urn:infai:ses:concept:bea57900-9b7d-4e75-bfac-bab78f013bd0",
+        "description": "",
+        "display_name": "",
+        "id": "urn:infai:ses:measuring-function:18337bab-ae35-4900-b307-597aefb99ff0",
+        "name": "Get Heat Cost Allocation",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
     "/functions/urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0": {

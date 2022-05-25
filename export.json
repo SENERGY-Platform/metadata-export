@@ -8721,6 +8721,301 @@
             }
         ]
     },
+    "/device-types/urn:infai:ses:device-type:4450cb9c-a6f7-4962-9d1d-70cc2995f36c": {
+        "attributes": [],
+        "description": "for zwavejs2mqtt",
+        "device_class_id": "urn:infai:ses:device-class:79de1bd9-b933-412d-b98e-4cfe19aa3250",
+        "id": "urn:infai:ses:device-type:4450cb9c-a6f7-4962-9d1d-70cc2995f36c",
+        "name": "Fibaro Plug (zwavejs)",
+        "service_groups": [],
+        "services": [
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:f171a0b5-0bb1-438f-8ea8-720b156b13a1",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "50-0-value-65537:get",
+                "name": "Get Electricity Consumption",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:e0a722df-9fa8-415f-8649-c5fa4eadf8e1",
+                            "is_void": false,
+                            "name": "root",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:74a7b913-73ac-42b7-9b35-573f2c1e97cf",
+                                    "characteristic_id": "urn:infai:ses:characteristic:3febed55-ba9b-43dc-8709-9c73bae3716e",
+                                    "function_id": "urn:infai:ses:measuring-function:57dfd369-92db-462c-aca4-a767b52c972e",
+                                    "id": "urn:infai:ses:content-variable:4ec693e6-cd16-4ded-977d-0d90d255e53c",
+                                    "is_void": false,
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:74a7b913-73ac-42b7-9b35-573f2c1e97cf",
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                                    "id": "urn:infai:ses:content-variable:74271ce2-eb3b-47cf-8599-0a4a3fdd6d40",
+                                    "is_void": false,
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:c63570ca-4e06-494b-8b97-8ae3e6ed863b",
+                                    "is_void": false,
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:7e2b776c-2eac-4a4e-8e4b-471434485db4",
+                                    "is_void": false,
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:2be10729-6775-4539-856e-2243249c9007",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:5cc05c60-5916-4b37-8991-53a93c354fe5",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "50-0-value-66049:get",
+                "name": "Get Electricity Power",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:12afd2d9-6939-4409-87e7-e714a0875eea",
+                            "is_void": false,
+                            "name": "root",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:74a7b913-73ac-42b7-9b35-573f2c1e97cf",
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "function_id": "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0",
+                                    "id": "urn:infai:ses:content-variable:67a64819-c061-4d28-8ed9-6e4d9f0917cb",
+                                    "is_void": false,
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:74a7b913-73ac-42b7-9b35-573f2c1e97cf",
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                                    "id": "urn:infai:ses:content-variable:152f8f47-da88-4710-93f3-5b51b3306455",
+                                    "is_void": false,
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:9b40843a-40eb-4abb-ae2b-084895419dcc",
+                                    "is_void": false,
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:6400a1bc-0b12-426c-9eac-c2bb54e48041",
+                                    "is_void": false,
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:80ba4ad1-3e31-491a-83c6-306d594f4439",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:9e3455df-750b-4e11-b56a-ea44629ac283",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "37-0-currentValue:get",
+                "name": "Get Power Device State",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:359d26b7-bb8c-4226-9310-1e543f40473a",
+                            "is_void": false,
+                            "name": "root",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                                    "characteristic_id": "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5",
+                                    "function_id": "urn:infai:ses:measuring-function:20d3c1d3-77d7-4181-a9f3-b487add58cd0",
+                                    "id": "urn:infai:ses:content-variable:82e12365-3a7c-4d0b-a67f-941c76cf737b",
+                                    "is_void": false,
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Boolean",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                                    "id": "urn:infai:ses:content-variable:39f930ee-441d-4b0b-a197-13f1ddcf904f",
+                                    "is_void": false,
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:fbb93430-7a60-432b-b499-c84895ab2c0d",
+                                    "is_void": false,
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:7d8ece7f-8434-4a8f-ba48-671823985d21",
+                                    "is_void": false,
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:aad1d3e0-515e-4591-861c-5fbad15cec42",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:e54a57b8-cc0b-4219-b94a-d45feb08812d",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "aspect_id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                            "characteristic_id": "",
+                            "function_id": "urn:infai:ses:controlling-function:2f35150b-9df7-4cad-95bc-165fa00219fd",
+                            "id": "urn:infai:ses:content-variable:05c67701-d410-4d29-9c81-de547d830520",
+                            "is_void": false,
+                            "name": "value",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Boolean",
+                            "value": false
+                        },
+                        "id": "urn:infai:ses:content:4b3a8480-a586-4a9a-8a22-707ce7d93ade",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "37-0-targetValue",
+                "name": "Set Device Off",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:494be526-d9df-459a-887d-b427ef6cc50e",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "aspect_id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                            "characteristic_id": "",
+                            "function_id": "urn:infai:ses:controlling-function:79e7914b-f303-4a7d-90af-dee70db05fd9",
+                            "id": "urn:infai:ses:content-variable:18ea8ab0-f59c-4214-baf2-f2caf299241a",
+                            "is_void": false,
+                            "name": "value",
+                            "serialization_options": null,
+                            "sub_content_variables": null,
+                            "type": "https://schema.org/Boolean",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:b4449aba-7edd-43b5-9305-c71c8c701899",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "37-0-targetValue",
+                "name": "Set Device On",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            }
+        ]
+    },
     "/device-types/urn:infai:ses:device-type:458af8b0-17ae-42af-aedf-51238c917857": {
         "attributes": [],
         "description": "",
@@ -22437,6 +22732,44 @@
             }
         ]
     },
+    "/device-types/urn:infai:ses:device-type:af786489-daa3-5b7b-a374-614e83e4f40b": {
+        "attributes": [
+            {
+                "key": "wmbus/manufacturer",
+                "origin": "",
+                "value": "9726"
+            },
+            {
+                "key": "wmbus/devicetype",
+                "origin": "",
+                "value": "04"
+            },
+            {
+                "key": "wmbus/version",
+                "origin": "",
+                "value": "2"
+            }
+        ],
+        "description": "WMBus DeviceType",
+        "device_class_id": "urn:infai:ses:device-class:fea0ad69-3ef2-4332-9afb-ba5885fa7045",
+        "id": "urn:infai:ses:device-type:af786489-daa3-5b7b-a374-614e83e4f40b",
+        "name": "ITW HEAT Version 2",
+        "service_groups": null,
+        "services": [
+            {
+                "attributes": null,
+                "description": "Gets a decoded wireless meter bus message",
+                "id": "urn:infai:ses:service:f27dbeb5-63df-49b4-a52e-64d20a3ecc2b",
+                "inputs": null,
+                "interaction": "event",
+                "local_id": "wmbus",
+                "name": "getWMBus",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:6b481216-1619-496d-92fc-a7570ec989e8",
+                "service_group_key": ""
+            }
+        ]
+    },
     "/device-types/urn:infai:ses:device-type:afe50ee4-8588-4505-a019-33b1d947a3bf": {
         "attributes": [],
         "description": "",
@@ -24497,6 +24830,464 @@
                 "name": "getWMBus",
                 "outputs": [],
                 "protocol_id": "urn:infai:ses:protocol:6b481216-1619-496d-92fc-a7570ec989e8",
+                "service_group_key": ""
+            }
+        ]
+    },
+    "/device-types/urn:infai:ses:device-type:c5be8ef7-5159-437d-84ac-5f618d273061": {
+        "attributes": [],
+        "description": "for zwavejs2mqtt",
+        "device_class_id": "urn:infai:ses:device-class:ff64280a-58e6-4cf9-9a44-e70d3831a79d",
+        "id": "urn:infai:ses:device-type:c5be8ef7-5159-437d-84ac-5f618d273061",
+        "name": "Aeotec Multisensor Gen 6 (zwavejs)",
+        "service_groups": [],
+        "services": [
+            {
+                "attributes": [],
+                "description": "Motion or/and tamper detected.",
+                "id": "urn:infai:ses:service:6b3f3bb3-b1bb-44c2-898d-bccd624c3697",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "48-0-Any:get",
+                "name": "Get Alarm",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:a415e0ec-a797-4793-956f-fd0aee16d733",
+                            "is_void": false,
+                            "name": "alert",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:b10a703a-ba7c-4518-b08f-4056782404e9",
+                                    "characteristic_id": "urn:infai:ses:characteristic:7dc1bb7e-b256-408a-a6f9-044dc60fdcf5",
+                                    "function_id": "urn:infai:ses:measuring-function:e59bbee4-32a4-456b-99b9-dea8c3545dfc",
+                                    "id": "urn:infai:ses:content-variable:c9339052-bcf4-4df0-a625-8804082fef21",
+                                    "is_void": false,
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Boolean",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                                    "id": "urn:infai:ses:content-variable:df38be7d-7636-4667-99a8-97854f199f59",
+                                    "is_void": false,
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:cba8d79c-51f8-49e7-bdfd-da8b4cd43dde",
+                                    "is_void": false,
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:545d2f49-3241-4e11-810c-437e087c473a",
+                                    "is_void": false,
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:ebb03d94-e69e-4746-961e-8deee5658b26",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:26b87461-8677-41ef-b224-e9209fa3d0b3",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "128-0-level:get",
+                "name": "Get Battery Level",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:4ec237e2-8958-49cc-9f8c-368e2bb96695",
+                            "is_void": false,
+                            "name": "battery",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                                    "characteristic_id": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273",
+                                    "function_id": "urn:infai:ses:measuring-function:00549f18-88b5-44c7-adb1-f558e8d53d1d",
+                                    "id": "urn:infai:ses:content-variable:d659a431-0c01-4b41-b878-60239690ab79",
+                                    "is_void": false,
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                                    "id": "urn:infai:ses:content-variable:179872f3-567a-444e-b8c7-5388a0e3b3db",
+                                    "is_void": false,
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:b8cfe82c-916f-4d39-aa13-37212d5988ac",
+                                    "is_void": false,
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:efe17fe0-8133-4c51-adc8-6357972cf43d",
+                                    "is_void": false,
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:0822de8a-978c-4f4b-a172-e363c638b2f1",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:b784c12d-d357-4bd1-82e6-9b1dbd739752",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "49-0-Illuminance:get",
+                "name": "Get Luminiscence",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:05bc487d-a857-4741-9a5b-8d5241d62e5b",
+                            "is_void": false,
+                            "name": "luminiscence",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a14c5efb-b0b6-46c3-982e-9fded75b5ab6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:0419856b-d198-480e-9998-bf990f226844",
+                                    "function_id": "urn:infai:ses:measuring-function:d7bd8d39-92f7-49da-9dd9-5445c45f2e27",
+                                    "id": "urn:infai:ses:content-variable:8fcab026-4fc4-4e36-96b2-f12a74cd1d00",
+                                    "is_void": false,
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                                    "id": "urn:infai:ses:content-variable:bc738e0b-2a0d-442f-9005-673d28994504",
+                                    "is_void": false,
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:aa375a93-46c3-4af5-9769-d7af4227722a",
+                                    "is_void": false,
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:5f0ece23-a6cb-424f-852c-eb90b47ce400",
+                                    "is_void": false,
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:47018dac-70eb-4f1f-8144-268bc6cb0016",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:7396a199-acf5-4c9a-b0db-a3f3b462183b",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "49-0-Humidity:get",
+                "name": "Get Relative Humidity",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:b46bdbba-d2d4-4acc-84b2-dc2e6f702aeb",
+                            "is_void": false,
+                            "name": "humidity",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a14c5efb-b0b6-46c3-982e-9fded75b5ab6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273",
+                                    "function_id": "urn:infai:ses:measuring-function:53bb96e5-1fb1-4409-89a6-ae6c7332eae4",
+                                    "id": "urn:infai:ses:content-variable:1dc269ae-e4d0-4619-aa4d-f77edfcfcdf9",
+                                    "is_void": false,
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a14c5efb-b0b6-46c3-982e-9fded75b5ab6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                                    "id": "urn:infai:ses:content-variable:81673729-33b6-408f-beee-f566ffa43d5c",
+                                    "is_void": false,
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:09768a2c-97c1-40a2-a03e-3a49d5f8b4e8",
+                                    "is_void": false,
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:83445752-b5e4-4252-afe6-a7b0c937e579",
+                                    "is_void": false,
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:46617462-47ed-4189-8a76-2a649ec23cf8",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:47747afd-46ee-4b61-9823-052caf3c7816",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "49-0-Air temperature:get",
+                "name": "Get Temperature",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:fe24e4d7-ed80-497a-aae8-adabc4b86ac5",
+                            "is_void": false,
+                            "name": "temperature",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a14c5efb-b0b6-46c3-982e-9fded75b5ab6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:5ba31623-0ccb-4488-bfb7-f73b50e03b5a",
+                                    "function_id": "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                                    "id": "urn:infai:ses:content-variable:0cbb92b6-e912-4bcf-af34-b2585a59796f",
+                                    "is_void": false,
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                                    "id": "urn:infai:ses:content-variable:1f68b443-b699-49b0-b2aa-7a92b966d3a4",
+                                    "is_void": false,
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:3eee407d-96ad-41cc-a5c0-e0a51a1259a5",
+                                    "is_void": false,
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:7a1bb2d7-5cb8-42fb-b334-c8954d803af0",
+                                    "is_void": false,
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:5947474b-8036-45a2-91c4-eae82650fd1d",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [],
+                "description": "",
+                "id": "urn:infai:ses:service:eb1b326d-a535-487f-b207-e48b99db7601",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "49-0-Ultraviolet:get",
+                "name": "Get Ultraviolet Level",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:8420aa69-c181-4e24-9474-bd8329510915",
+                            "is_void": false,
+                            "name": "uv",
+                            "serialization_options": null,
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:a7470d73-dde3-41fc-92bd-f16bb28f2da6",
+                                    "characteristic_id": "urn:infai:ses:characteristic:0a61343d-c0d1-4af8-9329-3829c30ba59f",
+                                    "function_id": "urn:infai:ses:measuring-function:be920197-3eae-4625-8373-ae82b86f21da",
+                                    "id": "urn:infai:ses:content-variable:07e07fe0-d748-4c84-837d-cbe052808899",
+                                    "is_void": false,
+                                    "name": "value",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "urn:infai:ses:characteristic:64691f8d-4909-470f-a1fa-e977ebe28684",
+                                    "function_id": "urn:infai:ses:measuring-function:3b4e0766-0d67-4658-b249-295902cd3290",
+                                    "id": "urn:infai:ses:content-variable:12fde552-8906-4d7a-8685-ad3348a70563",
+                                    "is_void": false,
+                                    "name": "lastUpdate",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Integer",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:2664277a-bcf2-4a0e-9645-795ed0588cce",
+                                    "is_void": false,
+                                    "name": "value_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "value",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:d9e3c4f1-c65a-432a-aefc-73c60e7c3e8b",
+                                    "is_void": false,
+                                    "name": "lastUpdate_unit",
+                                    "serialization_options": null,
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "unit_reference": "lastUpdate",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:df9c888a-5853-40d3-94b5-b37498b68102",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
                 "service_group_key": ""
             }
         ]

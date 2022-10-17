@@ -55910,7 +55910,9 @@
         ]
     },
     "/protocols/urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b": {
-        "constraints": null,
+        "constraints": [
+            "senergy_connector_local_id"
+        ],
         "handler": "connector",
         "id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
         "name": "standard-connector",

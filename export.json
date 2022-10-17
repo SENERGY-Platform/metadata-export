@@ -1002,6 +1002,16 @@
         "sub_characteristics": [],
         "type": "https://schema.org/Integer"
     },
+    "/characteristics/urn:infai:ses:characteristic:89b10b7b-0331-4319-9ca2-411b7e8c0f26": {
+        "allowed_values": [],
+        "display_unit": "",
+        "id": "urn:infai:ses:characteristic:89b10b7b-0331-4319-9ca2-411b7e8c0f26",
+        "max_value": 1,
+        "min_value": 0,
+        "name": "Fraction",
+        "sub_characteristics": [],
+        "type": "https://schema.org/Float"
+    },
     "/characteristics/urn:infai:ses:characteristic:8b9411f3-bf56-4e57-8fd4-728bdcd451cd": {
         "allowed_values": null,
         "display_unit": "",
@@ -3216,6 +3226,7 @@
     "/concepts/urn:infai:ses:concept:f917e146-9192-4796-8bbe-6be14292346f": {
         "base_characteristic_id": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273",
         "characteristic_ids": [
+            "urn:infai:ses:characteristic:89b10b7b-0331-4319-9ca2-411b7e8c0f26",
             "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273",
             "urn:infai:ses:characteristic:062da5dd-085e-4b01-9e13-e331cb97dc0f"
         ],
@@ -3231,6 +3242,20 @@
                 "distance": 1,
                 "formula": "x",
                 "from": "urn:infai:ses:characteristic:062da5dd-085e-4b01-9e13-e331cb97dc0f",
+                "placeholder_name": "x",
+                "to": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
+            },
+            {
+                "distance": 1,
+                "formula": "x/100",
+                "from": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273",
+                "placeholder_name": "x",
+                "to": "urn:infai:ses:characteristic:89b10b7b-0331-4319-9ca2-411b7e8c0f26"
+            },
+            {
+                "distance": 1,
+                "formula": "x*100",
+                "from": "urn:infai:ses:characteristic:89b10b7b-0331-4319-9ca2-411b7e8c0f26",
                 "placeholder_name": "x",
                 "to": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273"
             }
@@ -5415,6 +5440,338 @@
                 "name": "getWMBus",
                 "outputs": [],
                 "protocol_id": "urn:infai:ses:protocol:6b481216-1619-496d-92fc-a7570ec989e8",
+                "service_group_key": ""
+            }
+        ]
+    },
+    "/device-types/urn:infai:ses:device-type:11fdc793-4b60-40e0-a3fd-e05d1bf5b779": {
+        "attributes": [],
+        "description": "",
+        "device_class_id": "urn:infai:ses:device-class:d41b8262-706e-4104-9060-ddcd372cea56",
+        "id": "urn:infai:ses:device-type:11fdc793-4b60-40e0-a3fd-e05d1bf5b779",
+        "name": "Solmate",
+        "service_groups": [],
+        "services": [
+            {
+                "attributes": [
+                    {
+                        "key": "senergy/time_path",
+                        "origin": "web-ui",
+                        "value": ""
+                    }
+                ],
+                "description": "",
+                "id": "urn:infai:ses:service:dbc5e5ef-4c64-4053-bd94-eab90ab2991e",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "live_values",
+                "name": "Get Electricity Data",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:5966f3dd-3f7d-438e-a581-0ed7044c6c1c",
+                            "is_void": false,
+                            "name": "root",
+                            "serialization_options": [],
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:57270d1f-0e86-4d5b-9173-b9d9a56fe919",
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "function_id": "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0",
+                                    "id": "urn:infai:ses:content-variable:56ad561e-6321-498c-a1e4-b9bf28843ff5",
+                                    "is_void": false,
+                                    "name": "pv_power",
+                                    "serialization_options": [],
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:d4625151-ce27-4620-9b7e-93ded78484f8",
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "function_id": "urn:infai:ses:measuring-function:b1f5399a-a9d3-4421-a20c-6a72db3819a1",
+                                    "id": "urn:infai:ses:content-variable:c35ed827-4e03-41fb-be11-f3236bc6e355",
+                                    "is_void": false,
+                                    "name": "battery_flow",
+                                    "serialization_options": [],
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:861227f6-1523-46a7-b8ab-a4e76f0bdd32",
+                                    "characteristic_id": "urn:infai:ses:characteristic:5ba31623-0ccb-4488-bfb7-f73b50e03b5a",
+                                    "function_id": "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                                    "id": "urn:infai:ses:content-variable:8114856e-a4d0-4b6e-beab-d1c88ae01bf4",
+                                    "is_void": false,
+                                    "name": "temperature",
+                                    "serialization_options": [],
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:d4625151-ce27-4620-9b7e-93ded78484f8",
+                                    "characteristic_id": "urn:infai:ses:characteristic:89b10b7b-0331-4319-9ca2-411b7e8c0f26",
+                                    "function_id": "urn:infai:ses:measuring-function:00549f18-88b5-44c7-adb1-f558e8d53d1d",
+                                    "id": "urn:infai:ses:content-variable:ddc042cf-bf4a-4794-995f-e59ece68ef9c",
+                                    "is_void": false,
+                                    "name": "battery_state",
+                                    "serialization_options": [],
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:9f2c8ddf-47e9-42a0-9278-68ca21668abd",
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "function_id": "urn:infai:ses:measuring-function:1c7c90fb-73b6-4690-aac2-72e9735e68d0",
+                                    "id": "urn:infai:ses:content-variable:b6347e4a-c19c-4766-8ed8-7f75431f5b6a",
+                                    "is_void": false,
+                                    "name": "inject_power",
+                                    "serialization_options": [],
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "characteristic_id": "",
+                                    "id": "urn:infai:ses:content-variable:25adbaee-798d-4bad-855e-e19911dcc588",
+                                    "is_void": false,
+                                    "name": "timestamp",
+                                    "serialization_options": [],
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Text",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:037f7986-ee9a-483a-be9a-4ca0e56e8361",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [
+                    {
+                        "key": "senergy/time_path",
+                        "origin": "web-ui",
+                        "value": ""
+                    }
+                ],
+                "description": "",
+                "id": "urn:infai:ses:service:3a5196d6-972a-4aa3-aacc-b255f227cf0d",
+                "inputs": [],
+                "interaction": "event+request",
+                "local_id": "get_injection_settings",
+                "name": "Get Injection Settings",
+                "outputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:f8a45daa-2f14-45b4-99e5-45db232c77f2",
+                            "is_void": false,
+                            "name": "root",
+                            "serialization_options": [],
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:9f2c8ddf-47e9-42a0-9278-68ca21668abd",
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "function_id": "urn:infai:ses:measuring-function:260829e9-4479-4a96-bbb5-06f3f4c74dac",
+                                    "id": "urn:infai:ses:content-variable:0db48ec2-3620-49fa-a657-fdeb9d15143a",
+                                    "is_void": false,
+                                    "name": "user_minimum_injection",
+                                    "serialization_options": [],
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:d4625151-ce27-4620-9b7e-93ded78484f8",
+                                    "characteristic_id": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273",
+                                    "function_id": "urn:infai:ses:measuring-function:ee7173d5-784f-48d9-afc6-a1d1fc092ff9",
+                                    "id": "urn:infai:ses:content-variable:fe4d96ea-af59-4aa9-a805-0ab9bee390a8",
+                                    "is_void": false,
+                                    "name": "user_minimum_battery_percentage",
+                                    "serialization_options": [],
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                },
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:9f2c8ddf-47e9-42a0-9278-68ca21668abd",
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "function_id": "urn:infai:ses:measuring-function:f021a9f2-49b3-4072-970e-d0dc6d8b33cf",
+                                    "id": "urn:infai:ses:content-variable:8b718edb-f197-4ab6-a0ba-8a45ac7dfa9f",
+                                    "is_void": false,
+                                    "name": "user_maximum_injection",
+                                    "serialization_options": [],
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:fa3b919c-590a-4a52-bc74-33a53d2fb6f0",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [
+                    {
+                        "key": "senergy/time_path",
+                        "origin": "web-ui",
+                        "value": ""
+                    }
+                ],
+                "description": "",
+                "id": "urn:infai:ses:service:cfc9e791-c3ee-4edd-b375-1dbdc6cdfada",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:452fec77-1430-42ff-8929-2d965807604d",
+                            "is_void": false,
+                            "name": "root",
+                            "serialization_options": [],
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:9f2c8ddf-47e9-42a0-9278-68ca21668abd",
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "function_id": "urn:infai:ses:controlling-function:231c9c73-c473-4f1f-9598-d7d5f6fdd1c1",
+                                    "id": "urn:infai:ses:content-variable:54aa1762-3764-4d74-aab4-779abd52712f",
+                                    "is_void": false,
+                                    "name": "injection",
+                                    "serialization_options": [],
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:42a0e92e-b2fc-44ae-ac25-629ed5837e9b",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "set_user_minimum_injection",
+                "name": "Set Lower Injection Limit",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [
+                    {
+                        "key": "senergy/time_path",
+                        "origin": "web-ui",
+                        "value": ""
+                    }
+                ],
+                "description": "",
+                "id": "urn:infai:ses:service:f4f58227-ef42-42c0-b89f-307e6276d9bc",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:680005fc-a85d-4e2c-bc34-18c0399728a9",
+                            "is_void": false,
+                            "name": "root",
+                            "serialization_options": [],
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:d4625151-ce27-4620-9b7e-93ded78484f8",
+                                    "characteristic_id": "urn:infai:ses:characteristic:46f808f4-bb9e-4cc2-bd50-dc33ca74f273",
+                                    "function_id": "urn:infai:ses:controlling-function:3dd869d8-6fb3-46c5-a95e-f7f5d8714757",
+                                    "id": "urn:infai:ses:content-variable:b747a43f-add9-4693-a690-a98f652e262d",
+                                    "is_void": false,
+                                    "name": "battery_percentage",
+                                    "serialization_options": [],
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:530ee2c6-88ec-4f30-9972-d23df205ec99",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "set_user_minimum_battery_percentage",
+                "name": "Set Minimum Battery",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
+                "service_group_key": ""
+            },
+            {
+                "attributes": [
+                    {
+                        "key": "senergy/time_path",
+                        "origin": "web-ui",
+                        "value": ""
+                    },
+                    {
+                        "key": "",
+                        "origin": "web-ui",
+                        "value": ""
+                    }
+                ],
+                "description": "",
+                "id": "urn:infai:ses:service:cd1192a4-0bfa-4a35-b192-d7ba97555fc6",
+                "inputs": [
+                    {
+                        "content_variable": {
+                            "characteristic_id": "",
+                            "id": "urn:infai:ses:content-variable:beb81857-595a-446e-ab86-14dfd2d59060",
+                            "is_void": false,
+                            "name": "root",
+                            "serialization_options": [],
+                            "sub_content_variables": [
+                                {
+                                    "aspect_id": "urn:infai:ses:aspect:9f2c8ddf-47e9-42a0-9278-68ca21668abd",
+                                    "characteristic_id": "urn:infai:ses:characteristic:a3931f28-664d-452f-9370-a641fadd21db",
+                                    "function_id": "urn:infai:ses:controlling-function:11b82bfc-6f66-43e2-a362-f43e9b461231",
+                                    "id": "urn:infai:ses:content-variable:43bb6d9b-6293-4ff0-9a21-73b015af7eb9",
+                                    "is_void": false,
+                                    "name": "injection",
+                                    "serialization_options": [],
+                                    "sub_content_variables": null,
+                                    "type": "https://schema.org/Float",
+                                    "value": null
+                                }
+                            ],
+                            "type": "https://schema.org/StructuredValue",
+                            "value": null
+                        },
+                        "id": "urn:infai:ses:content:52463033-8dc6-4c57-adbc-d004cd264a7a",
+                        "protocol_segment_id": "urn:infai:ses:protocol-segment:0d211842-cef8-41ec-ab6b-9dbc31bc3a65",
+                        "serialization": "json"
+                    }
+                ],
+                "interaction": "request",
+                "local_id": "set_user_maximum_injection",
+                "name": "Set Upper Injection Limit",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
                 "service_group_key": ""
             }
         ]
@@ -8705,7 +9062,9 @@
                             "serialization_options": null,
                             "sub_content_variables": [
                                 {
+                                    "aspect_id": "urn:infai:ses:aspect:a14c5efb-b0b6-46c3-982e-9fded75b5ab6",
                                     "characteristic_id": "urn:infai:ses:characteristic:7768d6da-d53f-4afb-aeb3-e0980756ec06",
+                                    "function_id": "urn:infai:ses:measuring-function:ad89a222-75a2-47e1-9fe3-969094320881",
                                     "id": "urn:infai:ses:content-variable:25dda4c5-84b2-48fc-b388-dc4965165b2d",
                                     "is_void": false,
                                     "name": "value",
@@ -35863,7 +36222,13 @@
         "service_groups": [],
         "services": [
             {
-                "attributes": [],
+                "attributes": [
+                    {
+                        "key": "senergy/time_path",
+                        "origin": "web-ui",
+                        "value": ""
+                    }
+                ],
                 "description": "",
                 "id": "urn:infai:ses:service:8cd27b26-f7e4-463a-b4ef-9f48e880ce85",
                 "inputs": [],
@@ -35938,7 +36303,13 @@
                 "service_group_key": ""
             },
             {
-                "attributes": [],
+                "attributes": [
+                    {
+                        "key": "senergy/time_path",
+                        "origin": "web-ui",
+                        "value": ""
+                    }
+                ],
                 "description": "",
                 "id": "urn:infai:ses:service:8021d261-506e-4203-9e26-5d1d76794909",
                 "inputs": [],
@@ -35956,8 +36327,8 @@
                             "sub_content_variables": [
                                 {
                                     "aspect_id": "urn:infai:ses:aspect:a14c5efb-b0b6-46c3-982e-9fded75b5ab6",
-                                    "characteristic_id": "urn:infai:ses:characteristic:75b2d113-1d03-4ef8-977a-8dbcbb31a683",
-                                    "function_id": "urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b",
+                                    "characteristic_id": "urn:infai:ses:characteristic:5ba31623-0ccb-4488-bfb7-f73b50e03b5a",
+                                    "function_id": "urn:infai:ses:measuring-function:132ceb17-df28-44c2-9771-e1a610d6a13f",
                                     "id": "urn:infai:ses:content-variable:06afc310-c649-4bf0-a6cd-37283bc5a460",
                                     "is_void": false,
                                     "name": "value",
@@ -36013,7 +36384,13 @@
                 "service_group_key": ""
             },
             {
-                "attributes": [],
+                "attributes": [
+                    {
+                        "key": "senergy/time_path",
+                        "origin": "web-ui",
+                        "value": ""
+                    }
+                ],
                 "description": "",
                 "id": "urn:infai:ses:service:d76b38d0-8f90-4cfd-aa73-80f215f90a0b",
                 "inputs": [
@@ -46714,6 +47091,44 @@
             }
         ]
     },
+    "/device-types/urn:infai:ses:device-type:cf53be0b-4584-53e2-8574-dd1d177dc9f9": {
+        "attributes": [
+            {
+                "key": "wmbus/manufacturer",
+                "origin": "",
+                "value": "97A2"
+            },
+            {
+                "key": "wmbus/devicetype",
+                "origin": "",
+                "value": "30"
+            },
+            {
+                "key": "wmbus/version",
+                "origin": "",
+                "value": "0"
+            }
+        ],
+        "description": "WMBus DeviceType",
+        "device_class_id": "urn:infai:ses:device-class:fea0ad69-3ef2-4332-9afb-ba5885fa7045",
+        "id": "urn:infai:ses:device-type:cf53be0b-4584-53e2-8574-dd1d177dc9f9",
+        "name": "hTW RESERVED_FOR_SYSTEM_DEVICES_0X30 Version 0",
+        "service_groups": null,
+        "services": [
+            {
+                "attributes": null,
+                "description": "Gets a decoded wireless meter bus message",
+                "id": "urn:infai:ses:service:5338dcfb-a81b-4a33-957e-b5cfa21d6910",
+                "inputs": null,
+                "interaction": "event",
+                "local_id": "wmbus",
+                "name": "getWMBus",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:6b481216-1619-496d-92fc-a7570ec989e8",
+                "service_group_key": ""
+            }
+        ]
+    },
     "/device-types/urn:infai:ses:device-type:d11f9aaa-ee92-4910-9c13-25c0343f6925": {
         "attributes": [],
         "description": "",
@@ -51470,6 +51885,44 @@
             }
         ]
     },
+    "/device-types/urn:infai:ses:device-type:ea735b53-c408-5a62-9adb-d347e75a1624": {
+        "attributes": [
+            {
+                "key": "wmbus/manufacturer",
+                "origin": "",
+                "value": "9726"
+            },
+            {
+                "key": "wmbus/devicetype",
+                "origin": "",
+                "value": "17"
+            },
+            {
+                "key": "wmbus/version",
+                "origin": "",
+                "value": "0"
+            }
+        ],
+        "description": "WMBus DeviceType",
+        "device_class_id": "urn:infai:ses:device-class:fea0ad69-3ef2-4332-9afb-ba5885fa7045",
+        "id": "urn:infai:ses:device-type:ea735b53-c408-5a62-9adb-d347e75a1624",
+        "name": "ITW DUAL_REGISTER_WATER Version 0",
+        "service_groups": null,
+        "services": [
+            {
+                "attributes": null,
+                "description": "Gets a decoded wireless meter bus message",
+                "id": "urn:infai:ses:service:214b5424-a0fc-432f-bc61-5c3dbff74000",
+                "inputs": null,
+                "interaction": "event",
+                "local_id": "wmbus",
+                "name": "getWMBus",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:6b481216-1619-496d-92fc-a7570ec989e8",
+                "service_group_key": ""
+            }
+        ]
+    },
     "/device-types/urn:infai:ses:device-type:ea85cbdf-66e1-5d94-b9ab-905e17acd308": {
         "attributes": [
             {
@@ -51498,6 +51951,44 @@
                 "attributes": null,
                 "description": "Gets a decoded wireless meter bus message",
                 "id": "urn:infai:ses:service:40f93fd6-b806-4bb0-ab33-017d150395db",
+                "inputs": null,
+                "interaction": "event",
+                "local_id": "wmbus",
+                "name": "getWMBus",
+                "outputs": [],
+                "protocol_id": "urn:infai:ses:protocol:6b481216-1619-496d-92fc-a7570ec989e8",
+                "service_group_key": ""
+            }
+        ]
+    },
+    "/device-types/urn:infai:ses:device-type:ebf8d91a-dddb-53b2-96a9-2e8f86dec97a": {
+        "attributes": [
+            {
+                "key": "wmbus/manufacturer",
+                "origin": "",
+                "value": "97A4"
+            },
+            {
+                "key": "wmbus/devicetype",
+                "origin": "",
+                "value": "30"
+            },
+            {
+                "key": "wmbus/version",
+                "origin": "",
+                "value": "0"
+            }
+        ],
+        "description": "WMBus DeviceType",
+        "device_class_id": "urn:infai:ses:device-class:fea0ad69-3ef2-4332-9afb-ba5885fa7045",
+        "id": "urn:infai:ses:device-type:ebf8d91a-dddb-53b2-96a9-2e8f86dec97a",
+        "name": "iDW RESERVED_FOR_SYSTEM_DEVICES_0X30 Version 0",
+        "service_groups": null,
+        "services": [
+            {
+                "attributes": null,
+                "description": "Gets a decoded wireless meter bus message",
+                "id": "urn:infai:ses:service:05cb4ab3-a94e-447e-bb8e-77c80abc94da",
                 "inputs": null,
                 "interaction": "event",
                 "local_id": "wmbus",
@@ -53706,6 +54197,14 @@
         "name": "Set Disable Speed Limit",
         "rdf_type": "https://senergy.infai.org/ontology/ControllingFunction"
     },
+    "/functions/urn:infai:ses:controlling-function:11b82bfc-6f66-43e2-a362-f43e9b461231": {
+        "concept_id": "urn:infai:ses:concept:46de11b9-26ff-4cce-b945-e93b84f04fe6",
+        "description": "",
+        "display_name": "Upper Power Injection Limit",
+        "id": "urn:infai:ses:controlling-function:11b82bfc-6f66-43e2-a362-f43e9b461231",
+        "name": "Set Upper Power Injection Limit",
+        "rdf_type": "https://senergy.infai.org/ontology/ControllingFunction"
+    },
     "/functions/urn:infai:ses:controlling-function:11d66dd4-5b18-4fb4-a01b-f54d69603fcb": {
         "concept_id": "",
         "description": "",
@@ -53752,6 +54251,14 @@
         "display_name": "",
         "id": "urn:infai:ses:controlling-function:1dcf04c1-8326-4afc-bafe-38cf897e0ddf",
         "name": "Reboot Device",
+        "rdf_type": "https://senergy.infai.org/ontology/ControllingFunction"
+    },
+    "/functions/urn:infai:ses:controlling-function:231c9c73-c473-4f1f-9598-d7d5f6fdd1c1": {
+        "concept_id": "urn:infai:ses:concept:46de11b9-26ff-4cce-b945-e93b84f04fe6",
+        "description": "",
+        "display_name": "Lower Power Injection Limit",
+        "id": "urn:infai:ses:controlling-function:231c9c73-c473-4f1f-9598-d7d5f6fdd1c1",
+        "name": "Set Lower Power Injection Limit",
         "rdf_type": "https://senergy.infai.org/ontology/ControllingFunction"
     },
     "/functions/urn:infai:ses:controlling-function:248160bc-53ad-4ef9-89bc-c3c8ff4468d3": {
@@ -54410,6 +54917,14 @@
         "name": "Get Air Condition Permanent Mode",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
+    "/functions/urn:infai:ses:measuring-function:260829e9-4479-4a96-bbb5-06f3f4c74dac": {
+        "concept_id": "urn:infai:ses:concept:46de11b9-26ff-4cce-b945-e93b84f04fe6",
+        "description": "",
+        "display_name": "Lower Power Injection Limit",
+        "id": "urn:infai:ses:measuring-function:260829e9-4479-4a96-bbb5-06f3f4c74dac",
+        "name": "Get Lower Power Injection Limit",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
     "/functions/urn:infai:ses:measuring-function:26508f1a-ad3c-4850-8731-dbf966b96335": {
         "concept_id": "urn:infai:ses:concept:a570ecaf-2939-4524-8bd3-c5f12b1e6863",
         "description": "Get a longitude measurement",
@@ -54970,6 +55485,14 @@
         "name": "Get Electric Frequency",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
+    "/functions/urn:infai:ses:measuring-function:9f6fa390-f560-408f-a129-3aee050275da": {
+        "concept_id": "urn:infai:ses:concept:f917e146-9192-4796-8bbe-6be14292346f",
+        "description": "",
+        "display_name": "Battery Level",
+        "id": "urn:infai:ses:measuring-function:9f6fa390-f560-408f-a129-3aee050275da",
+        "name": "Set Battery Level",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
     "/functions/urn:infai:ses:measuring-function:a73119a5-a817-4975-8459-df034ef816b8": {
         "concept_id": "urn:infai:ses:concept:ebfeabb3-50f0-44bd-b06e-95eb52df484e",
         "description": "",
@@ -55266,6 +55789,14 @@
         "name": "Get Battery Charge Limit Percentage",
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
+    "/functions/urn:infai:ses:measuring-function:f021a9f2-49b3-4072-970e-d0dc6d8b33cf": {
+        "concept_id": "urn:infai:ses:concept:46de11b9-26ff-4cce-b945-e93b84f04fe6",
+        "description": "",
+        "display_name": "Upper Power Injection Limit",
+        "id": "urn:infai:ses:measuring-function:f021a9f2-49b3-4072-970e-d0dc6d8b33cf",
+        "name": "Get Upper Power Injection Limit",
+        "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
+    },
     "/functions/urn:infai:ses:measuring-function:f2769eb9-b6ad-4f7e-bd28-e4ea043d2f8b": {
         "concept_id": "urn:infai:ses:concept:0bc81398-3ed6-4e2b-a6c4-b754583aac37",
         "description": "Get a temperature measurement",
@@ -55339,6 +55870,7 @@
         "rdf_type": "https://senergy.infai.org/ontology/MeasuringFunction"
     },
     "/protocols/urn:infai:ses:protocol:3b59ea31-da98-45fd-a354-1b9bd06b837e": {
+        "constraints": null,
         "handler": "moses",
         "id": "urn:infai:ses:protocol:3b59ea31-da98-45fd-a354-1b9bd06b837e",
         "name": "moses",
@@ -55350,6 +55882,7 @@
         ]
     },
     "/protocols/urn:infai:ses:protocol:6b481216-1619-496d-92fc-a7570ec989e8": {
+        "constraints": null,
         "handler": "nimbus",
         "id": "urn:infai:ses:protocol:6b481216-1619-496d-92fc-a7570ec989e8",
         "name": "nimbus",
@@ -55361,6 +55894,7 @@
         ]
     },
     "/protocols/urn:infai:ses:protocol:c9a06d44-0cd0-465b-b0d9-560d604057a2": {
+        "constraints": null,
         "handler": "mqtt",
         "id": "urn:infai:ses:protocol:c9a06d44-0cd0-465b-b0d9-560d604057a2",
         "name": "mqtt-connector",
@@ -55376,6 +55910,7 @@
         ]
     },
     "/protocols/urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b": {
+        "constraints": null,
         "handler": "connector",
         "id": "urn:infai:ses:protocol:f3a63aeb-187e-4dd9-9ef5-d97a6eb6292b",
         "name": "standard-connector",
